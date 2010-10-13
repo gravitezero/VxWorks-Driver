@@ -63,6 +63,19 @@
 	\vspace{1cm}
 }
 
+\newcounter{testno}{0}
+
+\newcommand{\Test}[3]
+{%
+	\addtocounter{testno}{1}
+	\textbf{\large{Test \thetestno~-- #1}}\\
+	\raisebox{0.5em}{\rule{\textwidth}{0.1ex}}\\
+	\textbf{\large{Description}}\\
+	#2 \\
+	\textbf{\large{Resultat attendu}}\\
+	#3 
+}
+
 \section{Documentation de l'API}
 \DescFonction{open}
 {int open(const char* filename, int flags, int perms)}
@@ -121,7 +134,10 @@ Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \k
 {Lit un message d'un capteur désigné par \kw{fd}, et le place dans l'adresse pointé par \kw{buffer}.
 Si un message est disponible, alors il est placé dans à l'adresse \kw{buffer}, mais n'est pas \emph{consommé}, la lecture étant non destructive.
 Un message lu sur un capteur est du type \kw{capt\_msg}, qui est défini de la manière suivante :
-\addCode{ressources/code.c}{c}~}
+\addCode{ressources/code.c}{c}
+L'entier \kw{ID} est commun à tous les capteurs, et est incrémenté à chaque message. Lors de l'initialisation du driver, il est fixé à zéro. En cas de dépassement de capacité, la valeur de \kw{ID} redeviendra 0, et continuera normalement.
+
+La date \kw{date} est un entier, qui correspond au nombre de périodes de 20ms qui se sont écoulés depuis le démarrage du système. Il sert donc à ordonner temporellement les message, et non à déterminer leur date d'arrivée.}
 {Un entier positif, correspondant à la taille lue (\kw{TAILLE\_MSG}) est renvoyée. En cas d'erreur, -1 est renvoyé, et \kw{errno} est positionné aux valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments, le \kw{fd} spécifié est invalide.
@@ -167,6 +183,11 @@ Ce tableau contient 15 pointeurs vers le dernier message du capteur dont l'index
 \includegraphics{ressources/open.png}\\~\\
 \includegraphics{ressources/read.png}\\~\\
 \includegraphics{ressources/close.png}
+
+\section{Plan de test}
+\Test{Test d'ouverture d'un capteur}
+{Appeler \kw{open} sur un capteur valide (le fichier existe et est accessible en écriture), avec des options valide (\kw{O\_RDONLY}), une seule fois.} 
+{La valeur de retour doit être un entier positif.}~
 
 \end{document}
 

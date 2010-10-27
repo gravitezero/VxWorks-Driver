@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage">
+		<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage$WRFlatCompositeLaunchContextSelectorControl">
+			<item key="noEntryPoint - test.out - vxsim0.hideUnconnected" value="false"/>
+		</section>
+	</section>
+	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunTask">
+		<item key="new" value="false"/>
+		<item key="duplicate" value="false"/>
+		<item key="edit" value="false"/>
+		<item key="launch" value="true"/>
+	</section>
+	<section name="com.windriver.ide.launch.ui.context.WRCompositeContextSelectorTab">
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.download.WRVxWorksKernelModuleDownloadConfiguratorMediatorPage">
+		</section>
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.WRVxWorksKernelTaskConfiguratorMediatorPage">
+		</section>
+	</section>
+</section>

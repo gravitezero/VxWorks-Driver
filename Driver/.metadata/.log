@@ -1,0 +1,1864 @@
+!SESSION 2010-09-29 09:02:03.423 -----------------------------------------------
+eclipse.buildId=20081218-0628
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.windriver.ide.common.ui 1 0 2010-09-29 09:02:55.799
+!MESSAGE The capability VxWorks 5.5.x Development was disabled due to errors in the underlying platform. Once the platform is registered properly to install.properties Workbench support will be reenabled automatically. 
+
+!ENTRY biz.junginger.rss.eclipse.RssPlugin 1 1 2010-09-29 09:03:01.080
+!MESSAGE Created dir OK: true - \\servif-baie\etudiants\ebrodu\Profil\.workbench-3.1.20081218-0628\configuration\org.eclipse.osgi\bundles\149\data\offline-feeds
+
+!ENTRY biz.junginger.rss.eclipse.RssPlugin 1 1 2010-09-29 09:03:01.111
+!MESSAGE RSS View Controller started in 312ms
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:03:11.314
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\wtxregd.exe
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:03:13.861
+!MESSAGE C:\WindRiver\workbench-3.1\dfw\\x86-win32\bin\dfwserver.exe  -protocol mi -io sockets -useregistry -session dfw-wb31-ebrodu -registryhost localhost
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:03:15.377
+!MESSAGE Connected to dfwserver at 127.0.0.1, 127.0.0.1:1506, PID=3304, Session="dfw-wb31-ebrodu"
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-09-29 09:08:10.179
+!MESSAGE Indexed 'test' (0 sources, 10 headers) in 2,45 sec: 13 declarations; 4 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:11:20.558
+!MESSAGE cmd /c start '"vxsim0"'  /BELOWNORMAL C:\WindRiver\vxworks-6.7\host\x86-win32\bin\vxsim.exe -f C:\WindRiver\vxworks-6.7\target\proj\simpc_diab\default\vxWorks -p 0 -tn vxsim0
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:11:21.417
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\tgtsvr.exe -n vxsim0 -B wdbpipe vxsim0 -R Z:\Driver -RW -Bt 10 -A
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:16:51.984
+!MESSAGE cmd /c start '"vxsim1_smp"'  /BELOWNORMAL C:\WindRiver\vxworks-6.7\host\x86-win32\bin\vxsim.exe -f C:\WindRiver\vxworks-6.7\target\proj\simpc_diab_smp\default\vxWorks -p 1 -tn vxsim1_smp
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:16:53.093
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\tgtsvr.exe -n vxsim1_smp -B wdbpipe -p 1 vxsim1_smp -R Z:\Driver -RW -Bt 10 -A
+
+!ENTRY org.eclipse.help 4 0 2010-09-29 09:27:01.550
+!MESSAGE Error reading context-sensitive help file /"com.windriver.ide.doc.platform_general_vxworks/vxworks_component_reference/html/contexts.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:235)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:83)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:85)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at com.windriver.ide.internal.apidoc.WRAPIHelpProvider.getFunctionInfo(WRAPIHelpProvider.java:110)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:77)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.help 4 0 2010-09-29 09:27:01.566
+!MESSAGE Error reading context-sensitive help file /"com.windriver.ide.doc.platform_general_vxworks/networking_component_reference/html/contexts.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:235)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:83)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:85)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at com.windriver.ide.internal.apidoc.WRAPIHelpProvider.getFunctionInfo(WRAPIHelpProvider.java:110)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:77)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.help 4 0 2010-09-29 09:29:57.128
+!MESSAGE Error reading help table of contents file /"com.windriver.ide.doc.wr_gnu_compiler/wr_gnu_compiler_using_gnu_compiler_collection_4.1.2/html/wr_gnu_toc.xml" (skipping file)
+!STACK 0
+org.xml.sax.SAXParseException: The entity "mdash" was referenced, but not declared.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:264)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:292)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:33)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:624)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:598)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2010-09-29 09:29:57.175
+!MESSAGE Error reading help table of contents file /"com.windriver.ide.doc.wr_mipc/wr_mipc_api_reference_1.0/libIndex.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:624)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:598)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2010-09-29 09:29:57.847
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.windriver.ide.doc.wr_net_stack/wr_net_stack_programmers_guide_vol3_6.7/html/toc.xml" (skipping element)
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:48:49.181
+!MESSAGE cmd /c start '"vxsim0"'  /BELOWNORMAL C:\WindRiver\vxworks-6.7\host\x86-win32\bin\vxsim.exe -f C:\WindRiver\vxworks-6.7\target\proj\simpc_diab\default\vxWorks -p 0 -tn vxsim0
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 09:48:50.385
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\tgtsvr.exe -n vxsim0 -B wdbpipe vxsim0 -R Z:\Driver -RW -Bt 10 -A
+
+!ENTRY org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Ln.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Ld-Sections.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Purgem.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390-Notes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Density-Instructions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/List.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PushSection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dPseudos.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Target-Selection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Environment-Variables.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dEnv.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Section.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/strip.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Operators.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Forced-Output-Alignment.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Source-Code-Reference.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Bug-Criteria.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Obsolete-once_002donly-headers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Pseudo-Ops.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Attributes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Builtin-Functions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ar.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Short.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Floating-Point_002di960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Empty-Exprs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/traditional_002dformat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IP2K_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Other.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Newlines-in-Arguments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_mipc/wr_mipc_api_reference_1.0/libIndex.htm cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Ascii.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Pragmas.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/nm.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/System_002dspecific-Predefined-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Argument-Prescan.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PPC_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Variadic-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/readelf.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Files.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/C_002b_002b-Named-Operators.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/File.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Ident.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Initial-processing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Deprecated.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM-Mapping-Symbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Object_002dlike-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Acknowledgements.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dGuarded.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Computed-Includes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Phdr.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Statements.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Operator-Precedence-Problems.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Registers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dDirectives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Conditional-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Reporting-Bugs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Deleted-Code.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Literal-Prefix-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Miscellaneous-Commands.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PDP_002d11_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Command-Line.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sbttl.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000_002dAddressing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Float.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/BFD.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Assertions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sparc_002dAligned_002dData.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Opcodes-for-i960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Constants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/LNS-directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002f68HC12.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dFloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR_002dModifiers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/c_002b_002bfilt.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ABORT-_0028COFF_0029.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Evaluation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VERSION.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Line.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Comments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Defined.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Traditional-miscellany.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Implementation_002ddefined-behavior.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Integer-Exprs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Scripts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dConstants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dExpand.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Fill.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Strings.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sections.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Include-Operation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dPrefixes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32R_002dDirectives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IP2K_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dBlock.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Line-Control.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Attributes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Index-of-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dMacros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PowerPC_002dPseudo.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Overview.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Optimizations.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Title.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Fill.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PopSection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PJ_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Address.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/objdump.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32R_002dWarnings.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Expression-Section.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300_002dAddressing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Bug-Reporting.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Self_002dReferential-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha_002dRelocs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.488
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/LD-Index.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dSize.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Errors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Branch-Relaxation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Whitespace.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sparc_002dFloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/a.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-ELF32.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Weakref.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Implementation-limits.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/W.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Section-Example.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/listing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Word.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dBranch.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dBuiltins.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Compare_002dand_002dbranch_002di960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430_002dExt.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Value.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Immediate-Relaxation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/def-file-format.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/v.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Notes_002di860.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Traditional-lexical-analysis.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-ASE-instruction-generation-overrides.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Eqv.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dBugs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430-Profiling-Capability.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MRI.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/callj_002di960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dWord.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Differences-from-previous-versions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Relaxation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Directives_002di960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32C_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Func.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Setting-Symbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SPU-ELF.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Nolist.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Skip.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dFloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002ddirectives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Conditional-Uses.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Print.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Type.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Opcodes-for-i860.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AS-Index.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Elif.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Dim.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/hword.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Comm.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Manual.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Automatic-Alignment.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PJ-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64_002dAddressing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Type.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i960_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Function_002dlike-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Err.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Byte.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Intro.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Section-Common.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Basic-Script-Concepts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Uleb128.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Abort.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Prefix-Ops.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Endfunc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/size.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-option-stack.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/L.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Invoking.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Assignments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-autoextend.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PowerPC-ELF32.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Script-Format.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha-Notes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_vx_simulator/vxsim_6.7/tool/rtnIndex.htm cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Size.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Endef.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/File-Commands.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Exitm.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dAddressing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Expressions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Obsolete-Features.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Desc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dBranch.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SECTIONS.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Names.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Selecting-The-Target-System.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Ifdef.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-ISA.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Macro-Arguments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dSIMD.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sub_002dSections.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/BFD-outline.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Name.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-Stabs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Entry-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Include-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/objcopy.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Int.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dOpcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dExt.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/nlmconv.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Directives-Within-Macro-Arguments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Vax_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.503
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32R_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Tag.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/BFIN-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/GNU-Free-Documentation-License.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dDirectives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Single.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Object-Formats.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/alternate.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dMoto_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Chars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-insn.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Hidden.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002doperands.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PDP_002d11_002dPseudos.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Equ.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/strings.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-LMA.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Literal-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/index.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dPic.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Previous.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dFloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Macro-Pitfalls.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Data.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Section-Basics.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Options_002di960.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Implicit-Linker-Scripts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Flonums.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Protected.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Common-Predefined-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Macro.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Align.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_net_stack/wr_net_stack_kernel_api_reference_6.7/iprohc_cmd_rohc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PROVIDE_005fHIDDEN.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SOM-Symbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32C_002dModifiers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Org.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-Object.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dSyntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Weak.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MD.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VTableInherit.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Invocation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dopcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/BFIN_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Machine-Dependencies.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/windres.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Literal-Position-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/K.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Format-Commands.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Dot.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Header-Files.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/R.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ar-scripts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dMemory.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PowerPC_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Overlay-Description.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Space.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Options_002di860.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Val.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PDP_002d11_002dOptions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Equiv.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/I.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dArch.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002dno.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Other-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/If.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dFloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Concatenation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Include.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Asciz.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Labels.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Else.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ar-cmdline.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SubSection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TI-COFF.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Once_002dOnly-Headers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.519
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Concept-Index.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/a_002eout-Symbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PHDRS.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Reloc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/BFIN-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Secs-Background.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Characters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dPseudos.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Misnesting.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80_002dCase.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Character-sets.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sparc_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Desc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-Opts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Absolute-Literals-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Architecture-Selection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Set.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Predefined-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Section.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Swallowing-the-Semicolon.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Simple-Example.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Environment.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Longcalls-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Octa.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dSymbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Irp.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Duplication-of-Side-Effects.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Search-Path.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002dopcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Traditional-warnings.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Noaltmacro.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dNotes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Infix-Ops.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Call-Relaxation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002d16bit.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Internal.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dMMRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Rept.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Bignums.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Irpc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/P2align.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dDirectives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-Notes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH64_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Stab.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Preprocessing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dopcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dOptions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/V850-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Option-Index.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PROVIDE.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Undefining-and-Redefining-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/GNU-Assembler.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Location-Counter.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Linkonce.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Numbers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symver.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_net_stack/wr_net_stack_kernel_api_reference_6.7/iprohc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sleb128.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002dfloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Altmacro.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PDP_002d11_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Keywords.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/System-Headers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dFloat.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/String.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Binutils-Index.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/COFF-Symbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/End.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dSize.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Description.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Struct.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/As-Sections.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Canonical-format.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i860_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM_002dRelocations.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002dbranch.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Section-Wildcards.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/statistics.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Implementation-Details.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dLocals.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dJumps.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Preprocessor-Output.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Long.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/The-preprocessing-language.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Warning.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64_002dBits.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/WIN32.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dExpand.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dSymbols.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Version.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ranlib.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Fail.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Elseif.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MEMORY.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sparc_002dDirectives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dSubs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Lflags.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Machine-Dependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Eject.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Lcomm.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Quad.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Def.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/o.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Alpha_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dOpcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MIPS-symbol-sizes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Schedule-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68HC11_002dModifiers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/TIC54X_002dSubsyms.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/dlltool.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Error.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/IA_002d64_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/BFD-information-loss.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Xtensa.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430_002dMacros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Sparc_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CFI-directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Balign.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARM-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/addr2line.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/f.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PDP_002d11_002dSynthetic.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VAX_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ARC-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Symbol-Type.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Tokenization.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Psize.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MMIX_002dmmixal.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/ESA_002f390-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/VTableEntry.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Traditional-macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Wrapper-Headers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Orphan-Sections.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z80-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Input-Section-Keep.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Discarding.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Stringification.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Scl.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Double.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Forced-Input-Alignment.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Traditional-Mode.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/AVR-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Transform-Directive.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Simple-Commands.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32C_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D10V_002dAddressing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Text.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PDP_002d11_002dMnemonics.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Extern.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Output-Section-Region.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M32R_002dOpts.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430_002dChars.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Simple-Assignments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Z8000-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Standard-Predefined-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/i386_002dMnemonics.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_mipc/wr_mipc_api_reference_1.0/rtnIndex.htm cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Global.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Object.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Diagnostics.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/MSP430_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/D30V_002dSubs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/H8_002f300_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-Opcodes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/CRIS_002dRegs.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Incbin.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Directives_002di860.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/SH_002dAddressing.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Integers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/PowerPC64-ELF64.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Conditionals.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-Floating-Point.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/bss.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Data.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/HPPA-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Arguments.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Endif.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/Common-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-09-29 09:57:39.534
+!MESSAGE Help document /com.windriver.ide.doc.wr_gnu_compiler/M68K_002dDependent.html cannot be opened.
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 10:27:42.088
+!MESSAGE C:\WindRiver\vxworks-6.7\host\x86-win32\bin\vxsim.exe -kill 0
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 10:27:43.494
+!MESSAGE cmd /c start '"vxsim0"'  /BELOWNORMAL C:\WindRiver\vxworks-6.7\host\x86-win32\bin\vxsim.exe -f C:\WindRiver\vxworks-6.7\target\proj\simpc_diab\default\vxWorks -p 0 -tn vxsim0
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 10:27:44.307
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\tgtsvr.exe -n vxsim0 -B wdbpipe vxsim0 -R Z:\Driver -RW -Bt 10 -A
+
+!ENTRY com.windriver.ide.launch.core 4 0 2010-09-29 11:01:46.619
+!MESSAGE Failed to execute launch step.
+
+Launch Step: Set non System Mode on Context(s) before download
+Launch Configuration: noEntryPoint - test.out - vxsim0
+Launch Mode: download
+
+Possible Cause:
+Cannot find model object for core context 'vxsim0@if210-06'. Core context does not exist or is not connected.
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 11:02:40.994
+!MESSAGE WRVxWorksDownloadModulesExecutor - skip download for Z:\Driver\test\SIMNTdiab\test\Debug\test.out, file not modified.
+
+!ENTRY com.windriver.ide.debug 0 42 2010-09-29 11:02:41.306
+!MESSAGE VIOStreamsProxy attempting to connect to port 3391
+
+!ENTRY com.windriver.ide.debug 0 3 2010-09-29 11:02:41.306
+!MESSAGE opened new socket: Socket[addr=/134.214.105.37,port=3391,localport=2371]
+
+!ENTRY com.windriver.ide.debug 0 42 2010-09-29 11:02:41.994
+!MESSAGE VIOStreamsProxy attempting to connect to port 3392
+
+!ENTRY com.windriver.ide.debug 0 3 2010-09-29 11:02:41.994
+!MESSAGE opened new socket: Socket[addr=/134.214.105.37,port=3392,localport=2373]
+
+!ENTRY com.windriver.ide.launch.core 4 0 2010-09-29 11:02:43.681
+!MESSAGE Failed to execute launch step.
+
+Launch Step: Create Kernel Task
+Launch Configuration: noEntryPoint - test.out - vxsim0
+Launch Mode: debug
+
+Possible Cause:
+Missing launch attribute: TOS object exec path on target or entry point.
+
+!ENTRY com.windriver.ide.launch.core 4 0 2010-09-29 11:39:21.462
+!MESSAGE Failed to execute launch step.
+
+Launch Step: Set non System Mode on Context(s) before download
+Launch Configuration: noEntryPoint - test.out - vxsim0
+Launch Mode: download
+
+Possible Cause:
+Cannot find model object for core context 'vxsim0@if210-06'. Core context does not exist or is not connected.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2010-09-29 12:01:45.911
+!MESSAGE Cannot set a null prefix table
+!STACK 0
+java.lang.NullPointerException: Cannot set a null prefix table
+	at org.eclipse.jface.bindings.CachedBindingSet.setPrefixTable(CachedBindingSet.java:346)
+	at org.eclipse.jface.bindings.BindingManager.recomputeBindings(BindingManager.java:1765)
+	at org.eclipse.jface.bindings.BindingManager.contextManagerChanged(BindingManager.java:689)
+	at org.eclipse.core.commands.contexts.ContextManager.fireContextManagerChanged(ContextManager.java:152)
+	at org.eclipse.core.commands.contexts.ContextManager.removeActiveContext(ContextManager.java:232)
+	at org.eclipse.ui.internal.contexts.ContextAuthority.updateContext(ContextAuthority.java:767)
+	at org.eclipse.ui.internal.contexts.ContextAuthority.deactivateContext(ContextAuthority.java:362)
+	at org.eclipse.ui.internal.contexts.ContextService.deactivateContext(ContextService.java:140)
+	at org.eclipse.ui.internal.contexts.ContextService.deactivateContexts(ContextService.java:154)
+	at org.eclipse.ui.internal.contexts.SlaveContextService.dispose(SlaveContextService.java:240)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:142)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1627)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:912)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:909)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:838)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1082)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1080)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1052)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:719)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:307)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1643)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3789)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2366)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3877)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2366)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3877)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.windriver.ide.application.CopyOfIDEApplication.start(CopyOfIDEApplication.java:111)
+	at com.windriver.ide.application.UnifiedSWTSwingApplication.access$101(UnifiedSWTSwingApplication.java:42)
+	at com.windriver.ide.application.UnifiedSWTSwingApplication.start(UnifiedSWTSwingApplication.java:56)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY com.windriver.ide.target 1 0 2010-09-29 12:01:46.270
+!MESSAGE C:\WindRiver\vxworks-6.7\host\x86-win32\bin\vxsim.exe -kill 0
+!SESSION 2010-10-06 08:31:18.938 -----------------------------------------------
+eclipse.buildId=20081218-0628
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.windriver.ide.common.ui 1 0 2010-10-06 08:31:33.344
+!MESSAGE The capability VxWorks 5.5.x Development was disabled due to errors in the underlying platform. Once the platform is registered properly to install.properties Workbench support will be reenabled automatically. 
+
+!ENTRY org.eclipse.help 4 0 2010-10-06 08:31:41.344
+!MESSAGE Error reading help table of contents file /"com.windriver.ide.doc.wr_gnu_compiler/wr_gnu_compiler_using_gnu_compiler_collection_4.1.2/html/wr_gnu_toc.xml" (skipping file)
+!STACK 0
+org.xml.sax.SAXParseException: The entity "mdash" was referenced, but not declared.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:264)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:292)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:33)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.toc.TocManager.getTopic(TocManager.java:118)
+	at org.eclipse.help.internal.toc.TocManager.getTopicPath(TocManager.java:133)
+	at org.eclipse.help.internal.webapp.data.UrlUtil.getTopicPath(UrlUtil.java:177)
+	at org.eclipse.help.internal.webapp.servlet.BreadcrumbsFilter.filter(BreadcrumbsFilter.java:68)
+	at org.eclipse.help.internal.webapp.servlet.EclipseConnector.transfer(EclipseConnector.java:161)
+	at org.eclipse.help.internal.webapp.servlet.ContentServlet.doGet(ContentServlet.java:42)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.handleRequest(ServletRegistration.java:90)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:111)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:269)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+!ENTRY org.eclipse.help 4 0 2010-10-06 08:31:41.407
+!MESSAGE Error reading help table of contents file /"com.windriver.ide.doc.wr_mipc/wr_mipc_api_reference_1.0/libIndex.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.toc.TocManager.getTopic(TocManager.java:118)
+	at org.eclipse.help.internal.toc.TocManager.getTopicPath(TocManager.java:133)
+	at org.eclipse.help.internal.webapp.data.UrlUtil.getTopicPath(UrlUtil.java:177)
+	at org.eclipse.help.internal.webapp.servlet.BreadcrumbsFilter.filter(BreadcrumbsFilter.java:68)
+	at org.eclipse.help.internal.webapp.servlet.EclipseConnector.transfer(EclipseConnector.java:161)
+	at org.eclipse.help.internal.webapp.servlet.ContentServlet.doGet(ContentServlet.java:42)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.handleRequest(ServletRegistration.java:90)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:111)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:269)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+!ENTRY com.windriver.ide.target 1 0 2010-10-06 08:31:42.782
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\wtxregd.exe
+
+!ENTRY org.eclipse.help 4 0 2010-10-06 08:31:43.079
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.windriver.ide.doc.wr_net_stack/wr_net_stack_programmers_guide_vol3_6.7/html/toc.xml" (skipping element)
+
+!ENTRY com.windriver.ide.target 1 0 2010-10-06 08:31:45.282
+!MESSAGE C:\WindRiver\workbench-3.1\dfw\\x86-win32\bin\dfwserver.exe  -protocol mi -io sockets -useregistry -session dfw-wb31-ebrodu -registryhost localhost
+
+!ENTRY com.windriver.ide.target 1 0 2010-10-06 08:31:46.235
+!MESSAGE Connected to dfwserver at 127.0.0.1, 127.0.0.1:2484, PID=2848, Session="dfw-wb31-ebrodu"
+
+!ENTRY org.eclipse.help 4 0 2010-10-06 09:00:53.161
+!MESSAGE Error reading context-sensitive help file /"com.windriver.ide.doc.platform_general_vxworks/vxworks_component_reference/html/contexts.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:235)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:83)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:85)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at com.windriver.ide.internal.apidoc.WRAPIHelpProvider.getFunctionInfo(WRAPIHelpProvider.java:110)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:77)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.help 4 0 2010-10-06 09:00:53.177
+!MESSAGE Error reading context-sensitive help file /"com.windriver.ide.doc.platform_general_vxworks/networking_component_reference/html/contexts.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:235)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:83)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:85)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at com.windriver.ide.internal.apidoc.WRAPIHelpProvider.getFunctionInfo(WRAPIHelpProvider.java:110)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:77)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2010-10-13 08:25:56.009 -----------------------------------------------
+eclipse.buildId=20081218-0628
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-10-13 08:26:25.446
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.windriver.ide.target 1 0 2010-10-13 08:26:40.587
+!MESSAGE C:\WindRiver\workbench-3.1\foundation\\x86-win32\bin\wtxregd.exe
+
+!ENTRY com.windriver.ide.target 1 0 2010-10-13 08:26:43.977
+!MESSAGE C:\WindRiver\workbench-3.1\dfw\\x86-win32\bin\dfwserver.exe  -protocol mi -io sockets -useregistry -session dfw-wb31-ebrodu -registryhost localhost
+
+!ENTRY com.windriver.ide.target 1 0 2010-10-13 08:26:44.930
+!MESSAGE Connected to dfwserver at 127.0.0.1, 127.0.0.1:3937, PID=2248, Session="dfw-wb31-ebrodu"
+
+!ENTRY org.eclipse.help 4 0 2010-10-13 08:49:50.803
+!MESSAGE Error reading help table of contents file /"com.windriver.ide.doc.wr_gnu_compiler/wr_gnu_compiler_using_gnu_compiler_collection_4.1.2/html/wr_gnu_toc.xml" (skipping file)
+!STACK 0
+org.xml.sax.SAXParseException: The entity "mdash" was referenced, but not declared.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:264)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:292)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:33)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:568)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:537)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:275)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:607)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:239)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:165)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:239)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1119)
+	at org.eclipse.help.ui.internal.views.HelpView.handlePartActivation(HelpView.java:129)
+	at org.eclipse.help.ui.internal.views.HelpView.hook(HelpView.java:304)
+	at org.eclipse.help.ui.internal.views.HelpView.partOpened(HelpView.java:279)
+	at org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:128)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:53)
+	at org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:126)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:279)
+	at org.eclipse.ui.internal.WWinPartService$1.partOpened(WWinPartService.java:52)
+	at org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:128)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:53)
+	at org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:126)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:279)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.firePartOpened(WorkbenchPagePartList.java:34)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:227)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:200)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:37)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:374)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:609)
+	at org.eclipse.ui.internal.Perspective.showView(Perspective.java:2127)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1062)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3773)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:3770)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:3746)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.search(DefaultHelpUI.java:186)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displaySearch(DefaultHelpUI.java:134)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displaySearch(WorkbenchHelpSystem.java:845)
+	at org.eclipse.ui.internal.actions.HelpSearchAction$1.run(HelpSearchAction.java:83)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.actions.HelpSearchAction.run(HelpSearchAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.windriver.ide.application.CopyOfIDEApplication.start(CopyOfIDEApplication.java:111)
+	at com.windriver.ide.application.UnifiedSWTSwingApplication.access$101(UnifiedSWTSwingApplication.java:42)
+	at com.windriver.ide.application.UnifiedSWTSwingApplication.start(UnifiedSWTSwingApplication.java:56)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.help 4 0 2010-10-13 08:49:50.850
+!MESSAGE Error reading help table of contents file /"com.windriver.ide.doc.wr_mipc/wr_mipc_api_reference_1.0/libIndex.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:568)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:537)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:275)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:607)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:239)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:165)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:239)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1119)
+	at org.eclipse.help.ui.internal.views.HelpView.handlePartActivation(HelpView.java:129)
+	at org.eclipse.help.ui.internal.views.HelpView.hook(HelpView.java:304)
+	at org.eclipse.help.ui.internal.views.HelpView.partOpened(HelpView.java:279)
+	at org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:128)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:53)
+	at org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:126)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:279)
+	at org.eclipse.ui.internal.WWinPartService$1.partOpened(WWinPartService.java:52)
+	at org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:128)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:53)
+	at org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:126)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:279)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.firePartOpened(WorkbenchPagePartList.java:34)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:227)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:200)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:37)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:374)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:609)
+	at org.eclipse.ui.internal.Perspective.showView(Perspective.java:2127)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1062)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3773)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:3770)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:3746)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.search(DefaultHelpUI.java:186)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displaySearch(DefaultHelpUI.java:134)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displaySearch(WorkbenchHelpSystem.java:845)
+	at org.eclipse.ui.internal.actions.HelpSearchAction$1.run(HelpSearchAction.java:83)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.actions.HelpSearchAction.run(HelpSearchAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.windriver.ide.application.CopyOfIDEApplication.start(CopyOfIDEApplication.java:111)
+	at com.windriver.ide.application.UnifiedSWTSwingApplication.access$101(UnifiedSWTSwingApplication.java:42)
+	at com.windriver.ide.application.UnifiedSWTSwingApplication.start(UnifiedSWTSwingApplication.java:56)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.help 4 0 2010-10-13 08:49:52.334
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.windriver.ide.doc.wr_net_stack/wr_net_stack_programmers_guide_vol3_6.7/html/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2010-10-13 08:49:53.444
+!MESSAGE Error reading context-sensitive help file /"com.windriver.ide.doc.platform_general_vxworks/vxworks_component_reference/html/contexts.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:235)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:83)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:85)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at com.windriver.ide.internal.apidoc.WRAPIHelpProvider.getFunctionInfo(WRAPIHelpProvider.java:110)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:77)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.help 4 0 2010-10-13 08:49:53.459
+!MESSAGE Error reading context-sensitive help file /"com.windriver.ide.doc.platform_general_vxworks/networking_component_reference/html/contexts.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:235)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:83)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:85)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at com.windriver.ide.internal.apidoc.WRAPIHelpProvider.getFunctionInfo(WRAPIHelpProvider.java:110)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:77)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)

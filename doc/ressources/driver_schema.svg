@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="905.788px" height="1113.386px" viewBox="0 0 905.788 1113.386" enable-background="new 0 0 905.788 1113.386"
+	 xml:space="preserve">
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.379,139.225 268.129,139.225 268.129,177.225 "/>
+<rect x="256.129" y="126.225" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="64"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="211.447" y1="377.063" x2="257.478" y2="377.063"/>
+<rect x="257.478" y="363.148" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="41"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="326.977,371.225 308.977,371.225 316.477,377.063 
+	269.478,377.063 269.478,392.063 "/>
+<circle fill="none" stroke="#000000" stroke-width="0.25" cx="334.477" cy="371.225" r="7.5"/>
+<text transform="matrix(1 0 0 1 330.061 375.186)" font-family="'MyriadPro-Regular'" font-size="12">IT</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="268.129" y1="148.225" x2="307.557" y2="148.225"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="268.129" y1="170.725" x2="307.557" y2="170.725"/>
+<polygon points="292.212,143.725 292.212,152.725 296.712,148.225 "/>
+<polygon points="292.212,166.225 292.212,175.225 296.712,170.725 "/>
+<rect x="307.557" y="139.975" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
+<text transform="matrix(1 0 0 1 315.0151 152.7251)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+<rect x="307.557" y="162.475" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
+<text transform="matrix(1 0 0 1 319.6802 175.2251)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+<text transform="matrix(1 0 0 1 235.1562 356.7251)" font-family="'Times-Roman'" font-size="12">Int_Msg_Recu</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="174.696,73.474 211.379,73.474 211.379,466.474 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="471.333,113.974 471.333,62.974 521.879,113.974 
+	521.879,62.974 "/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="483.24" y1="74.987" x2="521.879" y2="74.974"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="471.333" y1="103.349" x2="511.364" y2="103.364"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="211.379" y1="88.474" x2="471.333" y2="88.474"/>
+<polygon points="276.712,83.974 276.712,92.974 281.212,88.474 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.379,113.974 442.879,113.974 442.879,47.43 496.606,47.43 
+	496.606,74.974 "/>
+<path fill="none" stroke="#000000" stroke-width="0.25" d="M511.364,73.474"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.379,449.474 497.24,449.474 497.24,103.364 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="492.106,69.474 501.106,69.474 496.606,73.974 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="492.74,108.974 501.74,108.974 497.24,104.474 "/>
+<rect x="199.379" y="58.153" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="420.954"/>
+<polyline points="235.322,372.563 235.322,381.563 239.822,377.063 "/>
+<g>
+	<rect x="118.3" y="802.713" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="86.643"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="72.8,810.792 90.8,810.792 83.3,816.629 130.3,816.629 
+		130.3,877.272 	"/>
+	<circle fill="none" stroke="#000000" stroke-width="0.25" cx="65.3" cy="810.792" r="7.5"/>
+	<text transform="matrix(1 0 0 1 60.8843 814.7534)" font-family="'MyriadPro-Regular'" font-size="12">IT</text>
+	<text transform="matrix(1 0 0 1 51.479 792.769)" font-family="'Times-Roman'" font-size="12">Int_Msg_Recu</text>
+	<rect x="184.244" y="860.77" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.502"/>
+	<text transform="matrix(1 0 0 1 191.7017 870.5952)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<rect x="184.244" y="815.309" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+	<text transform="matrix(1 0 0 1 193.3599 825.1323)" font-family="'Times-Roman'" font-size="12">msg_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="130.401" y1="823.559" x2="184.244" y2="823.559"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="130.401" y1="869.022" x2="184.244" y2="869.022"/>
+	<g>
+		<polygon points="163.507,864.522 163.507,873.522 168.007,869.022 		"/>
+		<polyline points="159.138,864.522 159.138,873.522 163.638,869.022 		"/>
+	</g>
+	<g>
+		<polygon points="163.572,828.059 163.572,819.059 159.072,823.559 		"/>
+		<polyline points="167.941,828.059 167.941,819.059 163.441,823.559 		"/>
+	</g>
+</g>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="63.846,929.833 140.899,929.833 140.899,964 	"/>
+	<text transform="matrix(1 0 0 1 120.3687 913.6479)" font-family="'Times-Roman'" font-size="12">PEOpen</text>
+	<text transform="matrix(1 0 0 1 68.8228 943.5845)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">char * nom</tspan><tspan x="19.658" y="14.4" font-family="'Times-Roman'" font-size="12">int flag</tspan><tspan x="11.654" y="28.8" font-family="'Times-Roman'" font-size="12">int mode</tspan></text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="140.899" y1="935.334" x2="179.384" y2="935.334"/>
+	<rect x="179.384" y="927.084" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+	<text transform="matrix(1 0 0 1 186.8423 936.9077)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="140.367" y1="955.75" x2="178.852" y2="955.75"/>
+	<rect x="178.852" y="947.5" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+	<text transform="matrix(1 0 0 1 190.9741 957.3237)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<rect x="128.899" y="919.635" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="53.238"/>
+	<g>
+		<polygon points="165.149,951.25 165.149,960.25 169.649,955.75 		"/>
+		<polyline points="160.78,951.25 160.78,960.25 165.28,955.75 		"/>
+	</g>
+	<g>
+		<polygon points="165.084,930.834 165.084,939.834 169.584,935.334 		"/>
+		<polyline points="160.715,930.834 160.715,939.834 165.215,935.334 		"/>
+	</g>
+</g>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="61.968,1031.395 139.022,1031.395 139.022,1065.563 	"/>
+	<text transform="matrix(1 0 0 1 117.8203 1012.2866)" font-family="'Times-Roman'" font-size="12">PEClose</text>
+	<text transform="matrix(1 0 0 1 92.1562 1046.522)" font-family="'Times-Roman'" font-size="12">int fd</text>
+	<rect x="127.022" y="1021.198" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="53.24"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="139.446" y1="1038.272" x2="177.931" y2="1038.272"/>
+	<rect x="177.931" y="1030.022" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+	<text transform="matrix(1 0 0 1 185.3892 1039.8452)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="138.914" y1="1058.688" x2="177.398" y2="1058.688"/>
+	<rect x="177.398" y="1050.438" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+	<text transform="matrix(1 0 0 1 189.521 1060.2612)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<g>
+		<polygon points="165.084,1033.772 165.084,1042.772 169.584,1038.272 		"/>
+		<polyline points="160.715,1033.772 160.715,1042.772 165.215,1038.272 		"/>
+	</g>
+	<g>
+		<polygon points="165.215,1054.188 165.215,1063.188 169.715,1058.688 		"/>
+		<polyline points="160.846,1054.188 160.846,1063.188 165.346,1058.688 		"/>
+	</g>
+</g>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="322.414,831.897 399.467,831.897 399.467,966.065 "/>
+<text transform="matrix(1 0 0 1 379.604 812.7876)" font-family="'Times-Roman'" font-size="12">PERead</text>
+<text transform="matrix(1 0 0 1 310.6157 847.522)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PEDEV* desc</tspan><tspan x="10.025" y="14.4" font-family="'Times-Roman'" font-size="12">char* buffer</tspan><tspan x="29.332" y="28.8" font-family="'Times-Roman'" font-size="12">int taille</tspan></text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="399.467" y1="937.399" x2="471.952" y2="937.399"/>
+<rect x="471.952" y="929.149" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+<text transform="matrix(1 0 0 1 479.4106 941.8979)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="399.467,843.665 520.864,843.494 520.864,868.213 "/>
+<text transform="matrix(1 0 0 1 494.5815 828.1323)" font-family="'Times-Roman'" font-size="12">get_numero_logique</text>
+<path fill="none" stroke="#000000" stroke-width="0.25" d="M487.838,829.713c0,4.758-3.856,8.613-8.614,8.613h-51.977
+	c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.614,8.614-8.614h51.977C483.982,821.099,487.838,824.956,487.838,829.713
+	L487.838,829.713z"/>
+<text transform="matrix(1 0 0 1 428.1021 831.8091)" font-family="'Times-Roman'" font-size="12">desc.name</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="453.969" y1="838.327" x2="453.969" y2="843.494"/>
+<text transform="matrix(1 0 0 1 423.2905 906.6167)" font-family="'Times-Roman'" font-size="12">numero_logique</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="463.274" y1="912.233" x2="463.274" y2="937.399"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="398.935" y1="957.815" x2="471.419" y2="957.815"/>
+<rect x="471.419" y="949.565" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+<text transform="matrix(1 0 0 1 493.5376 962.314)" font-family="'Times-Roman'" font-size="12">buffer</text>
+<rect x="387.467" y="821.7" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="153.238"/>
+<rect x="508.864" y="836.432" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="39.605"/>
+<path fill="none" stroke="#000000" stroke-width="0.25" d="M512.509,903.096c0,4.758-3.856,8.613-8.614,8.613h-81.306
+	c-4.758,0-8.614-3.857-8.614-8.615l0,0c0-4.756,3.856-8.613,8.614-8.613h81.306C508.653,894.481,512.509,898.338,512.509,903.096
+	L512.509,903.096z"/>
+<polygon points="436.965,953.313 436.965,962.313 441.465,957.813 "/>
+<polyline points="432.596,953.315 432.596,962.315 437.096,957.815 "/>
+<polygon points="437.031,932.897 437.031,941.897 432.531,937.397 "/>
+<polyline points="441.4,932.899 441.4,941.899 436.9,937.399 "/>
+<text transform="matrix(1 0 0 1 184.7876 52.5688)" font-family="'Times-Roman'" font-size="12">PEdrv_install</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.526,238.225 462.41,238.225 462.41,254.225 "/>
+<rect x="450.41" y="225.225" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+<text transform="matrix(1 0 0 1 431.0796 222.7026)" font-family="'Times-Roman'" font-size="12">iosDrvInstall</text>
+<text transform="matrix(1 0 0 1 529.1206 92.9741)" font-family="'Times-Roman'" font-size="12">install_mutex</text>
+<text transform="matrix(1 0 0 1 524.7876 121.5688)" font-family="'Times-Roman'" font-size="12">0</text>
+<text transform="matrix(1 0 0 1 524.7876 66.2349)" font-family="'Times-Roman'" font-size="12">1</text>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="319.431,1035.051 396.484,1035.051 396.484,1069.219 	"/>
+	<text transform="matrix(1 0 0 1 375.2827 1018.8667)" font-family="'Times-Roman'" font-size="12">PEIOCtl</text>
+	<text transform="matrix(1 0 0 1 309.4019 1048.8032)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PEDEV* desc</tspan><tspan x="13.33" y="14.4" font-family="'Times-Roman'" font-size="12">int fonction</tspan><tspan x="37.998" y="28.8" font-family="'Times-Roman'" font-size="12">int arg</tspan></text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="395.953" y1="1060.969" x2="434.437" y2="1060.969"/>
+	<rect x="434.437" y="1052.719" fill="none" stroke="#000000" stroke-width="0.25" width="73.55" height="16.5"/>
+	<text transform="matrix(1 0 0 1 446.5591 1062.5425)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<rect x="384.484" y="1024.854" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="53.238"/>
+	<g>
+		<polygon points="420.734,1056.469 420.734,1065.469 425.234,1060.969 		"/>
+		<polyline points="416.365,1056.469 416.365,1065.469 420.865,1060.969 		"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 252.7251 208.3735)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PECreat, PERemove, PEOpen,</tspan><tspan x="-15.838" y="14.4" font-family="'Times-Roman'" font-size="12">PEClose, PERead, PEWrite, PEIOCtl</tspan></text>
+<path fill="none" stroke="#000000" stroke-width="0.25" d="M233.113,203.39L233.113,203.39c0-4.758,3.856-8.613,8.614-8.613h170.977
+	c4.758,0,8.613,3.855,8.613,8.613l0,0v15.7l0,0c0,4.758-3.855,8.613-8.613,8.613H241.728c-4.758,0-8.614-3.855-8.614-8.613l0,0
+	V203.39"/>
+<path fill="none" stroke="#000000" stroke-width="0.25" d="M241.87,254.225"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="327.215" y1="227.703" x2="327.215" y2="238.149"/>
+<rect x="225.651" y="418.386" fill="none" width="257.318" height="17.5"/>
+<text transform="matrix(1 0 0 1 232.0381 426.9062)" font-family="'MyriadPro-Regular'" font-size="12">TODO : noter le numero du driver dans DEV_HDR</text>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="23.251,552.826 100.305,552.826 100.305,669.994 	"/>
+	<text transform="matrix(1 0 0 1 72.4438 536.6421)" font-family="'Times-Roman'" font-size="12">PEdev_add</text>
+	<text transform="matrix(1 0 0 1 23.1914 566.5776)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">char* name</tspan><tspan x="-15.352" y="14.4" font-family="'Times-Roman'" font-size="12">int drvNumber</tspan></text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="100.305" y1="558.328" x2="138.789" y2="558.328"/>
+	<rect x="138.789" y="550.078" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+	<text transform="matrix(1 0 0 1 146.2476 559.8999)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="99.772" y1="578.744" x2="138.257" y2="578.744"/>
+	<rect x="138.257" y="570.494" fill="none" stroke="#000000" stroke-width="0.25" width="73.55" height="16.5"/>
+	<text transform="matrix(1 0 0 1 150.3794 580.3159)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<rect x="88.305" y="542.628" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="136.238"/>
+	<g>
+		<polygon points="124.555,574.244 124.555,583.244 129.055,578.744 		"/>
+		<polyline points="120.186,574.244 120.186,583.244 124.686,578.744 		"/>
+	</g>
+	<g>
+		<polygon points="124.489,553.828 124.489,562.828 128.989,558.328 		"/>
+		<polyline points="120.12,553.828 120.12,562.828 124.62,558.328 		"/>
+	</g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="100.305,649.867 300.631,649.867 300.631,665.867 	"/>
+	<rect x="288.632" y="636.867" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+	<text transform="matrix(1 0 0 1 273.3008 634.3433)" font-family="'Times-Roman'" font-size="12">iosDevAdd</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M266.961,636.086c0,4.758-3.857,8.613-8.615,8.613H136.37
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.614,8.614-8.614h121.976C263.104,627.472,266.961,631.329,266.961,636.086
+		L266.961,636.086z"/>
+	<text transform="matrix(1 0 0 1 134.5532 640.2183)" font-family="'Times-Roman'" font-size="12">desc, «name», drvNumber</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="197.358" y1="644.7" x2="197.358" y2="649.867"/>
+</g>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="349.89,546.953 426.945,546.953 426.945,664.121 "/>
+<text transform="matrix(1 0 0 1 393.4233 530.769)" font-family="'Times-Roman'" font-size="12">PEdev_delete</text>
+<text transform="matrix(1 0 0 1 295.8135 560.7046)" font-family="'Times-Roman'" font-size="12">DEV_HDR* pDevHdr</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="426.945" y1="552.455" x2="465.429" y2="552.455"/>
+<rect x="465.429" y="544.205" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+<text transform="matrix(1 0 0 1 472.8872 554.0269)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="426.412" y1="572.871" x2="464.896" y2="572.871"/>
+<rect x="464.896" y="564.621" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
+<text transform="matrix(1 0 0 1 477.019 574.4429)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+<rect x="414.945" y="536.755" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="136.238"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="426.945,643.994 557.272,643.994 557.272,659.994 "/>
+<rect x="545.272" y="630.994" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+<text transform="matrix(1 0 0 1 524.6177 628.4702)" font-family="'Times-Roman'" font-size="12">iosDevDelete</text>
+<path fill="none" stroke="#000000" stroke-width="0.25" d="M509.6,630.213c0,4.758-3.857,8.613-8.615,8.613h-41.976
+	c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.614,8.614-8.614h41.976C505.743,621.599,509.6,625.456,509.6,630.213
+	L509.6,630.213z"/>
+<text transform="matrix(1 0 0 1 457.1929 634.3452)" font-family="'Times-Roman'" font-size="12">pDevHdr</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="479.999" y1="638.827" x2="479.999" y2="643.994"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.09" y1="550.039" x2="453.921" y2="554.87"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.089" y1="554.871" x2="453.922" y2="550.039"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.09" y1="570.455" x2="453.921" y2="575.286"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.089" y1="575.287" x2="453.922" y2="570.455"/>
+<rect x="540.638" y="100.224" fill="none" width="257.318" height="17.5"/>
+<text transform="matrix(1 0 0 1 548.6802 108.7441)" font-family="'MyriadPro-Regular'" font-size="12">TODO : demander un remplacement à ce mutex.</text>
+<rect x="133.084" y="597.265" fill="none" width="142" height="21.333"/>
+<text transform="matrix(1 0 0 1 137.0771 605.7847)" font-family="'MyriadPro-Regular'" font-size="12">TODO: Mutex sur les tables</text>
+<rect x="449.864" y="586.599" fill="none" width="142" height="21.333"/>
+<text transform="matrix(1 0 0 1 453.8579 595.1187)" font-family="'MyriadPro-Regular'" font-size="12">TODO: Mutex sur les tables</text>
+<rect x="153.083" y="838.598" fill="none" width="148.982" height="15.333"/>
+<text transform="matrix(1 0 0 1 161.4849 847.1177)" font-family="'MyriadPro-Regular'" font-size="12">TODO: Récupérer le temps</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="211.208" y1="276.244" x2="257.238" y2="276.244"/>
+<rect x="257.238" y="262.328" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="71"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="326.737,270.405 308.737,270.405 316.237,276.244 
+	269.238,276.244 269.238,321.244 "/>
+<circle fill="none" stroke="#000000" stroke-width="0.25" cx="334.237" cy="270.405" r="7.5"/>
+<text transform="matrix(1 0 0 1 330.5669 274.3667)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<text transform="matrix(1 0 0 1 255.9199 255.9048)" font-family="'Times-Roman'" font-size="12">Timer</text>
+<polyline points="235.083,271.744 235.083,280.744 239.583,276.244 "/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="269.238" y1="295.824" x2="308.665" y2="295.824"/>
+<polygon points="293.321,291.324 293.321,300.324 297.821,295.824 "/>
+<rect x="308.665" y="287.573" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
+<text transform="matrix(1 0 0 1 317.4448 299.3237)" font-family="'Times-Roman'" font-size="12">TimeStamp</text>
+<polygon points="288.952,291.324 288.952,300.324 293.452,295.824 "/>
+<text transform="matrix(1 0 0 1 344.7446 273.5728)" font-family="'Times-Roman'" font-size="12">20 ms</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="281.238,317.22 308.665,317.22 308.665,308.887 
+	269.238,308.887 "/>
+<polygon points="296.917,312.72 296.917,321.72 292.417,317.22 "/>
+<rect x="266.47" y="706.431" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="71"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="220.971,714.509 238.971,714.509 231.471,720.347 
+	278.47,720.347 278.47,765.347 "/>
+<circle fill="none" stroke="#000000" stroke-width="0.25" cx="213.471" cy="714.509" r="7.5"/>
+<text transform="matrix(1 0 0 1 209.7974 718.4702)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<text transform="matrix(1 0 0 1 262.4673 700.0093)" font-family="'Times-Roman'" font-size="12">Timer</text>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="278.47" y1="731.874" x2="317.897" y2="731.874"/>
+<polygon points="302.553,727.374 302.553,736.374 307.053,731.874 "/>
+<rect x="317.897" y="723.624" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
+<text transform="matrix(1 0 0 1 326.6772 735.3735)" font-family="'Times-Roman'" font-size="12">TimeStamp</text>
+<polygon points="298.184,727.374 298.184,736.374 302.684,731.874 "/>
+<text transform="matrix(1 0 0 1 173.9595 717.6753)" font-family="'Times-Roman'" font-size="12">20 ms</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.25" points="290.47,753.27 317.897,753.27 317.897,744.936 278.47,744.936 
+	"/>
+<polygon points="306.149,748.77 306.149,757.77 301.649,753.27 "/>
+</svg>

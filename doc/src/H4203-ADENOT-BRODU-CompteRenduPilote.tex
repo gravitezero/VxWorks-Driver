@@ -7,6 +7,8 @@
 \usepackage{color}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+
 
 % $1 : fichier source
 % $2 : langage
@@ -40,6 +42,54 @@
     \end{center}
 }
 
+\newcommand{\kw}[1]{\texttt{#1}}
+
+\newcommand{\fontptitle}[1]{%
+    {\huge{\texttt{\textbf{#1}}}}
+}
+
+\newlength{\largeurtitre}
+\newlength{\largeurligne}
+\newcommand{\ptitle}[1]{%
+    \setlength{\largeurtitre}{0pt}
+    \setlength{\largeurligne}{0pt}
+    \settowidth{\largeurtitre}{\fontptitle{#1}}
+    \addtolength{\largeurligne}{\textwidth}
+    \addtolength{\largeurligne}{-\largeurtitre}
+    \addtolength{\largeurligne}{-4pt}
+    \bigskip
+    \fontptitle{#1} \raisebox{0.3em}{\vrule depth 0pt height 0.5ex width \largeurligne}
+}
+
+
+\newcommand{\DescFonction}[4]{%
+	\begin{minipage}{\textwidth}
+	\ptitle{#1}
+	\nopagebreak[4]
+	\textbf{\large{Synopsis}} \\
+	\texttt{#2} \\
+	\textbf{\large{Description}} \\
+	#3 \\
+	\textbf{\large{Valeur de retour}} \\
+	#4 
+	\vspace{1cm}
+	\end{minipage}
+}
+
+
+\newcommand{\Test}[3]
+{%
+	\addtocounter{testno}{1}
+	\begin{minipage}{\textwidth}
+	\textbf{\large{Test \thetestno~-- #1}}\\
+	\raisebox{0.5em}{\rule{\textwidth}{0.1ex}}\\
+	\textbf{\large{Description}}\\
+	#2 \\
+	\textbf{\large{Resultat attendu}}\\
+	#3 
+	\end{minipage}
+}
+
 \title{Spécification des fonctions d'un pilote de périphérique de type capteur}
 \author{Paul \textsc{Adenot} \and \'{E}tienne \textsc{Brodu}}
 \date{}
@@ -48,33 +98,10 @@
 
 \begin{document}
 \maketitle
+\tableofcontents
+\newcounter{testno}
 
-\newcommand{\kw}[1]{\texttt{#1}}
-
-\newcommand{\DescFonction}[4]{%
-	\texttt{\Huge{#1}} \\ 
-	\raisebox{0.5em}{\rule{\textwidth}{0.1ex}}\\
-	\textbf{\large{Synopsis}} \\
-	\texttt{#2} \\
-	\textbf{\large{Description}} \\
-	#3 \\
-	\textbf{\large{Valeur de retour}} \\
-	#4 
-	\vspace{1cm}
-}
-
-\newcounter{testno}{0}
-
-\newcommand{\Test}[3]
-{%
-	\addtocounter{testno}{1}
-	\textbf{\large{Test \thetestno~-- #1}}\\
-	\raisebox{0.5em}{\rule{\textwidth}{0.1ex}}\\
-	\textbf{\large{Description}}\\
-	#2 \\
-	\textbf{\large{Resultat attendu}}\\
-	#3 
-}
+\newpage
 
 \section{Documentation de l'API}
 \DescFonction{open}
@@ -188,6 +215,8 @@ Ce tableau contient 15 pointeurs vers le dernier message du capteur dont l'index
 \Test{Test d'ouverture d'un capteur}
 {Appeler \kw{open} sur un capteur valide (le fichier existe et est accessible en écriture), avec des options valide (\kw{O\_RDONLY}), une seule fois.} 
 {La valeur de retour doit être un entier positif.}~
+
+\Test{ }{}{}
 
 \end{document}
 

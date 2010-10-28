@@ -7,6 +7,7 @@
 \usepackage{color}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
 
 
@@ -50,7 +51,7 @@
 
 \newlength{\largeurtitre}
 \newlength{\largeurligne}
-\newcommand{\ptitle}[1]{%
+\newcommand{\lignedroite}[1]{%
     \setlength{\largeurtitre}{0pt}
     \setlength{\largeurligne}{0pt}
     \settowidth{\largeurtitre}{\fontptitle{#1}}
@@ -58,13 +59,13 @@
     \addtolength{\largeurligne}{-\largeurtitre}
     \addtolength{\largeurligne}{-4pt}
     \bigskip
-    \fontptitle{#1} \raisebox{0.3em}{\vrule depth 0pt height 0.5ex width \largeurligne}
+    #1 \raisebox{0.3em}{\vrule depth 0pt height 0.2ex width \largeurligne}
 }
 
 
 \newcommand{\DescFonction}[4]{%
 	\begin{minipage}{\textwidth}
-	\ptitle{#1}
+	\lignedroite{\fontptitle{#1}}
 	\nopagebreak[4]
 	\textbf{\large{Synopsis}} \\
 	\texttt{#2} \\
@@ -81,13 +82,13 @@
 {%
 	\addtocounter{testno}{1}
 	\begin{minipage}{\textwidth}
-	\textbf{\large{Test \thetestno~-- #1}}\\
-	\raisebox{0.5em}{\rule{\textwidth}{0.1ex}}\\
+	\lignedroite{\textbf{\large{Test \thetestno~-- #1}}}\\
 	\textbf{\large{Description}}\\
 	#2 \\
 	\textbf{\large{Resultat attendu}}\\
 	#3 
 	\end{minipage}
+	\vspace{1cm}
 }
 
 \title{Spécification des fonctions d'un pilote de périphérique de type capteur}
@@ -124,6 +125,7 @@ retourne immédiatement, avec la valeur -1.}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments,
 			avec une valeur autre que \kw{O\_RDONLY} pour \kw{flags}.
 	\item[\kw{ENEXIST} : ] Premier argument invalide, le fichier n'existe pas.
+	\item[\kw{EALREADYOPENED} :] Le périphérique est déjà ouvert.
 \end{description}
 }
 
@@ -212,12 +214,72 @@ Ce tableau contient 15 pointeurs vers le dernier message du capteur dont l'index
 \includegraphics{ressources/close.png}
 
 \section{Plan de test}
-\Test{Test d'ouverture d'un capteur}
+\Test{Installation d'un driver}
+{Installer le driver alors qu'il n'est pas installé}
+{La valeur de retour doit être positive, et correspond au numéro du driver. Il
+doit être possible de le retrouver en utilisant la fonction \kw{iosDrvShow}.}
+
+\Test{Installation d'un driver déjà installé}
+{Installer le driver alors qu'il est déjà installé : appeler deux fois \kw{iosDrvInstall}.}
+{La première installation doit bien se passer (valeur de retour positive).  Le second appel de \kw{iosDrvInstall} doit renvoyer \kw{ERROR}.}
+
+\Test{Retrait d'un driver}
+{Utilisation de la fonction \kw{iosDrvRemove}, alors que le pilote est installé sur le système, et qu'il n'est pas utilisé.}
+{La valeur de retour doit être égale à \kw{OK}.}
+
+\Test{Ajout d'un périphérique}
+{Utilisation de la fonction \kw{iosDevAdd}, une seule fois, avec des paramètre valides.}
+{La valeur de retour doit être \kw{OK}, le périphérique doit être trouvable en utilisant \kw{iosDevFind}, qui ne doit pas renvoyer \kw{NULL}.}
+
+\Test{Retrait d'un périphérique}
+{Utilisation de la fonction \kw{iosDevDelete}, avec des paramètres valides.}
+{Il ne doit plus être possible d'ouvrir le périphérique : un appel à \kw{open}
+sur ce périphérique doit échouer (il doit retourner \kw{ERROR}), et \kw{errno}
+doit être positionné à \kw{ENEXIST}.}
+
+\Test{Ajout d'un périphérique alors que 15 périphériques ont été ajoutés.}
+{Utilisation de la fonction \kw{iosDevAdd}, 16 fois, avec des paramètres valides.}
+{Le 16\ieme appel à \kw{iosDevAdd} doit provoquer une erreur, et renvoyer \kw{ERROR}.}
+
+\Test{Ouverture d'un capteur}
 {Appeler \kw{open} sur un capteur valide (le fichier existe et est accessible en écriture), avec des options valide (\kw{O\_RDONLY}), une seule fois.} 
 {La valeur de retour doit être un entier positif.}~
 
-\Test{ }{}{}
+\Test{Ouverture d'un capteur déjà ouvert}
+{Appeller \kw{open} sur un capteur valide (le fichier existe, et est accessible
+	en lecture), alors qu'il vient d'être ouvert avec succès.}
+{\kw{open} doit renvoyer \kw{error}, et \kw{errno} doit être positionné à \kw{EALREADYOPENED}.}
 
+\Test{Fermeture d'un capteur}
+{Appeler \kw{close} sur un descripteur de fichier valide (qui a été ouvert avec succès précédemment).}
+{La valeur de retour doit être égale à \kw{OK}}
+
+\Test{Lecture d'une valeur dans un capteur}
+{Utiliser \kw{read} sur un capteur ouvert avec succès}
+{La valeur de retour doit être un nombre positif, et doit être cohérente par
+    rapport aux paramètre d'appel de \kw{read}.}
+
+\Test{Utilisation de \kw{read} avec une taille de lecture invalide}
+{Utilisation de l'appel système \kw{read} avec une descripteur de fichier
+    valide, mais avec une taille de lecture négative.}
+
+\Test{Utilisation de \kw{ioctl} avec des paramètres corrects}
+{Utilisation de \kw{ioctl} avec des paramètres corrects : un descripteur de
+    fichier valide, une valeur pour \kw{request} inférieur où égale à 255, et
+	une adresse valide pour le nouveau périphérique en 3\ieme argument.}
+{La valeur de retour doit être égale à \kw{OK}}
+
+\Test{Utilisation de \kw{ioctl} avec de mauvais arguments}
+{Utilisation de la fonction \kw{ioctl} avec un second paramètre correspondant à
+une fonction non-implémenté. Le descripteur de fichier passé en tant que premier
+paramètre doit être valide, et correspondre à un périphérique géré par le
+driver.}
+{L'appel doit échouer (la valeur de retour doit être égale à \kw{ERROR}), et
+    \kw{errno} doit être positionné à \kw{EARG}.}
+
+\Test{Utilisation de \kw{write}}
+{Appel de write sur un capteur ouvert avec succès.}
+{L'appel doit échouer, et \kw{errno} doit être positionné à \kw{ENOTSUP}.}
 \end{document}
 
 

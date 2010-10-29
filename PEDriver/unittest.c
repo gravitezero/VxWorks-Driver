@@ -4,6 +4,13 @@
  * implémenté dans le fichier driver.c
  */
 
+#include "driver.h"
+#include <errnoLib.h>
+#include <stdio.h>
+
+/* Écrit un message d'erreur sur la sortie d'erreur */
+#define ERR_MSG(x) printf("Test %d failed. errno : %d\n",(x), errnoGet());
+
 /**
  * Test 1 – Installation d’un driver
  * Description
@@ -14,7 +21,20 @@
  **/
 int test_1()
 {
-
+	int success = 0;
+	if(pe_driverInstall(10))
+	{
+		success++;
+	}
+	else
+	{
+		ERR_MSG(1);
+	}
+	iosDrvShow();
+	getchar();
+	// Call this to clean the system.
+	pe_driverUninstall();
+	return success;
 }
 
  /**
@@ -27,7 +47,28 @@ int test_1()
  **/
 int test_2()
 {
-
+	int success = 0;
+	if(pe_driverInstall(10))
+	{
+		if( pe_driverInstall(10) == -1)
+		{
+			success++;
+		}
+		else
+		{
+			ERR_MSG(2)
+		}
+	}
+	else
+	{
+		ERR_MSG(2)
+	}
+	
+	printf("67");
+	
+	// Call this to clean the system.
+	pe_driverUninstall();
+	return success;
 }
  /**
  * Test 3 – Retrait d’un driver
@@ -39,7 +80,17 @@ int test_2()
  **/
 int test_3()
 {
-	
+	int success = 0;
+	pe_driverInstall(10);
+	if(pe_driverUninstall() == OK)
+	{
+		success++;
+	}
+	else
+	{
+		ERR_MSG(3);
+	}
+	return success;
 }
  /**
  * Test 4 – Retrait du driver alors qu’il n’est pas installé
@@ -50,18 +101,51 @@ int test_3()
  **/
 int test_4()
 {
+	int success = 0;
+	if(pe_driverUninstall() == ERROR)
+	{
+		success++;
+	}
+	else
+	{
+		ERR_MSG(4)
+	}
 	
+	return success;
 }
+
 /**
  * Test 5 – Retrait du driver alors qu’un périphérique est ouvert
  * Description
  * Alors qu’un capteur a été ouvert en lecture, retirer le driver, à l’aide de la fonction iosDrvRemove.
  * Resultat attendu
- * La fonction doit retourner OK, et le périphérique doit être fermé.
- **/
+ * La fonction doit retourner ERROR, et errno doit être positionné à ECPTBUSY. Le driver ne doit
+ * pas être retiré.
+ */
 int test_5()
 {
+	int success = 0;
+	int fd = 0;
+
+	pe_driverInstall(10);
 	
+	// Ouvertude d'un capteur.
+	fd = creat("/dev/capteur0", O_RDONLY);
+	if( ! fd)
+	{
+		printf("Erreur d'ouverture du periphérique : test_5\n");
+		return success;
+	}
+	
+	// Tentative de retrait du driver : cela doit être un échec.
+	if( pe_driverUninstall() == ERROR )
+	{
+		if(errnoGet() == ECPTBUSY)
+			success++;
+		else
+			printf("Pas le bon code errno : test_5\n");
+	}
+	return success;
 }
 /**
  * Test 6 – Ajout d’un périphérique
@@ -74,6 +158,7 @@ int test_5()
 int test_6()
 {
 	
+	return 0;
 }
 /**
  * Test 7 – Retrait d’un périphérique
@@ -85,7 +170,7 @@ int test_6()
  **/
 int test_7()
 {
-	
+	return 0;
 }
 /**
  * Test 8 – Ajout d’un périphérique alors que 15 périphériques ont été ajoutés.
@@ -96,7 +181,7 @@ int test_7()
  **/
 int test_8()
 {
-	
+	return 0;	
 }
 /**
  * Test 9 – Ouverture d’un capteur
@@ -108,7 +193,7 @@ int test_8()
  **/
 int test_9()
 {
-	
+	return 0;	
 }
 /**
  * Test 10 – Ouverture d’un capteur déjà ouvert
@@ -120,7 +205,7 @@ int test_9()
  **/
 int test_10()
 {
-	
+	return 0;	
 }
 /**
  * Test 11 – Ouverture d’un capteur avec des paramètres invalides
@@ -133,7 +218,7 @@ int test_10()
  **/
 int test_11()
 {
-	
+	return 0;	
 }
 /**
  * Test 12 – Fermeture d’un capteur
@@ -145,7 +230,7 @@ int test_11()
  **/
 int test_12()
 {
-	
+	return 0;	
 }
 /**
  * Test 13 – Lecture d’une valeur dans un capteur
@@ -157,7 +242,7 @@ int test_12()
  **/
 int test_13()
 {
-	
+	return 0;	
 }
 /**
  * Test 14 – Utilisation de read avec une taille de lecture invalide
@@ -169,7 +254,7 @@ int test_13()
  **/
 int test_14()
 {
-	
+	return 0;	
 }
 /**
  * Test 15 – Utilisation de ioctl avec des paramètres corrects
@@ -179,11 +264,11 @@ int test_14()
  * égale à 255, correspondant bien à un capteur valide.
  * Resultat attendu
  * La valeur de retour doit être égale à OK, ou alors elle doit être égale à ERROR, mais alors errno
- * doit être positionné à EBUSY, et le même appel effectué ultérieurement doit renvoyer OK.
+ * doit être positionné à ECPTBUSY, et le même appel effectué ultérieurement doit renvoyer OK.
  **/
 int test_15()
 {
-	
+	return 0;	
 }
 /**
  * Test 16 – Utilisation de ioctl avec de mauvais arguments
@@ -197,7 +282,7 @@ int test_15()
  **/
 int test_16()
 {
-	
+	return 0;	
 }
 /**
  * Test 17 – Utilisation de ioctl pour associer le même capteur à deux descripteur
@@ -210,7 +295,7 @@ int test_16()
  **/
 int test_17()
 {
-	
+	return 0;	
 }
 /**
  * Test 18 – Utilisation de write
@@ -221,6 +306,47 @@ int test_17()
  **/
 int test_18()
 {
-	
+	return 0;	
+}
+/**
+ * Test 19 – Fermeture d’un périphérique non ouvert
+ * Description
+ * En utilisant remove, on tente de fermer un périphérique qui n’est pas ouvert.
+ * Resultat attendu
+ * L’appel doit échouer, et errno doit être positionné à ENOTOPENED.
+ **/
+int test_19()
+{
+	return 0;	
+}
+
+void run_suite()
+{
+	int count = 0;
+	count += test_1();
+	count += test_2();
+	count += test_3();
+	count += test_4();
+	count += test_5();
+	count += test_6();
+	count += test_7();
+	count += test_8();
+	count += test_9();
+	count += test_10();
+	count += test_11();
+	count += test_12();
+	count += test_13();
+	count += test_14();
+	count += test_15();
+	count += test_16();
+	count += test_17();
+	count += test_18();
+	count += test_19();
+
+	printf("%d/19 tests passed.\n", count);
+	if(count == 19)
+	{
+		printf("All tests passed successfully.\n");
+	}
 }
 

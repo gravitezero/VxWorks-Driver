@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="com.windriver.ide.launch.vxworks6.tmRunTask">
+<booleanAttribute key="com.windriver.ide.launch.attachSpawned" value="false"/>
+<listAttribute key="com.windriver.ide.launch.downloads">
+<listEntry value="2;true;true;/PEDriver/SIMLINUXdiab/PEDriver/Debug/PEDriver.out;false;true;"/>
+</listAttribute>
+<stringAttribute key="com.windriver.ide.launch.lastLaunched" value="1288375917530"/>
+<stringAttribute key="com.windriver.ide.launch.launch_contexts" value="&lt;contexts&gt;&#10;&#9;&lt;context type=&quot;connection&quot;&gt;&#10;&lt;targetconnection version=&quot;0.10&quot;&gt;&#10;&#9;&#9;&#9;&lt;registryhost&gt;localhost&lt;/registryhost&gt;&#10;&#9;&#9;&#9;&lt;name&gt;vxsim0&lt;/name&gt;&#10;&#9;&#9;&#9;&lt;type&gt;com.windriver.ide.target.vxsim.VxSimConnectType&lt;/type&gt;&#10;&#9;&#9;&#9;&lt;private&gt;true&lt;/private&gt;&#10;&#9;&#9;&#9;&lt;tgtsvr.args&gt;-B wdbpipe -R ${workspace_loc}/ -RW -Bt 10 -A&lt;/tgtsvr.args&gt;&#10;&#9;&#9;&#9;&lt;wrsplatform&gt;&#10;&#9;&#9;&#9;&#9;&lt;subtype&gt;vxworks&lt;/subtype&gt;&#10;&#9;&#9;&#9;&#9;&lt;name&gt;vxworks-6.8&lt;/name&gt;&#10;&#9;&#9;&#9;&lt;/wrsplatform&gt;&#10;&#9;&#9;&#9;&lt;generic&gt;&#10;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;PROCESSOR_NO&quot; value=&quot;0&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;DEVICE&quot; value=&quot;WTX_VXWORKS&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;KERNEL_IMAGE&quot; value=&quot;/WindRiver/vxworks-6.8/target/proj/linux_diab/default/vxWorks&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&lt;multiContextConfigMap name=&quot;MultiContextConfigMap&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;contextConfig name=&quot;&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;periodicRefreshDelayInSeconds&quot; value=&quot;15&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;listenToStartExitEvents&quot; value=&quot;true&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;isFetchTargetStateOnStop&quot; value=&quot;false&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;targetStateUpdateStrategy&quot; value=&quot;manual&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;NAME&quot; value=&quot;&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;basenamemappings&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;basename match=&quot;*&quot; substitute=&quot;*.unstripped&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;basename match=&quot;*&quot; substitute=&quot;*&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/basenamemappings&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;objectpathmappings&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;path prefix=&quot;fedoralive:&quot; substitute=&quot;&quot; default=&quot;true&quot; enabled=&quot;true&quot; direction=&quot;0&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;path prefix=&quot;/tgtsvr/&quot; substitute=&quot;${workspace_loc}/&quot; default=&quot;true&quot; enabled=&quot;true&quot; direction=&quot;0&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;path prefix=&quot;&quot; substitute=&quot;&quot; default=&quot;true&quot; enabled=&quot;true&quot; direction=&quot;0&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/objectpathmappings&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;CONNECT&quot; value=&quot;true&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;isFetchTargetStateOnRun&quot; value=&quot;false&quot;/&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/contextConfig&gt;&#10;&#9;&#9;&#9;&#9;&lt;/multiContextConfigMap&gt;&#10;&#9;&#9;&#9;&#9;&lt;attribute name=&quot;TYPE&quot; value=&quot;Standard&quot;/&gt;&#10;&#9;&#9;&#9;&lt;/generic&gt;&#10;&lt;/targetconnection&gt;&#10;&#9;&lt;/context&gt;&#10;&lt;/contexts&gt;&#10;"/>
+<stringAttribute key="com.windriver.ide.launch.processArgs" value=""/>
+<stringAttribute key="com.windriver.ide.launch.processBreakAtSymbol" value=""/>
+<booleanAttribute key="com.windriver.ide.launch.processBreakOnEntry" value="true"/>
+<stringAttribute key="com.windriver.ide.launch.processEnv" value=""/>
+<stringAttribute key="com.windriver.ide.launch.processExecPath" value=""/>
+<mapAttribute key="com.windriver.ide.launch.processOptions"/>
+<intAttribute key="com.windriver.ide.launch.processPriority" value="-2147483648"/>
+<stringAttribute key="com.windriver.ide.launch.processRunType" value="KernelTask"/>
+<stringAttribute key="com.windriver.ide.launch.processStackSize" value="0x20000"/>
+<listAttribute key="com.windriver.ide.launch.projectsForBuild">
+<listEntry value="PEDriver"/>
+</listAttribute>
+<stringAttribute key="com.windriver.ide.launch.targetMode" value="Task"/>
+<stringAttribute key="com.windriver.ide.launch.taskName" value=""/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+</launchConfiguration>

@@ -138,11 +138,11 @@ retourne immédiatement, avec la valeur -1.}
 {int close(int fd);}
 {Ferme le capteur désigné par le descripteur de fichier \kw{fd}. Celui-ci ne sera plus utilisable dans le programme.
 Si le paramêtre \kw{fd} est invalide (i.e. négatif ou ne correspondant pas à un descripteur de fichier valide), \kw{close} retourne -1, et \kw{errno} est positionné à \kw{EARG}.\\
-Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \kw{errno} est positionné à \kw{EBUSY}.}
+Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \kw{errno} est positionné à \kw{ECPTBUSY}.}
 {Si l'appel réussi, 0 est renvoyé, -1 sinon, et \kw{errno} est positionné aux valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments, le \kw{fd} spécifié est invalide.
-	\item[\kw{EBUSY} : ] Le capteur est en cours d'utilisation.
+	\item[\kw{ECPTBUSY} : ] Le capteur est en cours d'utilisation.
 \end{description}
 }
 
@@ -150,11 +150,11 @@ Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \k
 {int remove(const char *pathname);}
 {Ferme le capteur désigné par \kw{pathname}. Il ne sera plus utilisable au sein du programme.
 Si \kw{pathname} est invalide (le fichier n'existe pas, ou n'est pas ouvert au sein du programme), alors l'appel échoue en renvoyant -1, et \kw{errno} est positionné ) \kw{ENEXIST}.
-Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \kw{errno} est positionné à \kw{EBUSY}.}
+Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \kw{errno} est positionné à \kw{ECPTBUSY}.}
 {Si l'appel réussi, 0 est renvoyé, -1 sinon, \kw{errno} est positionné à l'une des valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] Le fichier précisé n'existe pas.
-	\item[\kw{EBUSY} : ] Le capteur est en cours d'utilisation.
+	\item[\kw{ECPTBUSY} : ] Le capteur est en cours d'utilisation.
 \end{description}
 }
 
@@ -189,7 +189,7 @@ pour le descripteur de fichier passé en premier argument.}
 {\kw{ioctl} renvoie 0 en cas de succès, -1 sinon, et \kw{errno} est alors positionné à l'une des valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments.
-	\item[\kw{EBUSY} : ] Le capteur est occupé, il doit être possible de
+	\item[\kw{ECPTBUSY} : ] Le capteur est occupé, il doit être possible de
 	recommencer l'appel avec succès dans un futur proche.
 \end{description}
 }
@@ -245,7 +245,8 @@ installé sur le système.}
 \Test{Retrait du driver alors qu'un périphérique est ouvert}
 {Alors qu'un capteur a été ouvert en lecture, retirer le driver, à l'aide de la
 fonction \kw{iosDrvRemove}.}
-{La fonction doit retourner \kw{OK}, et le périphérique doit être fermé.}
+{La fonction doit retourner \kw{ERROR}, et \kw{errno} doit être
+    positionné à \kw{ECPTBUSY}. Le driver ne doit pas être retiré.}
 
 \Test{Ajout d'un périphérique}
 {Utilisation de la fonction \kw{iosDevAdd}, une seule fois, avec des paramètre valides.}
@@ -298,7 +299,7 @@ fichier valide, une valeur pour \kw{request} égale à la constante
 \kw{CHANGEMENT\_CAPTEUR}, et une valeur pour \kw{value} inférieur ou égale
 à 255, correspondant bien à un capteur valide.}
 {La valeur de retour doit être égale à \kw{OK}, ou alors elle doit être égale
-à \kw{ERROR}, mais alors \kw{errno} doit être positionné à \kw{EBUSY}, et
+à \kw{ERROR}, mais alors \kw{errno} doit être positionné à \kw{ECPTBUSY}, et
 le même appel effectué ultérieurement doit renvoyer \kw{OK}.}
 
 \Test{Utilisation de \kw{ioctl} avec de mauvais arguments}
@@ -319,5 +320,10 @@ positionné à \kw{EARG}.}
 \Test{Utilisation de \kw{write}}
 {Appel de write sur un capteur ouvert avec succès.}
 {L'appel doit échouer, et \kw{errno} doit être positionné à \kw{ENOTSUP}.}
+
+\Test{Fermeture d'un périphérique non ouvert}
+{En utilisant \kw{remove}, on tente de fermer un périphérique qui n'est pas
+    ouvert.}
+{L'appel doit échouer, et \kw{errno} doit être positionné à \kw{ENOTOPENED}.}
 \end{document}
 

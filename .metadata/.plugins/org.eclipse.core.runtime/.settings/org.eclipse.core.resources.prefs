@@ -1,5 +1,5 @@
-#Fri Oct 29 10:47:39 CEST 2010
+#Fri Oct 29 16:15:31 CEST 2010
 version=1
 eclipse.preferences.version=1
-pathvariable.WS_ROOT_DIR=/home/paul/workspace/c/VxWorks-Driver
 pathvariable.WIND_HOME=/home/paul/WindRiver
+pathvariable.WS_ROOT_DIR=/media/daData/driver

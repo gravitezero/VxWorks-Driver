@@ -1,0 +1,6 @@
+#Fri Oct 29 13:26:20 EDT 2010
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation
+org.eclipse.cdt.ui.editors.textfont=1|Monospace|12.0|0|GTK|1|;
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.buildconsole.ConsoleFont=1|Monospace|12.0|0|GTK|1|;
+ColorsAndFontsPreferencePage.selectedElement=Torg.eclipse.ui.workbenchMisc

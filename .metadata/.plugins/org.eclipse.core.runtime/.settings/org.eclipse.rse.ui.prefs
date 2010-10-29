@@ -1,0 +1,3 @@
+#Fri Oct 29 10:47:50 CEST 2010
+eclipse.preferences.version=1
+org.eclipse.rse.preferences.order.connections=box.Local;box.LinuxHost_paul;box.vxsim0;box.vxsim1_smp

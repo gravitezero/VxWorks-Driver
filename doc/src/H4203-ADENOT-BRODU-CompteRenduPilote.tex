@@ -81,8 +81,8 @@
 \newcommand{\Test}[3]
 {%
 	\addtocounter{testno}{1}
-	\begin{minipage}{\textwidth}
-	\lignedroite{\textbf{\large{Test \thetestno~-- #1}}}\\
+	\begin{minipage}{\linewidth}
+	\lignedroite{\textbf{\large{\kw{Test \thetestno}~-- #1}}}\\
 	\textbf{\large{Description}}\\
 	#2 \\
 	\textbf{\large{Resultat attendu}}\\
@@ -169,26 +169,28 @@ L'entier \kw{ID} est commun à tous les capteurs, et est incrémenté à chaque 
 La date \kw{date} est un entier, qui correspond au nombre de périodes de 20ms qui se sont écoulés depuis le démarrage du système. Il sert donc à ordonner temporellement les message, et non à déterminer leur date d'arrivée.}
 {Un entier positif, correspondant à la taille lue (\kw{TAILLE\_MSG}) est renvoyée. En cas d'erreur, -1 est renvoyé, et \kw{errno} est positionné aux valeurs suivantes :
 \begin{description}
-	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments, le \kw{fd} spécifié est invalide.
+	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments.
 	\item[\kw{ENOAVAIL} : ] Aucun message n'est disponible.
 \end{description}
 }
 
 \DescFonction{write}
 {int write (int fd, char *buffer, size\_t maxbytes);}
-{Appel non supporté, les capteurs sont en lecture seule. Pour faire une opération sur un capteur, utiliser \kw{ioctl}.}
+{Appel non supporté, les capteurs sont en lecture seule. Pour faire une
+opération sur un capteur en fonctionnement, utiliser \kw{ioctl}.}
 {N.A.}
 	
 \DescFonction{ioctl}
 {int ioctl(int fd, int request, int value);}
-{Configuration du pilote.
-Si \kw{request} est inférieur ou égal à 255, \kw{ioctl} comprend qu'il s'agit du numéro du périphérique à remplacer.
-L'adresse du nouveau périphérique branché doit être passé en \kw{value}. Cette partie sera spécifiée ultérieurement.
-Les valeurs de \kw{request} plus élevées sont réservées, et pourront correspondre à d'autres fonctionnalités, dans le futur.}
+{Configuration du pilote. Le paramètre \kw{request} doit être égal à la
+constant \kw{CHANGEMENT\_CAPTEUR}. La valeur de \kw{value} doit alors être
+inférieur ou égale à 255, et correspond au nouveau numéro de capteur
+pour le descripteur de fichier passé en premier argument.}
 {\kw{ioctl} renvoie 0 en cas de succès, -1 sinon, et \kw{errno} est alors positionné à l'une des valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments.
-	\item[\kw{EBUSY} : ] Le capteur est occupé.
+	\item[\kw{EBUSY} : ] Le capteur est occupé, il doit être possible de
+	recommencer l'appel avec succès dans un futur proche.
 \end{description}
 }
 
@@ -207,12 +209,20 @@ Ce tableau contient 15 pointeurs vers le dernier message du capteur dont l'index
 
 \section{Conception graphique}
 
+\subsection{Phase d'initialisation}
 \includegraphics{ressources/init.png}\\~\\
+\subsection{Handler d'interruption}
 \includegraphics{ressources/int.png}\\~\\
+\subsection{\kw{open}}
 \includegraphics{ressources/open.png}\\~\\
+\subsection{\kw{read}}
 \includegraphics{ressources/read.png}\\~\\
+\subsection{\kw{close}}
 \includegraphics{ressources/close.png}
+\subsection{\kw{ioctl}}
+\colorbox{red}{\Huge{TODO}}
 
+\newpage
 \section{Plan de test}
 \Test{Installation d'un driver}
 {Installer le driver alors qu'il n'est pas installé}
@@ -227,6 +237,16 @@ doit être possible de le retrouver en utilisant la fonction \kw{iosDrvShow}.}
 {Utilisation de la fonction \kw{iosDrvRemove}, alors que le pilote est installé sur le système, et qu'il n'est pas utilisé.}
 {La valeur de retour doit être égale à \kw{OK}.}
 
+\Test{Retrait du driver alors qu'il n'est pas installé}
+{Utilisation de la fonction \kw{iosDrvRemove}, alors que le pilote n'est pas
+installé sur le système.}
+{La valeur de retour doit être \kw{ERROR}.}
+
+\Test{Retrait du driver alors qu'un périphérique est ouvert}
+{Alors qu'un capteur a été ouvert en lecture, retirer le driver, à l'aide de la
+fonction \kw{iosDrvRemove}.}
+{La fonction doit retourner \kw{OK}, et le périphérique doit être fermé.}
+
 \Test{Ajout d'un périphérique}
 {Utilisation de la fonction \kw{iosDevAdd}, une seule fois, avec des paramètre valides.}
 {La valeur de retour doit être \kw{OK}, le périphérique doit être trouvable en utilisant \kw{iosDevFind}, qui ne doit pas renvoyer \kw{NULL}.}
@@ -239,19 +259,26 @@ doit être positionné à \kw{ENEXIST}.}
 
 \Test{Ajout d'un périphérique alors que 15 périphériques ont été ajoutés.}
 {Utilisation de la fonction \kw{iosDevAdd}, 16 fois, avec des paramètres valides.}
-{Le 16\ieme appel à \kw{iosDevAdd} doit provoquer une erreur, et renvoyer \kw{ERROR}.}
+{Le 16\ieme~appel à \kw{iosDevAdd} doit provoquer une erreur, et renvoyer \kw{ERROR}.}
 
 \Test{Ouverture d'un capteur}
 {Appeler \kw{open} sur un capteur valide (le fichier existe et est accessible en écriture), avec des options valide (\kw{O\_RDONLY}), une seule fois.} 
 {La valeur de retour doit être un entier positif.}~
 
 \Test{Ouverture d'un capteur déjà ouvert}
-{Appeller \kw{open} sur un capteur valide (le fichier existe, et est accessible
+{Appeler \kw{open} sur un capteur valide (le fichier existe, et est accessible
 	en lecture), alors qu'il vient d'être ouvert avec succès.}
-{\kw{open} doit renvoyer \kw{error}, et \kw{errno} doit être positionné à \kw{EALREADYOPENED}.}
+{\kw{open} doit renvoyer \kw{ERROR}, et \kw{errno} doit être positionné à \kw{EALREADYOPENED}.}
+
+\Test{Ouverture d'un capteur avec des paramètres invalides}
+{Appeler \kw{open} sur un capteur valide (le fichier existe, et est accessible
+en lecture/écriture, en passant un \kw{mode} différent de \kw{O\_RDONLY}.}.
+{L'appel doit échouer, et donc renvoyer \kw{ERROR}. De plus, \kw{errno} doit
+être positionné à \kw{EARG}.}
 
 \Test{Fermeture d'un capteur}
-{Appeler \kw{close} sur un descripteur de fichier valide (qui a été ouvert avec succès précédemment).}
+{Appeler \kw{close} sur un descripteur de fichier valide (qui a été ouvert avec
+succès précédemment), et qui n'a pas été fermé depuis.}
 {La valeur de retour doit être égale à \kw{OK}}
 
 \Test{Lecture d'une valeur dans un capteur}
@@ -262,12 +289,17 @@ doit être positionné à \kw{ENEXIST}.}
 \Test{Utilisation de \kw{read} avec une taille de lecture invalide}
 {Utilisation de l'appel système \kw{read} avec une descripteur de fichier
     valide, mais avec une taille de lecture négative.}
+{L'appel doit échouer en renvoyant -1, et \kw{errno} doit être positionné à
+    \kw{EARG}.}
 
 \Test{Utilisation de \kw{ioctl} avec des paramètres corrects}
 {Utilisation de \kw{ioctl} avec des paramètres corrects : un descripteur de
-    fichier valide, une valeur pour \kw{request} inférieur où égale à 255, et
-	une adresse valide pour le nouveau périphérique en 3\ieme argument.}
-{La valeur de retour doit être égale à \kw{OK}}
+fichier valide, une valeur pour \kw{request} égale à la constante
+\kw{CHANGEMENT\_CAPTEUR}, et une valeur pour \kw{value} inférieur ou égale
+à 255, correspondant bien à un capteur valide.}
+{La valeur de retour doit être égale à \kw{OK}, ou alors elle doit être égale
+à \kw{ERROR}, mais alors \kw{errno} doit être positionné à \kw{EBUSY}, et
+le même appel effectué ultérieurement doit renvoyer \kw{OK}.}
 
 \Test{Utilisation de \kw{ioctl} avec de mauvais arguments}
 {Utilisation de la fonction \kw{ioctl} avec un second paramètre correspondant à
@@ -277,9 +309,15 @@ driver.}
 {L'appel doit échouer (la valeur de retour doit être égale à \kw{ERROR}), et
     \kw{errno} doit être positionné à \kw{EARG}.}
 
+\Test{Utilisation de \kw{ioctl} pour associer le même capteur à deux
+    descripteur de fichiers}
+{On utilise la fonction \kw{ioctl} deux fois, avec des descripteurs de fichier
+    différents, mais avec le même numéro de capteur.}
+{L'appel doit échouer, et renvoyer \kw{ERROR}. \kw{errno} doit alors être
+positionné à \kw{EARG}.}
+
 \Test{Utilisation de \kw{write}}
 {Appel de write sur un capteur ouvert avec succès.}
 {L'appel doit échouer, et \kw{errno} doit être positionné à \kw{ENOTSUP}.}
 \end{document}
-
 

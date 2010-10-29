@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attributes>
+    <mapAttribute>
+        <listAttribute key="BLD::Info|GlobalMacros">
+            <stringAttribute value="PROJECT_TYPE"/>
+            <stringAttribute value="DEFINES"/>
+            <stringAttribute value="DO_STRIP"/>
+            <stringAttribute value="EXPAND_DBG"/>
+        </listAttribute>
+        <stringAttribute key="BLD::Info|GlobalMacro|DEFINES" value=""/>
+        <stringAttribute key="BLD::Info|GlobalMacro|DO_STRIP" value="0"/>
+        <stringAttribute key="BLD::Info|GlobalMacro|EXPAND_DBG" value="0"/>
+        <stringAttribute key="BLD::Info|GlobalMacro|PROJECT_TYPE" value="RTP"/>
+        <listAttribute key="BLD::Info|Incl|PENTIUM2diab_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUM2gnu_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUM3diab_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUM3gnu_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUM4diab_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUM4gnu_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUMdiab_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|PENTIUMgnu_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|SIMPENTIUMdiab_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Incl|SIMPENTIUMgnu_RTP">
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h"/>
+            <stringAttribute value="-I$(WIND_BASE)/target/usr/h/wrn/coreip"/>
+        </listAttribute>
+        <listAttribute key="BLD::Info|Macros">
+            <stringAttribute value="VX_CPU_FAMILY"/>
+            <stringAttribute value="CPU"/>
+            <stringAttribute value="TOOL_FAMILY"/>
+            <stringAttribute value="TOOL"/>
+            <stringAttribute value="TOOL_PATH"/>
+            <stringAttribute value="CC_ARCH_SPEC"/>
+            <stringAttribute value="LIBPATH"/>
+            <stringAttribute value="LIBS"/>
+            <stringAttribute value="VSB_DIR"/>
+        </listAttribute>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUM2diab_RTP" value="-tPENTIUM2LH:rtp"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUM2gnu_RTP" value="-mtune=pentiumpro -march=pentiumpro"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUM3diab_RTP" value="-tPENTIUM3LH:rtp"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUM3gnu_RTP" value="-mtune=pentium3 -march=pentium3"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUM4diab_RTP" value="-tPENTIUM4LH:rtp"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUM4gnu_RTP" value="-mtune=pentium4 -march=pentium4"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUMdiab_RTP" value="-tPENTIUMLH:rtp"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|PENTIUMgnu_RTP" value="-mtune=pentium -march=pentium"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|SIMPENTIUMdiab_RTP" value="-tX86LH:rtpsim"/>
+        <stringAttribute key="BLD::Info|Macro|CC_ARCH_SPEC|value|SIMPENTIUMgnu_RTP" value="-mtune=i486 -march=i486"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUM2diab_RTP" value="PENTIUM2"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUM2gnu_RTP" value="PENTIUM2"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUM3diab_RTP" value="PENTIUM3"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUM3gnu_RTP" value="PENTIUM3"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUM4diab_RTP" value="PENTIUM4"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUM4gnu_RTP" value="PENTIUM4"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUMdiab_RTP" value="PENTIUM"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|PENTIUMgnu_RTP" value="PENTIUM"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|SIMPENTIUMdiab_RTP" value="SIMPENTIUM"/>
+        <stringAttribute key="BLD::Info|Macro|CPU|value|SIMPENTIUMgnu_RTP" value="SIMPENTIUM"/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUM2diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUM2gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUM3diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUM3gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUM4diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUM4gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|PENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|SIMPENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBPATH|value|SIMPENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUM2diab_RTP" value="-lstlstd"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUM2gnu_RTP" value="-lstdc++"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUM3diab_RTP" value="-lstlstd"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUM3gnu_RTP" value="-lstdc++"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUM4diab_RTP" value="-lstlstd"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUM4gnu_RTP" value="-lstdc++"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUMdiab_RTP" value="-lstlstd"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|PENTIUMgnu_RTP" value="-lstdc++"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|SIMPENTIUMdiab_RTP" value="-lstlstd"/>
+        <stringAttribute key="BLD::Info|Macro|LIBS|value|SIMPENTIUMgnu_RTP" value="-lstdc++"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUM2diab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUM2gnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUM3diab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUM3gnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUM4diab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUM4gnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUMdiab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|PENTIUMgnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|SIMPENTIUMdiab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_FAMILY|value|SIMPENTIUMgnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUM2diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUM2gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUM3diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUM3gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUM4diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUM4gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|PENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|SIMPENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|SIMPENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUM2diab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUM2gnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUM3diab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUM3gnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUM4diab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUM4gnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUMdiab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|PENTIUMgnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|SIMPENTIUMdiab_RTP" value="diab"/>
+        <stringAttribute key="BLD::Info|Macro|TOOL|value|SIMPENTIUMgnu_RTP" value="gnu"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUM2diab_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUM2gnu_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUM3diab_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUM3gnu_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUM4diab_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUM4gnu_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUMdiab_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|PENTIUMgnu_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|SIMPENTIUMdiab_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VSB_DIR|value|SIMPENTIUMgnu_RTP" value="$(WIND_BASE)/target/lib"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUM2diab_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUM2gnu_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUM3diab_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUM3gnu_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUM4diab_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUM4gnu_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUMdiab_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|PENTIUMgnu_RTP" value="pentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|SIMPENTIUMdiab_RTP" value="simpentium"/>
+        <stringAttribute key="BLD::Info|Macro|VX_CPU_FAMILY|value|SIMPENTIUMgnu_RTP" value="simpentium"/>
+        <listAttribute key="BLD::Info|Tools">
+            <stringAttribute value="C-Compiler"/>
+            <stringAttribute value="C++-Compiler"/>
+            <stringAttribute value="Linker"/>
+            <stringAttribute value="Librarian"/>
+            <stringAttribute value="Assembler"/>
+        </listAttribute>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUM2diab_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUM2gnu_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUM3diab_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUM3gnu_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUM4diab_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUM4gnu_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|PENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|SIMPENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|cmd|SIMPENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%assemblerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUM2diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUM2gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUM3diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUM3gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUM4diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUM4gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUMdiab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|PENTIUMgnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|SIMPENTIUMdiab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|SIMPENTIUMgnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUM2diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUM2gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUM3diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUM3gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUM4diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUM4gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUMdiab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|PENTIUMgnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|SIMPENTIUMdiab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|SIMPENTIUMgnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUM2diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xpreprocess-assembly -Xcpp-no-space   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUM2gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -P -xassembler-with-cpp  -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUM3diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xpreprocess-assembly -Xcpp-no-space   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUM3gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -P -xassembler-with-cpp  -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUM4diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xpreprocess-assembly -Xcpp-no-space   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUM4gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -P -xassembler-with-cpp  -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xpreprocess-assembly -Xcpp-no-space   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|PENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -P -xassembler-with-cpp  -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|SIMPENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xpreprocess-assembly -Xcpp-no-space -Wa,-Xmnem-mit  -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|flags|SIMPENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -P -xassembler-with-cpp  -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUM2diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUM2gnu_RTP" value="-O2  "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUM3diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUM3gnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUM4diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUM4gnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUMdiab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|PENTIUMgnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|SIMPENTIUMdiab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|SIMPENTIUMgnu_RTP" value="-O2  -fno-defer-pop"/>
+        <booleanAttribute key="BLD::Info|Tool|Assembler|object" value="true"/>
+        <booleanAttribute key="BLD::Info|Tool|Assembler|passAble" value="false"/>
+        <stringAttribute key="BLD::Info|Tool|Assembler|sigs" value="*.s"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUM2diab_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUM2gnu_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUM3diab_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUM3gnu_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUM4diab_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUM4gnu_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|PENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|SIMPENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|SIMPENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%cppcompilerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUM2diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUM2gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUM3diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUM3gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUM4diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUM4gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUMdiab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|PENTIUMgnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|SIMPENTIUMdiab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|SIMPENTIUMgnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUM2diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUM2gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUM3diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUM3gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUM4diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUM4gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUMdiab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|PENTIUMgnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|SIMPENTIUMdiab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|SIMPENTIUMgnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUM2diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUM2gnu_RTP" value="$(CC_ARCH_SPEC) -ansi -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUM3diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUM3gnu_RTP" value="$(CC_ARCH_SPEC) -ansi -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUM4diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUM4gnu_RTP" value="$(CC_ARCH_SPEC) -ansi -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|PENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -ansi -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|SIMPENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|SIMPENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -ansi -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUM2diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUM2gnu_RTP" value="-O2  "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUM3diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUM3gnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUM4diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUM4gnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUMdiab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|PENTIUMgnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|SIMPENTIUMdiab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|SIMPENTIUMgnu_RTP" value="-O2  -fno-defer-pop"/>
+        <booleanAttribute key="BLD::Info|Tool|C++-Compiler|object" value="true"/>
+        <booleanAttribute key="BLD::Info|Tool|C++-Compiler|passAble" value="false"/>
+        <stringAttribute key="BLD::Info|Tool|C++-Compiler|sigs" value="*.cpp;*.C;*.cxx;*.cc"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUM2diab_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUM2gnu_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUM3diab_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUM3gnu_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUM4diab_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUM4gnu_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|PENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|SIMPENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)dcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|SIMPENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%ccompilerprefix% $(TOOL_PATH)ccpentium %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) -D_VX_CPU=_VX_$(CPU) -D_VX_TOOL_FAMILY=$(TOOL_FAMILY) -D_VX_TOOL=$(TOOL)   $(DEFINES) -o %OutFile% -c %InFile%"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUM2diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUM2gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUM3diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUM3gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUM4diab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUM4gnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUMdiab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|PENTIUMgnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|SIMPENTIUMdiab_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|SIMPENTIUMgnu_RTP" value="-g"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUM2diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUM2gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUM3diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUM3gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUM4diab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUM4gnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUMdiab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|PENTIUMgnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|SIMPENTIUMdiab_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|SIMPENTIUMgnu_RTP" value="*.o"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUM2diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUM2gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUM3diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUM3gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUM4diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUM4gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|PENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|SIMPENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|SIMPENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUM2diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUM2gnu_RTP" value="-O2  "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUM3diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUM3gnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUM4diab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUM4gnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUMdiab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|PENTIUMgnu_RTP" value="-O2   "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|SIMPENTIUMdiab_RTP" value="-XO "/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|SIMPENTIUMgnu_RTP" value="-O2  -fno-defer-pop"/>
+        <booleanAttribute key="BLD::Info|Tool|C-Compiler|object" value="true"/>
+        <booleanAttribute key="BLD::Info|Tool|C-Compiler|passAble" value="false"/>
+        <stringAttribute key="BLD::Info|Tool|C-Compiler|sigs" value="*.c"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUM2diab_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)dar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUM2gnu_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUM3diab_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)dar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUM3gnu_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUM4diab_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)dar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUM4gnu_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)dar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|PENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|SIMPENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)dar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|cmd|SIMPENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%archiverprefix% $(TOOL_PATH)arpentium %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUM2diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUM2gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUM3diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUM3gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUM4diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUM4gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|PENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|SIMPENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|SIMPENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUM2diab_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUM2gnu_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUM3diab_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUM3gnu_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUM4diab_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUM4gnu_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUMdiab_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|PENTIUMgnu_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|SIMPENTIUMdiab_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|SIMPENTIUMgnu_RTP" value="*.a"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUM2diab_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUM2gnu_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUM3diab_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUM3gnu_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUM4diab_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUM4gnu_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUMdiab_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|PENTIUMgnu_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|SIMPENTIUMdiab_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|flags|SIMPENTIUMgnu_RTP" value="crus"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUM2diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUM2gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUM3diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUM3gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUM4diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUM4gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|PENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|SIMPENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|SIMPENTIUMgnu_RTP" value=""/>
+        <booleanAttribute key="BLD::Info|Tool|Librarian|object" value="false"/>
+        <booleanAttribute key="BLD::Info|Tool|Librarian|passAble" value="true"/>
+        <stringAttribute key="BLD::Info|Tool|Librarian|sigs" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUM2diab_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM2/common $(ADDED_LIBPATH) $(ADDED_LIBS)   &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUM2gnu_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM2/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUM3diab_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM3/common $(ADDED_LIBPATH) $(ADDED_LIBS)   &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUM3gnu_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM3/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUM4diab_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM4/common $(ADDED_LIBPATH) $(ADDED_LIBS)   &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUM4gnu_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM4/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS)   &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|PENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/pentium/PENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|SIMPENTIUMdiab_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)dplus %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/simpentium/SIMPENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS)   &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|cmd|SIMPENTIUMgnu_RTP" value="echo &quot;building $@&quot;;%cpplinkerprefix% $(TOOL_PATH)c++pentium %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) -L$(VSB_DIR)/usr/lib/simpentium/SIMPENTIUM/common $(ADDED_LIBPATH) $(ADDED_LIBS) -Wl,--start-group -Wl,--end-group &amp;&amp; if [ &quot;$(DO_STRIP)&quot; = &quot;1&quot; ]; then mv -f &quot;$@&quot; &quot;$@.unstripped&quot; &amp;&amp; strippentium -g -o &quot;$@&quot; &quot;$@.unstripped&quot;;fi &amp;&amp; if [ &quot;$(EXPAND_DBG)&quot; = &quot;1&quot; ]; then plink &quot;$@&quot;;fi"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUM2diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUM2gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUM3diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUM3gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUM4diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUM4gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|PENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|SIMPENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|dbgFlags|SIMPENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUM2diab_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUM2gnu_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUM3diab_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUM3gnu_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUM4diab_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUM4gnu_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUMdiab_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|PENTIUMgnu_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|SIMPENTIUMdiab_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|derivedSigs|SIMPENTIUMgnu_RTP" value="*.vxe"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUM2diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd "/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUM2gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP -mrtp"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUM3diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd "/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUM3gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP -mrtp"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUM4diab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd "/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUM4gnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP -mrtp"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd "/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|PENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP -mrtp"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|SIMPENTIUMdiab_RTP" value="$(CC_ARCH_SPEC) -Xansi -WDVSB_DIR=$(WIND_BASE)/target/lib -Xforce-declarations   -Xmake-dependency=0xd -f 0x90,1,1"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|flags|SIMPENTIUMgnu_RTP" value="$(CC_ARCH_SPEC) -mrtp -fno-strict-aliasing -D_C99 -D_HAS_C9X -Wall   -MD -MP -mrtp"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUM2diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUM2gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUM3diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUM3gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUM4diab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUM4gnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|PENTIUMgnu_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|SIMPENTIUMdiab_RTP" value=""/>
+        <stringAttribute key="BLD::Info|Tool|Linker|nonDbgFlags|SIMPENTIUMgnu_RTP" value=""/>
+        <booleanAttribute key="BLD::Info|Tool|Linker|object" value="false"/>
+        <booleanAttribute key="BLD::Info|Tool|Linker|passAble" value="false"/>
+        <stringAttribute key="BLD::Info|Tool|Linker|sigs" value=""/>
+        <stringAttribute key="BLD::Info|cmd" value="%makeprefix% make --no-print-directory"/>
+        <stringAttribute key="BLD::Info|defaultSpec" value="SIMPENTIUMdiab_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUM2diab_RTP" value="PENTIUM2diab_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUM2gnu_RTP" value="PENTIUM2gnu_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUM3diab_RTP" value="PENTIUM3diab_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUM3gnu_RTP" value="PENTIUM3gnu_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUM4diab_RTP" value="PENTIUM4diab_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUM4gnu_RTP" value="PENTIUM4gnu_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUMdiab_RTP" value="PENTIUMdiab_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|PENTIUMgnu_RTP" value="PENTIUMgnu_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|SIMPENTIUMdiab_RTP" value="SIMPENTIUMdiab_RTP"/>
+        <stringAttribute key="BLD::Info|redirDir|SIMPENTIUMgnu_RTP" value="SIMPENTIUMgnu_RTP"/>
+        <stringAttribute key="BLD::Info|redirRoot" value=""/>
+        <listAttribute key="BLD::Info|specs">
+            <stringAttribute value="PENTIUM2diab_RTP"/>
+            <stringAttribute value="PENTIUM2gnu_RTP"/>
+            <stringAttribute value="PENTIUM3diab_RTP"/>
+            <stringAttribute value="PENTIUM3gnu_RTP"/>
+            <stringAttribute value="PENTIUM4diab_RTP"/>
+            <stringAttribute value="PENTIUM4gnu_RTP"/>
+            <stringAttribute value="PENTIUMdiab_RTP"/>
+            <stringAttribute value="PENTIUMgnu_RTP"/>
+            <stringAttribute value="SIMPENTIUMdiab_RTP"/>
+            <stringAttribute value="SIMPENTIUMgnu_RTP"/>
+        </listAttribute>
+        <intAttribute key="BuildSupportEnabled" value="1"/>
+    </mapAttribute>
+</attributes>

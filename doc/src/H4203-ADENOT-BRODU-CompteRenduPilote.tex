@@ -321,9 +321,16 @@ positionné à \kw{EARG}.}
 {Appel de write sur un capteur ouvert avec succès.}
 {L'appel doit échouer, et \kw{errno} doit être positionné à \kw{ENOTSUP}.}
 
-\Test{Fermeture d'un périphérique non ouvert}
-{En utilisant \kw{remove}, on tente de fermer un périphérique qui n'est pas
-    ouvert.}
-{L'appel doit échouer, et \kw{errno} doit être positionné à \kw{ENOTOPENED}.}
-\end{document}
+\Test{Retrait d'un périphérique ouvert}
+{Tentative de retrait d'un périphérique sur lequel un appel de \kw{open} a été
+    effectué avec succès précédemment, et sur lequel on n'a pas fait d'appel à
+	\kw{close} ou \kw{remove}.}
+{L'appel doit réussir : la valeur de retour doit être égale à \kw{OK}.}
 
+\Test{Retrait d'un périphérique qui n'existe pas}
+{Tentative de retrait d'un périphérique qui n'existe pas.}
+{L'appel doit échouer, et retourner \kw{ERROR}. \kw{errno} doit être positionné
+    à \kw{ENEXIST}.}
+
+
+\end{document}

@@ -157,8 +157,30 @@ int test_5()
  **/
 int test_6()
 {
+	int success = 0;
+	int fd = 0;
+
+	// on n'installe pas de device par défaut.
+	pe_driverInstall(0);
 	
-	return 0;
+	// On utilise la procédure qui encapsule iosDevAdd.
+	if(pe_deviceAdd(0) == OK)
+	{
+		if(iosDevFind("/dev/capteur0",NULL) != NULL)
+		{
+			success++;
+		}
+		else
+		{
+			ERR_MSG(6);
+		}
+	}
+	else
+	{
+		ERR_MSG(6);
+	}
+	
+	return success;
 }
 /**
  * Test 7 – Retrait d’un périphérique
@@ -166,11 +188,45 @@ int test_6()
  * Utilisation de la fonction iosDevDelete, avec des paramètres valides.
  * Resultat attendu
  * Il ne doit plus être possible d’ouvrir le périphérique : un appel à open sur ce périphérique doit
- * échouer (il doit retourner ERROR), et errno doit être positionné à ENEXIST.
+ * échouer (il doit un nombre négatif), et errno doit être positionné à ENEXIST.
  **/
 int test_7()
 {
-	return 0;
+	int success = 0;
+	int fd = 0;
+
+	// on n'installe pas de device par défaut.
+	pe_driverInstall(0);
+	
+	// On utilise la procédure qui encapsule iosDevAdd.
+	if(pe_deviceAdd(0) == OK)
+	{
+		if(pe_deviceRemove(0) == OK)
+		{
+			if(creat("/dev/capteur0", O_RDONLY) < 0)
+			{
+				if(errnoGet() == ENEXIST)
+				{
+					success++;
+				}
+				else
+				{
+					ERR_MSG(7);
+					printf("Pas bon code d'erreur : 7\n");
+				}
+			}
+			else
+			{
+				printf("Il est possible d'ouvrir le device alors qu'il a été retiré : 7\n");
+			}
+		}
+		else
+		{
+			printf("L'ajout a échoué : 7\n");
+		}
+	}
+	
+	return success;
 }
 /**
  * Test 8 – Ajout d’un périphérique alors que 15 périphériques ont été ajoutés.
@@ -308,18 +364,59 @@ int test_18()
 {
 	return 0;	
 }
+
 /**
- * Test 19 – Fermeture d’un périphérique non ouvert
+ * Test 19 – Retrait d’un périphérique ouvert
  * Description
- * En utilisant remove, on tente de fermer un périphérique qui n’est pas ouvert.
+ * Tentative de retrait d’un périphérique sur lequel un appel de open a été 
+ * effectué avec succès précédemment, et sur lequel on n’a pas fait d’appel
+ * à close ou remove.
  * Resultat attendu
- * L’appel doit échouer, et errno doit être positionné à ENOTOPENED.
+ * L’appel doit réussir : la valeur de retour doit être égale à OK.
  **/
 int test_19()
 {
-	return 0;	
+	int success = 0;
+	int fd = 0;
+	pe_driverInstall(15);
+	fd = creat("/dev/capteur0", O_RDONLY);
+	
+	if(pe_deviceRemove(0) == OK)
+	{
+		success++;
+	}
+	else
+	{
+		ERR_MSG(19);
+	}
+	pe_driverUninstall();
+	return success;
 }
-
+/**
+ * Test 20 – Retrait d’un périphérique qui n’existe pas
+ * Description
+ * Tentative de retrait d’un périphérique qui n’existe pas.
+ * Resultat attendu
+ * L’appel doit échouer, et retourner ERROR. errno doit être positionné à 
+ * ENEXIST.
+ **/
+int test_20()
+{
+	int success = 0;
+	int fd = 0;
+	pe_driverInstall(15);
+	// Le capteur 67 n'existe pas.
+	if(pe_deviceRemove(67) == ERROR && errnoGet() == ENEXIST)
+	{
+		success++;
+	}
+	else
+	{
+		ERR_MSG(20);
+	}
+	pe_driverUninstall();
+	return success;
+}
 void run_suite()
 {
 	int count = 0;
@@ -342,9 +439,10 @@ void run_suite()
 	count += test_17();
 	count += test_18();
 	count += test_19();
+	count += test_20();
 
-	printf("%d/19 tests passed.\n", count);
-	if(count == 19)
+	printf("%d/20 tests passed.\n", count);
+	if(count == 20)
 	{
 		printf("All tests passed successfully.\n");
 	}

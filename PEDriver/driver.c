@@ -82,7 +82,7 @@ static int pe_write (PEDEV* desc, char* buff, int nBytes)
  * @param desc
  * @param request
  * @param value
- * @return
+ * @return OK en cas de succès, ERROR sinon.
  */
 static int pe_ioctl (PEDEV* desc, int request, int value) 
 {
@@ -92,9 +92,13 @@ static int pe_ioctl (PEDEV* desc, int request, int value)
 /***
  * Fonction d'administration du driver : interface
  ***/
+
 /**
- * Installation du périphérique.
- * Cette fonction crée aussi un nombre parametrable de périphériques.
+ * @brief Installation du périphérique.
+ * 
+ * Cette fonction peut aussi créer aussi un nombre parametrable de périphériques.
+ * 
+ * @param dev_count Le nombre de périphériques à créer.
  * 
  * @return OK si la fonction s'est executé normalement, ERROR sinon.
  */
@@ -125,7 +129,11 @@ int pe_driverInstall(int dev_count)
 		return ERROR;
 	}
 	
-	
+	for(i=0; i < DEVICE_MAX_COUNT; i++)
+	{
+		table_capt[i].specific.address = -1;
+		table_capt[i].specific.state = notcreated;
+	}
 	
 	for(i=0; i < dev_count; ++i)
 	{
@@ -135,8 +143,8 @@ int pe_driverInstall(int dev_count)
 }
 
 /**
- * 
- * @return 
+ * @brief Retirer le driver.
+ * @return OK en cas de succès, ERROR sinon.
  */
 int pe_driverUninstall()
 {
@@ -162,8 +170,14 @@ int pe_driverUninstall()
 	return OK;
 }
 
+/**
+ * @brief Ajouter un périphérique.
+ * @param i
+ * @return OK en cas de succès, ERROR sinon.
+ */
 int pe_deviceAdd(int i)
 {
+	// Buffer pour le nom de périphérique.
 	char dev_name[32];
 
 	sprintf(dev_name, DEVICE_BASENAME, i);
@@ -172,12 +186,33 @@ int pe_deviceAdd(int i)
 		errnoSet(ECANNOTADD);
 		return ERROR;
 	}
+	
+	// Le capteur est fermé
+	table_capt[i].specific.state = closed;
+	// Il n'a pas encore de capteur associé, au niveau CAN.
+	// utiliser ioctl pour lui en founir une.
+	table_capt[i].specific.address = -1;
+	return OK;
+}
+
+/**
+ * @brief Enlever un périphérique.
+ * @param i L'index du device à enlever
+ * @return OK pour un succès, ERROR sinon. 
+ */
+int pe_deviceRemove(int i)
+{
+	if(i < DEVICE_MAX_COUNT && table_capt[i].specific.state != notcreated)
+	{	
+		iosDevDelete((DEV_HDR*)&(table_capt[i]));
+		return OK;
+	}
 	else
 	{
-		// Le capteur est fermé
-		table_capt[i].specific.state = closed;
-		// Il n'a pas encore de capteur associé, au niveau CAN.
-		// utiliser ioctl pour lui en founir une.
-		table_capt[i].specific.address = -1;
+		// Le capteur n'a pas été crée :
+		// " If the device was never added to the device list, 
+		//   unpredictable results may occur."
+		errnoSet(ENEXIST);
+		return ERROR;
 	}
 }

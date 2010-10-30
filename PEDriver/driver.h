@@ -14,7 +14,8 @@
 typedef enum
 {
 	closed,
-	opened
+	opened,
+	notcreated
 } EtatCapteur;
 
 
@@ -57,3 +58,5 @@ typedef enum {
 
 int pe_driverInstall(int dev_count);
 int pe_driverUninstall();
+int pe_deviceAdd(int i);
+int pe_deviceRemove(int i);

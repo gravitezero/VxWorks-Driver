@@ -10,11 +10,11 @@ digraph table_buffer {
 		shape = "record"
 	]
 
-	"capt_msg" [
-		label = "capt_msg|{unsigned ID;| timestamp date;| char msg[TAILLE_MAX]}"
+	"Message" [
+		label = "Message|{unsigned id;| struct timespec date;| char msg[MAX_DATA_SIZE];}"
 		shape = "record"
 	]
 	
-	table_buffer:buff0 -> capt_msg
+	table_buffer:buff0 -> Message
 
 }

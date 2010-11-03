@@ -2,245 +2,726 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="905.788px" height="1113.386px" viewBox="0 0 905.788 1113.386" enable-background="new 0 0 905.788 1113.386"
-	 xml:space="preserve">
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.379,139.225 268.129,139.225 268.129,177.225 "/>
-<rect x="256.129" y="126.225" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="64"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="211.447" y1="377.063" x2="257.478" y2="377.063"/>
-<rect x="257.478" y="363.148" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="41"/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="326.977,371.225 308.977,371.225 316.477,377.063 
-	269.478,377.063 269.478,392.063 "/>
-<circle fill="none" stroke="#000000" stroke-width="0.25" cx="334.477" cy="371.225" r="7.5"/>
-<text transform="matrix(1 0 0 1 330.061 375.186)" font-family="'MyriadPro-Regular'" font-size="12">IT</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="268.129" y1="148.225" x2="307.557" y2="148.225"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="268.129" y1="170.725" x2="307.557" y2="170.725"/>
-<polygon points="292.212,143.725 292.212,152.725 296.712,148.225 "/>
-<polygon points="292.212,166.225 292.212,175.225 296.712,170.725 "/>
-<rect x="307.557" y="139.975" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
-<text transform="matrix(1 0 0 1 315.0151 152.7251)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-<rect x="307.557" y="162.475" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
-<text transform="matrix(1 0 0 1 319.6802 175.2251)" font-family="'Times-Roman'" font-size="12">table_capt</text>
-<text transform="matrix(1 0 0 1 235.1562 356.7251)" font-family="'Times-Roman'" font-size="12">Int_Msg_Recu</text>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="174.696,73.474 211.379,73.474 211.379,466.474 "/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="471.333,113.974 471.333,62.974 521.879,113.974 
-	521.879,62.974 "/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="483.24" y1="74.987" x2="521.879" y2="74.974"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="471.333" y1="103.349" x2="511.364" y2="103.364"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="211.379" y1="88.474" x2="471.333" y2="88.474"/>
-<polygon points="276.712,83.974 276.712,92.974 281.212,88.474 "/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.379,113.974 442.879,113.974 442.879,47.43 496.606,47.43 
-	496.606,74.974 "/>
-<path fill="none" stroke="#000000" stroke-width="0.25" d="M511.364,73.474"/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.379,449.474 497.24,449.474 497.24,103.364 "/>
-<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="492.106,69.474 501.106,69.474 496.606,73.974 "/>
-<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="492.74,108.974 501.74,108.974 497.24,104.474 "/>
-<rect x="199.379" y="58.153" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="420.954"/>
-<polyline points="235.322,372.563 235.322,381.563 239.822,377.063 "/>
+	 width="1451.71px" height="3251.35px" viewBox="-1397.875 -892.156 1451.71 3251.35"
+	 enable-background="new -1397.875 -892.156 1451.71 3251.35" xml:space="preserve">
 <g>
-	<rect x="118.3" y="802.713" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="86.643"/>
-	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="72.8,810.792 90.8,810.792 83.3,816.629 130.3,816.629 
-		130.3,877.272 	"/>
-	<circle fill="none" stroke="#000000" stroke-width="0.25" cx="65.3" cy="810.792" r="7.5"/>
-	<text transform="matrix(1 0 0 1 60.8843 814.7534)" font-family="'MyriadPro-Regular'" font-size="12">IT</text>
-	<text transform="matrix(1 0 0 1 51.479 792.769)" font-family="'Times-Roman'" font-size="12">Int_Msg_Recu</text>
-	<rect x="184.244" y="860.77" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.502"/>
-	<text transform="matrix(1 0 0 1 191.7017 870.5952)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-	<rect x="184.244" y="815.309" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-	<text transform="matrix(1 0 0 1 193.3599 825.1323)" font-family="'Times-Roman'" font-size="12">msg_buffer</text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="130.401" y1="823.559" x2="184.244" y2="823.559"/>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="130.401" y1="869.022" x2="184.244" y2="869.022"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-514.425,-749.863 -477.741,-749.863 -477.741,-176.864 	"/>
+	<rect x="-489.741" y="-765.185" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="600.955"/>
+	<text transform="matrix(1 0 0 1 -504.3325 -770.7695)" font-family="'Times-Roman'" font-size="12">pe_driverUninstall</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-392.802,-706.751 -392.802,-757.751 -342.257,-706.751 
+		-342.257,-757.751 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-380.896" y1="-745.738" x2="-342.257" y2="-745.751"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-392.802" y1="-717.376" x2="-352.771" y2="-717.361"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-352.771-747.251"/>
+	<text transform="matrix(1 0 0 1 -335.0142 -727.752)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -339.3472 -699.1572)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -339.3472 -754.4902)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-477.741,-693.946 -371.575,-693.946 -371.575,-712.596 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-371.575,-717.486 -375.084,-712.596 -368.066,-712.596 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-477.741,-471.445 -226.857,-471.445 -226.857,-455.445 	"/>
+	<rect x="-238.857" y="-484.445" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+	<text transform="matrix(1 0 0 1 -258.1875 -486.9688)" font-family="'Times-Roman'" font-size="12">iosDrvRemove</text>
+	<text transform="matrix(1 0 0 1 -385.0391 -487.1851)" font-family="'Times-Roman'" font-size="12">driver_id, FALSE</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-393.448-492.11L-393.448-492.11c0-4.758,3.855-8.613,8.614-8.613
+		h80.978c4.758,0,8.612,3.855,8.612,8.613l0,0v1.606l0,0c0,4.758-3.854,8.613-8.612,8.613h-80.977c-4.758,0-8.613-3.855-8.613-8.613
+		l0,0v-1.606"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-339.347" y1="-481.891" x2="-339.347" y2="-471.445"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-392.802,-554.007 -392.802,-605.007 -342.257,-554.007 
+		-342.257,-605.007 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-380.896" y1="-592.994" x2="-342.257" y2="-593.007"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-392.802" y1="-564.632" x2="-352.771" y2="-564.617"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-352.771-594.507"/>
+	<text transform="matrix(1 0 0 1 -335.0142 -575.0078)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -339.3472 -546.4131)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -339.3472 -601.7461)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-477.741,-616.546 -361.575,-616.546 -361.575,-597.897 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-361.575,-593.007 -365.084,-597.897 -358.066,-597.897 	"/>
+	<text transform="matrix(1 0 0 1 -292.3262 -649.2031)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-550.408,-658.89 -550.408,-672.89 -405.075,-672.89 
+		-405.075,-658.89 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-550.408,-643.018 -550.408,-629.018 -405.075,-629.018 
+		-405.075,-643.018 	"/>
+	<text transform="matrix(1 0 0 1 -461.1245 -677.2695)" font-family="'Times-Roman'" font-size="12">i &lt; DEVICE_MAX_COUNT</text>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="-478.556,-678.557 -470.37,-672.89 -478.556,-667.224 
+		-478.556,-667.224 -486.741,-672.89 -478.556,-678.557 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-305.866,-658.89 -297.298,-649.203 -305.866,-639.516 
+		-336.837,-639.516 -345.405,-649.203 -336.837,-658.89 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-345.405" y1="-649.203" x2="-477.753" y2="-649.203"/>
+	<polyline points="-401.876,-649.203 -397.376,-644.703 -397.376,-653.703 	"/>
+	<polyline points="-406.376,-649.203 -401.876,-644.703 -401.876,-653.703 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-477.741,-378.766 -412.316,-378.766 -412.316,-145.767 	"/>
+	<rect x="-424.316" y="-394.087" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="260.955"/>
+	<text transform="matrix(1 0 0 1 -438.9077 -399.6724)" font-family="'Times-Roman'" font-size="12">pe_cleanup_ressources</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-332.361,-337.893 -332.361,-388.893 -281.816,-337.893 
+		-281.816,-388.893 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-320.455" y1="-376.88" x2="-281.816" y2="-376.893"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-332.361" y1="-348.518" x2="-292.33" y2="-348.503"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-412.316" y1="-363.393" x2="-332.361" y2="-363.393"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-292.33-378.393"/>
+	<text transform="matrix(1 0 0 1 -274.5737 -358.894)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -278.9067 -330.2993)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -278.9067 -385.6323)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-332.361,-267.627 -332.361,-318.627 -281.816,-267.627 
+		-281.816,-318.627 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-320.455" y1="-306.614" x2="-281.816" y2="-306.627"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-332.361" y1="-278.252" x2="-292.33" y2="-278.237"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-412.316" y1="-293.127" x2="-332.361" y2="-293.127"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-292.33-308.127"/>
+	<text transform="matrix(1 0 0 1 -274.5737 -288.6279)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -278.9067 -260.0332)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -278.9067 -315.3662)" font-family="'Times-Roman'" font-size="12">1</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-412.316" y1="-214.815" x2="-332.361" y2="-214.815"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-281.816,-242.038 -281.816,-191.038 -332.361,-191.038 
+		-332.361,-242.038 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-194.323" x2="-332.361" y2="-194.323"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-332.361-194.323"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-281.816-194.323"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-197.609" x2="-332.361" y2="-197.609"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-197.609" x2="-332.361" y2="-197.609"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-200.895" x2="-332.361" y2="-200.895"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-204.18" x2="-332.361" y2="-204.18"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-207.303" x2="-332.361" y2="-207.303"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-210.589" x2="-332.361" y2="-210.589"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-213.875" x2="-332.361" y2="-213.875"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-213.875" x2="-332.361" y2="-213.875"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-217.16" x2="-332.361" y2="-217.16"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-281.816" y1="-220.446" x2="-332.361" y2="-220.446"/>
+	<text transform="matrix(1 0 0 1 -274.5737 -214.8154)" font-family="'Times-Roman'" font-size="12">msgQ_dispatcher</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-150.808-94.205c-9.644,0-17.461-27.796-17.461-62.084
+		c0-34.289,7.817-62.085,17.461-62.085s17.461,27.796,17.461,62.085C-133.347-122.001-141.164-94.205-150.808-94.205"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-150.808" y1="-203.868" x2="-150.808" y2="-108.712"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-159.854" y1="-183.54" x2="-141.762" y2="-183.54"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-412.316" y1="-156.29" x2="-168.269" y2="-156.29"/>
+	<text transform="matrix(1 0 0 1 -133.3462 -197.6089)" font-family="'Times-Roman'" font-size="12">pe_task_dispatcher</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.339" y1="-158.706" x2="-367.507" y2="-153.874"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.339" y1="-153.874" x2="-367.507" y2="-158.706"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.339" y1="-217.231" x2="-367.507" y2="-212.4"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.339" y1="-212.399" x2="-367.507" y2="-217.231"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-369.923" y1="-295.543" x2="-365.091" y2="-290.712"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-369.923" y1="-290.711" x2="-365.091" y2="-295.543"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-369.923" y1="-365.809" x2="-365.091" y2="-360.978"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-369.923" y1="-360.977" x2="-365.091" y2="-365.809"/>
+</g>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-572.939,2085.637 -495.885,2085.637 -495.885,2229.805 	"/>
+	<text transform="matrix(1 0 0 1 -517.0869 2066.5288)" font-family="'Times-Roman'" font-size="12">pe_close</text>
+	<text transform="matrix(1 0 0 1 -583.5269 2098.8296)" enable-background="new    "><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PEDEV* desc</tspan><tspan x="13.354" y="14.4" font-family="'Times-Roman'" font-size="12">char* name</tspan></text>
+	<rect x="-507.885" y="2075.442" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="163.238"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-410.946,2099.884 -410.946,2048.884 -360.401,2099.884 
+		-360.401,2048.884 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-399.04" y1="2060.897" x2="-360.401" y2="2060.884"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-410.946" y1="2089.259" x2="-370.915" y2="2089.274"/>
+	<text transform="matrix(1 0 0 1 -353.1582 2078.8833)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -357.4912 2107.478)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -357.4912 2052.145)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-495.885,2112.689 -389.719,2112.689 -389.719,2094.04 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-389.719,2089.149 -393.228,2094.04 -386.21,2094.04 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-410.932,2256.112 -410.932,2205.112 -360.387,2256.112 
+		-360.387,2205.112 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-399.026" y1="2217.125" x2="-360.387" y2="2217.112"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-410.932" y1="2245.487" x2="-370.901" y2="2245.501"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-370.901,2215.612"/>
+	<text transform="matrix(1 0 0 1 -353.1445 2235.1108)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -357.4775 2208.3726)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-495.872,2193.572 -379.706,2193.572 -379.706,2212.222 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-379.706,2217.112 -383.214,2212.222 -376.197,2212.222 	"/>
+	<text transform="matrix(1 0 0 1 -304.8755 2178.2788)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-363.538" y1="2174.966" x2="-495.885" y2="2174.966"/>
+	<polyline points="-424.508,2170.466 -424.508,2179.466 -420.008,2174.966 	"/>
+	<polyline points="-420.008,2170.466 -420.008,2179.466 -415.508,2174.966 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-388.575,2160.892c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h11.977
+		C-392.43,2152.279-388.575,2156.136-388.575,2160.892L-388.575,2160.892z"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-403.177" y1="2169.507" x2="-403.177" y2="2174.673"/>
+	<text transform="matrix(1 0 0 1 -304.8755 2143.0913)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-363.538" y1="2139.779" x2="-495.885" y2="2139.779"/>
+	<polyline points="-420.008,2139.779 -415.508,2144.279 -415.508,2135.279 	"/>
+	<polyline points="-424.508,2139.779 -420.008,2144.279 -420.008,2135.279 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-388.575,2125.705c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h11.977
+		C-392.43,2117.091-388.575,2120.949-388.575,2125.705L-388.575,2125.705z"/>
+	<text transform="matrix(1 0 0 1 -414.0156 2128.8413)" font-family="'Times-Roman'" font-size="12">desc</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-403.177" y1="2134.32" x2="-403.177" y2="2139.486"/>
+	<text transform="matrix(1 0 0 1 -414.0156 2165.2788)" font-family="'Times-Roman'" font-size="12">desc</text>
+	<text transform="matrix(1 0 0 1 -357.3086 2264.478)" font-family="'Times-Roman'" font-size="12">0</text>
 	<g>
-		<polygon points="163.507,864.522 163.507,873.522 168.007,869.022 		"/>
-		<polyline points="159.138,864.522 159.138,873.522 163.638,869.022 		"/>
+		<rect x="-363.538" y="2129.765" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-363.538" y1="2139.779" x2="-314.04" y2="2139.779"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-338.789" y1="2129.765" x2="-338.789" y2="2149.793"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-350.847" y1="2129.765" x2="-350.847" y2="2149.793"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-326.266" y1="2129.765" x2="-326.266" y2="2149.793"/>
 	</g>
 	<g>
-		<polygon points="163.572,828.059 163.572,819.059 159.072,823.559 		"/>
-		<polyline points="167.941,828.059 167.941,819.059 163.441,823.559 		"/>
+		<rect x="-363.538" y="2164.953" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-363.538" y1="2174.966" x2="-314.04" y2="2174.966"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-338.789" y1="2164.953" x2="-338.789" y2="2184.981"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-350.847" y1="2164.953" x2="-350.847" y2="2184.981"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-326.266" y1="2164.953" x2="-326.266" y2="2184.981"/>
 	</g>
 </g>
 <g>
-	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="63.846,929.833 140.899,929.833 140.899,964 	"/>
-	<text transform="matrix(1 0 0 1 120.3687 913.6479)" font-family="'Times-Roman'" font-size="12">PEOpen</text>
-	<text transform="matrix(1 0 0 1 68.8228 943.5845)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">char * nom</tspan><tspan x="19.658" y="14.4" font-family="'Times-Roman'" font-size="12">int flag</tspan><tspan x="11.654" y="28.8" font-family="'Times-Roman'" font-size="12">int mode</tspan></text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="140.899" y1="935.334" x2="179.384" y2="935.334"/>
-	<rect x="179.384" y="927.084" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-	<text transform="matrix(1 0 0 1 186.8423 936.9077)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="140.367" y1="955.75" x2="178.852" y2="955.75"/>
-	<rect x="178.852" y="947.5" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-	<text transform="matrix(1 0 0 1 190.9741 957.3237)" font-family="'Times-Roman'" font-size="12">table_capt</text>
-	<rect x="128.899" y="919.635" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="53.238"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1245.481,2080.261 -1168.429,2080.261 -1168.429,2234.427 	
+		"/>
+	<text transform="matrix(1 0 0 1 -1188.959 2064.0757)" font-family="'Times-Roman'" font-size="12">pe_open</text>
+	<rect x="-1180.429" y="2070.062" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="173.238"/>
+	<text transform="matrix(1 0 0 1 -1257.9473 2096.4546)" enable-background="new    "><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PEDEV* desc</tspan><tspan x="-9.299" y="14.4" font-family="'Times-Roman'" font-size="12">char* remainder</tspan><tspan x="34.664" y="28.799" font-family="'Times-Roman'" font-size="12">int flag</tspan></text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1083.489,2106.009 -1083.489,2055.009 -1032.944,2106.009 
+		-1032.944,2055.009 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1071.583" y1="2067.022" x2="-1032.944" y2="2067.009"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1083.489" y1="2095.384" x2="-1043.458" y2="2095.399"/>
+	<text transform="matrix(1 0 0 1 -1025.7017 2085.0083)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -1030.0347 2113.603)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -1030.0347 2058.27)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1168.429,2118.814 -1062.263,2118.814 -1062.263,2100.165 	
+		"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1062.263,2095.274 -1065.771,2100.165 -1058.754,2100.165 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1083.476,2262.237 -1083.476,2211.237 -1032.931,2262.237 
+		-1032.931,2211.237 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1071.569" y1="2223.25" x2="-1032.931" y2="2223.237"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1083.476" y1="2251.612" x2="-1043.444" y2="2251.626"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1043.444,2221.737"/>
+	<text transform="matrix(1 0 0 1 -1025.688 2241.2358)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -1030.021 2214.4976)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1168.415,2199.697 -1052.249,2199.697 -1052.249,2218.347 	
+		"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1052.249,2223.237 -1055.758,2218.347 -1048.74,2218.347 	"/>
+	<text transform="matrix(1 0 0 1 -977.4189 2184.4038)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1036.081" y1="2181.091" x2="-1168.429" y2="2181.091"/>
+	<polyline points="-1097.052,2176.591 -1097.052,2185.591 -1092.552,2181.091 	"/>
+	<polyline points="-1092.552,2176.591 -1092.552,2185.591 -1088.052,2181.091 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1061.118,2167.017c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h11.977
+		C-1064.974,2158.404-1061.118,2162.261-1061.118,2167.017L-1061.118,2167.017z"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1075.721" y1="2175.632" x2="-1075.721" y2="2180.798"/>
+	<text transform="matrix(1 0 0 1 -977.4189 2149.2163)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1036.081" y1="2145.904" x2="-1168.429" y2="2145.904"/>
+	<polyline points="-1092.552,2145.904 -1088.052,2150.404 -1088.052,2141.404 	"/>
+	<polyline points="-1097.052,2145.904 -1092.552,2150.404 -1092.552,2141.404 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1061.118,2131.83c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h11.977
+		C-1064.974,2123.216-1061.118,2127.074-1061.118,2131.83L-1061.118,2131.83z"/>
+	<text transform="matrix(1 0 0 1 -1086.5591 2134.9663)" font-family="'Times-Roman'" font-size="12">desc</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1075.721" y1="2140.445" x2="-1075.721" y2="2145.611"/>
+	<text transform="matrix(1 0 0 1 -1086.5591 2171.4038)" font-family="'Times-Roman'" font-size="12">desc</text>
+	<text transform="matrix(1 0 0 1 -1029.8521 2270.603)" font-family="'Times-Roman'" font-size="12">0</text>
 	<g>
-		<polygon points="165.149,951.25 165.149,960.25 169.649,955.75 		"/>
-		<polyline points="160.78,951.25 160.78,960.25 165.28,955.75 		"/>
+		<rect x="-1036.081" y="2135.89" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1036.081" y1="2145.904" x2="-986.583" y2="2145.904"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1011.333" y1="2135.89" x2="-1011.333" y2="2155.918"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1023.391" y1="2135.89" x2="-1023.391" y2="2155.918"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-998.81" y1="2135.89" x2="-998.81" y2="2155.918"/>
 	</g>
 	<g>
-		<polygon points="165.084,930.834 165.084,939.834 169.584,935.334 		"/>
-		<polyline points="160.715,930.834 160.715,939.834 165.215,935.334 		"/>
+		<rect x="-1036.082" y="2171.078" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1036.082" y1="2181.091" x2="-986.583" y2="2181.091"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1011.333" y1="2171.078" x2="-1011.333" y2="2191.106"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1023.391" y1="2171.078" x2="-1023.391" y2="2191.106"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-998.81" y1="2171.078" x2="-998.81" y2="2191.106"/>
 	</g>
 </g>
 <g>
-	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="61.968,1031.395 139.022,1031.395 139.022,1065.563 	"/>
-	<text transform="matrix(1 0 0 1 117.8203 1012.2866)" font-family="'Times-Roman'" font-size="12">PEClose</text>
-	<text transform="matrix(1 0 0 1 92.1562 1046.522)" font-family="'Times-Roman'" font-size="12">int fd</text>
-	<rect x="127.022" y="1021.198" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="53.24"/>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="139.446" y1="1038.272" x2="177.931" y2="1038.272"/>
-	<rect x="177.931" y="1030.022" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-	<text transform="matrix(1 0 0 1 185.3892 1039.8452)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="138.914" y1="1058.688" x2="177.398" y2="1058.688"/>
-	<rect x="177.398" y="1050.438" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-	<text transform="matrix(1 0 0 1 189.521 1060.2612)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-573.602,1672.292 -496.549,1672.292 -496.549,1796.46 	"/>
+	<text transform="matrix(1 0 0 1 -517.7505 1656.1089)" font-family="'Times-Roman'" font-size="12">pe_ioctl</text>
+	<text transform="matrix(1 0 0 1 -583.2305 1685.3843)" font-family="'Times-Roman'" font-size="12">PEDEV* desc</text>
+	<text transform="matrix(1 0 0 1 -555.8989 1714.1851)" font-family="'Times-Roman'" font-size="12">int value</text>
+	<rect x="-508.549" y="1662.095" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="143.238"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="-496.549,1686.552 -488.364,1692.22 -496.549,1697.886 
+		-496.549,1697.886 -504.735,1692.22 -496.549,1686.552 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-487.587,1692.22 -452.665,1692.219 -452.665,1782.539 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-452.665,1702.22 -417.742,1702.219 -417.742,1732.539 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-417.742,1712.417 -340.689,1712.417 -340.689,1916.584 	"/>
+	<rect x="-352.689" y="1702.219" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="223.238"/>
+	<text transform="matrix(1 0 0 1 -444.6206 1699.5493)" font-family="'Times-Roman'" font-size="12">SET_CPT_ADDRESS</text>
+	<text transform="matrix(1 0 0 1 -481.4595 1689.7397)" font-family="'Times-Roman'" font-size="12">request</text>
+	<text transform="matrix(1 0 0 1 -564.4575 1699.5493)" font-family="'Times-Roman'" font-size="12">int request</text>
+	<text transform="matrix(1 0 0 1 -321.7505 1710.1089)" font-family="'Times-Roman'" font-size="12">pe_ioctl_change_cpt</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-452.665,1752.22 -417.742,1752.219 -417.742,1782.539 	"/>
+	<text transform="matrix(1 0 0 1 -443.1138 1747.0493)" font-family="'Times-Roman'" font-size="12">default</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-295.75,1788.701 -295.75,1737.701 -245.205,1788.701 
+		-245.205,1737.701 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-295.75" y1="1778.076" x2="-255.718" y2="1778.09"/>
+	<text transform="matrix(1 0 0 1 -237.9614 1767.6997)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -242.2944 1796.2944)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -242.2944 1740.9614)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-340.689,1801.505 -274.523,1801.505 -274.523,1782.856 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-274.523,1777.965 -278.031,1782.856 -271.013,1782.856 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-295.736,1914.928 -295.736,1863.928 -245.191,1914.928 
+		-245.191,1863.928 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-283.83" y1="1875.941" x2="-245.191" y2="1875.928"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-295.736" y1="1904.303" x2="-255.705" y2="1904.318"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-255.705,1874.428"/>
+	<text transform="matrix(1 0 0 1 -237.9478 1893.9272)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -242.2808 1867.189)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-340.675,1852.388 -264.509,1852.388 -264.509,1871.039 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-264.509,1875.928 -268.017,1871.039 -261,1871.039 	"/>
+	<text transform="matrix(1 0 0 1 -189.6787 1837.0952)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-248.341" y1="1833.783" x2="-340.689" y2="1833.783"/>
+	<polyline points="-309.312,1829.283 -309.312,1838.283 -304.812,1833.783 	"/>
+	<polyline points="-304.812,1829.283 -304.812,1838.283 -300.312,1833.783 	"/>
 	<g>
-		<polygon points="165.084,1033.772 165.084,1042.772 169.584,1038.272 		"/>
-		<polyline points="160.715,1033.772 160.715,1042.772 165.215,1038.272 		"/>
-	</g>
-	<g>
-		<polygon points="165.215,1054.188 165.215,1063.188 169.715,1058.688 		"/>
-		<polyline points="160.846,1054.188 160.846,1063.188 165.346,1058.688 		"/>
+		<rect x="-248.341" y="1823.769" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-248.341" y1="1833.783" x2="-198.843" y2="1833.783"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-223.593" y1="1823.769" x2="-223.593" y2="1843.797"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-235.651" y1="1823.769" x2="-235.651" y2="1843.797"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-211.07" y1="1823.769" x2="-211.07" y2="1843.797"/>
 	</g>
 </g>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="322.414,831.897 399.467,831.897 399.467,966.065 "/>
-<text transform="matrix(1 0 0 1 379.604 812.7876)" font-family="'Times-Roman'" font-size="12">PERead</text>
-<text transform="matrix(1 0 0 1 310.6157 847.522)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PEDEV* desc</tspan><tspan x="10.025" y="14.4" font-family="'Times-Roman'" font-size="12">char* buffer</tspan><tspan x="29.332" y="28.8" font-family="'Times-Roman'" font-size="12">int taille</tspan></text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="399.467" y1="937.399" x2="471.952" y2="937.399"/>
-<rect x="471.952" y="929.149" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-<text transform="matrix(1 0 0 1 479.4106 941.8979)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="399.467,843.665 520.864,843.494 520.864,868.213 "/>
-<text transform="matrix(1 0 0 1 494.5815 828.1323)" font-family="'Times-Roman'" font-size="12">get_numero_logique</text>
-<path fill="none" stroke="#000000" stroke-width="0.25" d="M487.838,829.713c0,4.758-3.856,8.613-8.614,8.613h-51.977
-	c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.614,8.614-8.614h51.977C483.982,821.099,487.838,824.956,487.838,829.713
-	L487.838,829.713z"/>
-<text transform="matrix(1 0 0 1 428.1021 831.8091)" font-family="'Times-Roman'" font-size="12">desc.name</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="453.969" y1="838.327" x2="453.969" y2="843.494"/>
-<text transform="matrix(1 0 0 1 423.2905 906.6167)" font-family="'Times-Roman'" font-size="12">numero_logique</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="463.274" y1="912.233" x2="463.274" y2="937.399"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="398.935" y1="957.815" x2="471.419" y2="957.815"/>
-<rect x="471.419" y="949.565" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-<text transform="matrix(1 0 0 1 493.5376 962.314)" font-family="'Times-Roman'" font-size="12">buffer</text>
-<rect x="387.467" y="821.7" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="153.238"/>
-<rect x="508.864" y="836.432" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="39.605"/>
-<path fill="none" stroke="#000000" stroke-width="0.25" d="M512.509,903.096c0,4.758-3.856,8.613-8.614,8.613h-81.306
-	c-4.758,0-8.614-3.857-8.614-8.615l0,0c0-4.756,3.856-8.613,8.614-8.613h81.306C508.653,894.481,512.509,898.338,512.509,903.096
-	L512.509,903.096z"/>
-<polygon points="436.965,953.313 436.965,962.313 441.465,957.813 "/>
-<polyline points="432.596,953.315 432.596,962.315 437.096,957.815 "/>
-<polygon points="437.031,932.897 437.031,941.897 432.531,937.397 "/>
-<polyline points="441.4,932.899 441.4,941.899 436.9,937.399 "/>
-<text transform="matrix(1 0 0 1 184.7876 52.5688)" font-family="'Times-Roman'" font-size="12">PEdrv_install</text>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="211.526,238.225 462.41,238.225 462.41,254.225 "/>
-<rect x="450.41" y="225.225" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
-<text transform="matrix(1 0 0 1 431.0796 222.7026)" font-family="'Times-Roman'" font-size="12">iosDrvInstall</text>
-<text transform="matrix(1 0 0 1 529.1206 92.9741)" font-family="'Times-Roman'" font-size="12">install_mutex</text>
-<text transform="matrix(1 0 0 1 524.7876 121.5688)" font-family="'Times-Roman'" font-size="12">0</text>
-<text transform="matrix(1 0 0 1 524.7876 66.2349)" font-family="'Times-Roman'" font-size="12">1</text>
 <g>
-	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="319.431,1035.051 396.484,1035.051 396.484,1069.219 	"/>
-	<text transform="matrix(1 0 0 1 375.2827 1018.8667)" font-family="'Times-Roman'" font-size="12">PEIOCtl</text>
-	<text transform="matrix(1 0 0 1 309.4019 1048.8032)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PEDEV* desc</tspan><tspan x="13.33" y="14.4" font-family="'Times-Roman'" font-size="12">int fonction</tspan><tspan x="37.998" y="28.8" font-family="'Times-Roman'" font-size="12">int arg</tspan></text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="395.953" y1="1060.969" x2="434.437" y2="1060.969"/>
-	<rect x="434.437" y="1052.719" fill="none" stroke="#000000" stroke-width="0.25" width="73.55" height="16.5"/>
-	<text transform="matrix(1 0 0 1 446.5591 1062.5425)" font-family="'Times-Roman'" font-size="12">table_capt</text>
-	<rect x="384.484" y="1024.854" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="53.238"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1249.265,1661.571 -1172.212,1661.571 -1172.212,1865.741 	
+		"/>
+	<text transform="matrix(1 0 0 1 -1192.0747 1642.4614)" font-family="'Times-Roman'" font-size="12">pe_read</text>
+	<text transform="matrix(1 0 0 1 -1261.063 1677.1958)" font-family="'Times-Roman'" font-size="12">PEDEV* desc</text>
+	<text transform="matrix(1 0 0 1 -1251.0381 1691.5962)" font-family="'Times-Roman'" font-size="12">char* buffer</text>
+	<text transform="matrix(1 0 0 1 -1231.731 1705.9956)" font-family="'Times-Roman'" font-size="12">int taille</text>
+	<rect x="-1184.212" y="1651.375" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="223.236"/>
+	<text transform="matrix(1 0 0 1 -886.688 1728.1538)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-939.767" y1="1728.154" x2="-1172.115" y2="1728.154"/>
+	<polyline points="-996.238,1728.154 -991.738,1732.654 -991.738,1723.654 	"/>
+	<polyline points="-1000.738,1728.154 -996.238,1732.654 -996.238,1723.654 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-943.276,1714.373c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h41.977
+		C-947.131,1705.759-943.276,1709.617-943.276,1714.373L-943.276,1714.373z"/>
+	<text transform="matrix(1 0 0 1 -984.3281 1718.5054)" font-family="'Times-Roman'" font-size="12">desc</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-972.875" y1="1722.988" x2="-972.875" y2="1728.154"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1027.273,1853.323 -1027.273,1802.323 -976.728,1853.323 
+		-976.728,1802.323 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1015.367" y1="1814.335" x2="-976.728" y2="1814.323"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1027.273" y1="1842.698" x2="-987.242" y2="1842.712"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-987.242,1812.823"/>
+	<text transform="matrix(1 0 0 1 -969.4849 1832.3218)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -973.8179 1860.9165)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -973.8179 1805.5835)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1172.212,1790.783 -996.046,1790.783 -996.046,1809.433 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-996.046,1814.323 -999.554,1809.433 -992.537,1809.433 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1027.273,1677.667 -1027.273,1626.667 -976.728,1677.667 
+		-976.728,1626.667 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1027.273" y1="1667.042" x2="-987.242" y2="1667.056"/>
+	<text transform="matrix(1 0 0 1 -969.4849 1656.6655)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -973.8179 1685.2603)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -973.8179 1629.9272)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1172.212,1690.471 -1006.046,1690.471 -1006.046,1671.822 	
+		"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1006.046,1666.931 -1009.554,1671.822 -1002.537,1671.822 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1015.366" y1="1638.558" x2="-976.727" y2="1638.546"/>
+	<text transform="matrix(1 0 0 1 -886.7856 1765.8032)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-939.865" y1="1765.803" x2="-1172.212" y2="1765.803"/>
+	<polyline points="-1000.835,1761.303 -1000.835,1770.303 -996.335,1765.803 	"/>
+	<polyline points="-996.335,1761.303 -996.335,1770.303 -991.835,1765.803 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-943.374,1752.022c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h41.977
+		C-947.229,1743.409-943.374,1747.266-943.374,1752.022L-943.374,1752.022z"/>
+	<text transform="matrix(1 0 0 1 -984.4258 1756.1548)" font-family="'Times-Roman'" font-size="12">desc</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-972.973" y1="1760.637" x2="-972.973" y2="1765.803"/>
 	<g>
-		<polygon points="420.734,1056.469 420.734,1065.469 425.234,1060.969 		"/>
-		<polyline points="416.365,1056.469 416.365,1065.469 420.865,1060.969 		"/>
+		<rect x="-939.767" y="1718.139" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-939.767" y1="1728.153" x2="-890.269" y2="1728.153"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-915.019" y1="1718.139" x2="-915.019" y2="1738.167"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-927.077" y1="1718.139" x2="-927.077" y2="1738.167"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-902.496" y1="1718.139" x2="-902.496" y2="1738.167"/>
+	</g>
+	<g>
+		<rect x="-939.768" y="1755.789" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-939.768" y1="1765.802" x2="-890.27" y2="1765.802"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-915.02" y1="1755.789" x2="-915.02" y2="1775.817"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-927.078" y1="1755.789" x2="-927.078" y2="1775.817"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-902.497" y1="1755.789" x2="-902.497" y2="1775.817"/>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 252.7251 208.3735)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">PECreat, PERemove, PEOpen,</tspan><tspan x="-15.838" y="14.4" font-family="'Times-Roman'" font-size="12">PEClose, PERead, PEWrite, PEIOCtl</tspan></text>
-<path fill="none" stroke="#000000" stroke-width="0.25" d="M233.113,203.39L233.113,203.39c0-4.758,3.856-8.613,8.614-8.613h170.977
-	c4.758,0,8.613,3.855,8.613,8.613l0,0v15.7l0,0c0,4.758-3.855,8.613-8.613,8.613H241.728c-4.758,0-8.614-3.855-8.614-8.613l0,0
-	V203.39"/>
-<path fill="none" stroke="#000000" stroke-width="0.25" d="M241.87,254.225"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="327.215" y1="227.703" x2="327.215" y2="238.149"/>
-<rect x="225.651" y="418.386" fill="none" width="257.318" height="17.5"/>
-<text transform="matrix(1 0 0 1 232.0381 426.9062)" font-family="'MyriadPro-Regular'" font-size="12">TODO : noter le numero du driver dans DEV_HDR</text>
 <g>
-	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="23.251,552.826 100.305,552.826 100.305,669.994 	"/>
-	<text transform="matrix(1 0 0 1 72.4438 536.6421)" font-family="'Times-Roman'" font-size="12">PEdev_add</text>
-	<text transform="matrix(1 0 0 1 23.1914 566.5776)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="12">char* name</tspan><tspan x="-15.352" y="14.4" font-family="'Times-Roman'" font-size="12">int drvNumber</tspan></text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="100.305" y1="558.328" x2="138.789" y2="558.328"/>
-	<rect x="138.789" y="550.078" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-	<text transform="matrix(1 0 0 1 146.2476 559.8999)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="99.772" y1="578.744" x2="138.257" y2="578.744"/>
-	<rect x="138.257" y="570.494" fill="none" stroke="#000000" stroke-width="0.25" width="73.55" height="16.5"/>
-	<text transform="matrix(1 0 0 1 150.3794 580.3159)" font-family="'Times-Roman'" font-size="12">table_capt</text>
-	<rect x="88.305" y="542.628" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="136.238"/>
-	<g>
-		<polygon points="124.555,574.244 124.555,583.244 129.055,578.744 		"/>
-		<polyline points="120.186,574.244 120.186,583.244 124.686,578.744 		"/>
-	</g>
-	<g>
-		<polygon points="124.489,553.828 124.489,562.828 128.989,558.328 		"/>
-		<polyline points="120.12,553.828 120.12,562.828 124.62,558.328 		"/>
-	</g>
-	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="100.305,649.867 300.631,649.867 300.631,665.867 	"/>
-	<rect x="288.632" y="636.867" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
-	<text transform="matrix(1 0 0 1 273.3008 634.3433)" font-family="'Times-Roman'" font-size="12">iosDevAdd</text>
-	<path fill="none" stroke="#000000" stroke-width="0.25" d="M266.961,636.086c0,4.758-3.857,8.613-8.615,8.613H136.37
-		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.614,8.614-8.614h121.976C263.104,627.472,266.961,631.329,266.961,636.086
-		L266.961,636.086z"/>
-	<text transform="matrix(1 0 0 1 134.5532 640.2183)" font-family="'Times-Roman'" font-size="12">desc, «name», drvNumber</text>
-	<line fill="none" stroke="#000000" stroke-width="0.25" x1="197.358" y1="644.7" x2="197.358" y2="649.867"/>
+	<rect x="-1188.066" y="895.973" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="166.645"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1233.566,904.053 -1215.566,904.053 -1223.066,909.889 
+		-1176.066,909.889 -1176.066,1050.532 	"/>
+	<circle fill="none" stroke="#000000" stroke-width="0.25" cx="-1241.066" cy="904.053" r="7.5"/>
+	<text transform="matrix(1 0 0 1 -1245.4814 908.0142)" font-family="'MyriadPro-Regular'" font-size="12">IT</text>
+	<text transform="matrix(1 0 0 1 -1254.8867 886.0288)" font-family="'Times-Roman'" font-size="12">pe_interrupt_handler</text>
+	<text transform="matrix(1 0 0 1 -985.0557 934.9585)" font-family="'Times-Roman'" font-size="12">CAN</text>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1004.179,921.958 -995.611,931.646 -1004.179,941.333 
+		-1035.15,941.333 -1043.718,931.646 -1035.15,921.958 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1043.718" y1="931.646" x2="-1176.066" y2="931.646"/>
+	<polyline points="-1100.189,931.646 -1095.689,936.146 -1095.689,927.146 	"/>
+	<polyline points="-1104.689,931.646 -1100.189,936.146 -1100.189,927.146 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1000.908,990.971 -1000.908,1041.971 -1051.453,1041.971 
+		-1051.453,990.971 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1038.685" x2="-1051.453" y2="1038.685"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1000.908,1038.685"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1035.4" x2="-1051.453" y2="1035.4"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1035.4" x2="-1051.453" y2="1035.4"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1032.115" x2="-1051.453" y2="1032.115"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1028.829" x2="-1051.453" y2="1028.829"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1025.706" x2="-1051.453" y2="1025.706"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1022.419" x2="-1051.453" y2="1022.419"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1019.134" x2="-1051.453" y2="1019.134"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1019.134" x2="-1051.453" y2="1019.134"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1015.849" x2="-1051.453" y2="1015.849"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1000.908" y1="1012.563" x2="-1051.453" y2="1012.563"/>
+	<text transform="matrix(1 0 0 1 -993.665 1018.1929)" font-family="'Times-Roman'" font-size="12">msgQ_dispatcher</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1176.066,974.208 -1024.55,974.208 -1024.55,1007.749 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1024.55,1012.639 -1028.058,1007.749 -1021.041,1007.749 	"/>
+	<text transform="matrix(1 0 0 1 -1124.1221 963.0972)" font-family="'Times-Roman'" font-size="12">Message msg</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1043.718,960.254c0,4.758-3.855,8.613-8.615,8.613h-81.305
+		c-4.758,0-8.614-3.857-8.614-8.615l0,0c0-4.756,3.856-8.611,8.614-8.611h81.305
+		C-1047.573,951.641-1043.718,955.497-1043.718,960.254L-1043.718,960.254z"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1092.984" y1="968.868" x2="-1092.984" y2="974.034"/>
+	<text transform="matrix(1 0 0 1 -1032.8145 935.4751)" font-family="'Times-Roman'" font-size="12">D    L</text>
 </g>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="349.89,546.953 426.945,546.953 426.945,664.121 "/>
-<text transform="matrix(1 0 0 1 393.4233 530.769)" font-family="'Times-Roman'" font-size="12">PEdev_delete</text>
-<text transform="matrix(1 0 0 1 295.8135 560.7046)" font-family="'Times-Roman'" font-size="12">DEV_HDR* pDevHdr</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="426.945" y1="552.455" x2="465.429" y2="552.455"/>
-<rect x="465.429" y="544.205" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-<text transform="matrix(1 0 0 1 472.8872 554.0269)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="426.412" y1="572.871" x2="464.896" y2="572.871"/>
-<rect x="464.896" y="564.621" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.5"/>
-<text transform="matrix(1 0 0 1 477.019 574.4429)" font-family="'Times-Roman'" font-size="12">table_capt</text>
-<rect x="414.945" y="536.755" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="136.238"/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="426.945,643.994 557.272,643.994 557.272,659.994 "/>
-<rect x="545.272" y="630.994" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
-<text transform="matrix(1 0 0 1 524.6177 628.4702)" font-family="'Times-Roman'" font-size="12">iosDevDelete</text>
-<path fill="none" stroke="#000000" stroke-width="0.25" d="M509.6,630.213c0,4.758-3.857,8.613-8.615,8.613h-41.976
-	c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.614,8.614-8.614h41.976C505.743,621.599,509.6,625.456,509.6,630.213
-	L509.6,630.213z"/>
-<text transform="matrix(1 0 0 1 457.1929 634.3452)" font-family="'Times-Roman'" font-size="12">pDevHdr</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="479.999" y1="638.827" x2="479.999" y2="643.994"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.09" y1="550.039" x2="453.921" y2="554.87"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.089" y1="554.871" x2="453.922" y2="550.039"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.09" y1="570.455" x2="453.921" y2="575.286"/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="449.089" y1="575.287" x2="453.922" y2="570.455"/>
-<rect x="540.638" y="100.224" fill="none" width="257.318" height="17.5"/>
-<text transform="matrix(1 0 0 1 548.6802 108.7441)" font-family="'MyriadPro-Regular'" font-size="12">TODO : demander un remplacement à ce mutex.</text>
-<rect x="133.084" y="597.265" fill="none" width="142" height="21.333"/>
-<text transform="matrix(1 0 0 1 137.0771 605.7847)" font-family="'MyriadPro-Regular'" font-size="12">TODO: Mutex sur les tables</text>
-<rect x="449.864" y="586.599" fill="none" width="142" height="21.333"/>
-<text transform="matrix(1 0 0 1 453.8579 595.1187)" font-family="'MyriadPro-Regular'" font-size="12">TODO: Mutex sur les tables</text>
-<rect x="153.083" y="838.598" fill="none" width="148.982" height="15.333"/>
-<text transform="matrix(1 0 0 1 161.4849 847.1177)" font-family="'MyriadPro-Regular'" font-size="12">TODO: Récupérer le temps</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="211.208" y1="276.244" x2="257.238" y2="276.244"/>
-<rect x="257.238" y="262.328" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="71"/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="326.737,270.405 308.737,270.405 316.237,276.244 
-	269.238,276.244 269.238,321.244 "/>
-<circle fill="none" stroke="#000000" stroke-width="0.25" cx="334.237" cy="270.405" r="7.5"/>
-<text transform="matrix(1 0 0 1 330.5669 274.3667)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
-<text transform="matrix(1 0 0 1 255.9199 255.9048)" font-family="'Times-Roman'" font-size="12">Timer</text>
-<polyline points="235.083,271.744 235.083,280.744 239.583,276.244 "/>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="269.238" y1="295.824" x2="308.665" y2="295.824"/>
-<polygon points="293.321,291.324 293.321,300.324 297.821,295.824 "/>
-<rect x="308.665" y="287.573" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
-<text transform="matrix(1 0 0 1 317.4448 299.3237)" font-family="'Times-Roman'" font-size="12">TimeStamp</text>
-<polygon points="288.952,291.324 288.952,300.324 293.452,295.824 "/>
-<text transform="matrix(1 0 0 1 344.7446 273.5728)" font-family="'Times-Roman'" font-size="12">20 ms</text>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="281.238,317.22 308.665,317.22 308.665,308.887 
-	269.238,308.887 "/>
-<polygon points="296.917,312.72 296.917,321.72 292.417,317.22 "/>
-<rect x="266.47" y="706.431" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="71"/>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="220.971,714.509 238.971,714.509 231.471,720.347 
-	278.47,720.347 278.47,765.347 "/>
-<circle fill="none" stroke="#000000" stroke-width="0.25" cx="213.471" cy="714.509" r="7.5"/>
-<text transform="matrix(1 0 0 1 209.7974 718.4702)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
-<text transform="matrix(1 0 0 1 262.4673 700.0093)" font-family="'Times-Roman'" font-size="12">Timer</text>
-<line fill="none" stroke="#000000" stroke-width="0.25" x1="278.47" y1="731.874" x2="317.897" y2="731.874"/>
-<polygon points="302.553,727.374 302.553,736.374 307.053,731.874 "/>
-<rect x="317.897" y="723.624" fill="none" stroke="#000000" stroke-width="0.25" width="73.551" height="16.501"/>
-<text transform="matrix(1 0 0 1 326.6772 735.3735)" font-family="'Times-Roman'" font-size="12">TimeStamp</text>
-<polygon points="298.184,727.374 298.184,736.374 302.684,731.874 "/>
-<text transform="matrix(1 0 0 1 173.9595 717.6753)" font-family="'Times-Roman'" font-size="12">20 ms</text>
-<polyline fill="none" stroke="#000000" stroke-width="0.25" points="290.47,753.27 317.897,753.27 317.897,744.936 278.47,744.936 
-	"/>
-<polygon points="306.149,748.77 306.149,757.77 301.649,753.27 "/>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1260.615,113.116 -1183.561,113.116 -1183.561,310.322 	"/>
+	<text transform="matrix(1 0 0 1 -1211.4224 96.9316)" font-family="'Times-Roman'" font-size="12">pe_deviceAdd</text>
+	<text transform="matrix(1 0 0 1 -1222.0884 127.5732)" font-family="'Times-Roman'" font-size="12">int i</text>
+	<rect x="-1195.561" y="102.917" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="216.278"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1183.561,130.156 -983.235,130.156 -983.235,146.156 	"/>
+	<rect x="-995.234" y="117.156" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+	<text transform="matrix(1 0 0 1 -1010.5654 114.6328)" font-family="'Times-Roman'" font-size="12">iosDevAdd</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1016.905,116.375c0,4.758-3.857,8.613-8.615,8.613h-121.976
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h121.976
+		C-1020.762,107.762-1016.905,111.619-1016.905,116.375L-1016.905,116.375z"/>
+	<text transform="matrix(1 0 0 1 -1144.3257 120.5078)" font-family="'Times-Roman'" font-size="12">desc, name, drvNumber</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1086.508" y1="124.99" x2="-1086.508" y2="130.156"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1098.595,200.882 -1098.595,149.882 -1048.05,200.882 
+		-1048.05,149.882 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1086.688" y1="161.895" x2="-1048.05" y2="161.882"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1098.595" y1="190.257" x2="-1058.563" y2="190.271"/>
+	<text transform="matrix(1 0 0 1 -1040.8071 179.8809)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -1045.1401 208.4756)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -1045.1401 153.1426)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1183.534,213.687 -1077.368,213.687 -1077.368,195.037 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1077.368,190.146 -1080.877,195.037 -1073.859,195.037 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1098.581,327.109 -1098.581,276.109 -1048.036,327.109 
+		-1048.036,276.109 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1086.675" y1="288.122" x2="-1048.036" y2="288.109"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1098.581" y1="316.484" x2="-1058.55" y2="316.499"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1058.55,286.609"/>
+	<text transform="matrix(1 0 0 1 -1040.7935 306.1084)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -1045.1265 279.3701)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1183.521,264.569 -1067.354,264.569 -1067.354,283.22 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-1067.354,288.109 -1070.863,283.22 -1063.846,283.22 	"/>
+	<text transform="matrix(1 0 0 1 -992.5244 249.2764)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1051.187" y1="245.964" x2="-1183.534" y2="245.964"/>
+	<polyline points="-1112.157,241.464 -1112.157,250.464 -1107.657,245.964 	"/>
+	<polyline points="-1107.657,241.464 -1107.657,250.464 -1103.157,245.964 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1076.224,231.89c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h11.977
+		C-1080.079,223.276-1076.224,227.134-1076.224,231.89L-1076.224,231.89z"/>
+	<text transform="matrix(1 0 0 1 -1092.1646 236.2764)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1090.826" y1="240.505" x2="-1090.826" y2="245.671"/>
+	<g>
+		<rect x="-1051.187" y="235.949" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1051.187" y1="245.963" x2="-1001.688" y2="245.963"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1026.438" y1="235.949" x2="-1026.438" y2="255.978"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1038.496" y1="235.949" x2="-1038.496" y2="255.978"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1013.915" y1="235.949" x2="-1013.915" y2="255.978"/>
+	</g>
+</g>
+<g>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1189.405" y1="-399.575" x2="-1143.375" y2="-399.575"/>
+	<rect x="-1143.375" y="-413.489" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="41"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1073.875,-405.413 -1091.875,-405.413 -1084.375,-399.575 
+		-1131.375,-399.575 -1131.375,-384.575 	"/>
+	<circle fill="none" stroke="#000000" stroke-width="0.25" cx="-1066.375" cy="-405.413" r="7.5"/>
+	<text transform="matrix(1 0 0 1 -1070.7915 -401.4526)" font-family="'MyriadPro-Regular'" font-size="12">IT</text>
+	<text transform="matrix(1 0 0 1 -1004.125 -170.5508)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<text transform="matrix(1 0 0 1 -1004.125 -217.0488)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<text transform="matrix(1 0 0 1 -1165.6963 -419.9136)" font-family="'Times-Roman'" font-size="12">Int_Msg_Recu</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1226.235,-709.863 -1189.552,-709.863 -1189.552,-136.864 	
+		"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1109.597,-636.485 -1109.597,-687.485 -1059.052,-636.485 
+		-1059.052,-687.485 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1097.691" y1="-675.472" x2="-1059.052" y2="-675.485"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1109.597" y1="-647.11" x2="-1069.566" y2="-647.095"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1189.552" y1="-661.985" x2="-1109.597" y2="-661.985"/>
+	<polygon points="-1156.586,-666.485 -1156.586,-657.485 -1152.086,-661.985 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1069.566-676.985"/>
+	<rect x="-1201.552" y="-725.185" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="600.955"/>
+	<polyline points="-1165.53,-404.075 -1165.53,-395.075 -1161.03,-399.575 	"/>
+	<text transform="matrix(1 0 0 1 -1216.1436 -770.7695)" font-family="'Times-Roman'" font-size="12">pe_driverInstall</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1189.405,-705.112 -938.521,-705.112 -938.521,-689.112 	"/>
+	<rect x="-950.521" y="-718.112" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+	<text transform="matrix(1 0 0 1 -969.8516 -720.6357)" font-family="'Times-Roman'" font-size="12">iosDrvInstall</text>
+	<text transform="matrix(1 0 0 1 -1051.8101 -657.4858)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -1056.1431 -628.8911)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -1056.1431 -684.2241)" font-family="'Times-Roman'" font-size="12">1</text>
+	<text transform="matrix(1 0 0 1 -1148.2061 -734.9648)" font-family="'Times-Roman'" font-size="12">PECreat, PERemove, PEOpen,</text>
+	<text transform="matrix(1 0 0 1 -1164.0439 -720.5645)" font-family="'Times-Roman'" font-size="12">PEClose, PERead, PEWrite, PEIOCtl</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1167.818-739.947L-1167.818-739.947c0-4.758,3.855-8.613,8.614-8.613
+		h170.977c4.758,0,8.613,3.855,8.613,8.613l0,0v15.7l0,0c0,4.758-3.855,8.613-8.613,8.613h-170.976
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0L-1167.818-739.947"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1073.716" y1="-715.634" x2="-1073.716" y2="-705.188"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1109.597,-566.219 -1109.597,-617.219 -1059.052,-566.219 
+		-1059.052,-617.219 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1097.691" y1="-605.206" x2="-1059.052" y2="-605.219"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1109.597" y1="-576.844" x2="-1069.566" y2="-576.829"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1189.552" y1="-591.719" x2="-1109.597" y2="-591.719"/>
+	<polygon points="-1156.586,-596.219 -1156.586,-587.219 -1152.086,-591.719 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1069.566-606.719"/>
+	<text transform="matrix(1 0 0 1 -1051.8101 -587.2197)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -1056.1431 -558.625)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -1056.1431 -613.958)" font-family="'Times-Roman'" font-size="12">1</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1189.552" y1="-513.407" x2="-1109.597" y2="-513.407"/>
+	<polygon points="-1156.586,-517.907 -1156.586,-508.907 -1152.086,-513.407 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1059.052,-540.629 -1059.052,-489.629 -1109.597,-489.629 
+		-1109.597,-540.629 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-492.915" x2="-1109.597" y2="-492.915"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1109.597-492.915"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1059.052-492.915"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-496.201" x2="-1109.597" y2="-496.201"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-496.201" x2="-1109.597" y2="-496.201"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-499.486" x2="-1109.597" y2="-499.486"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-502.772" x2="-1109.597" y2="-502.772"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-505.895" x2="-1109.597" y2="-505.895"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-509.181" x2="-1109.597" y2="-509.181"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-512.466" x2="-1109.597" y2="-512.466"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-512.466" x2="-1109.597" y2="-512.466"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-515.752" x2="-1109.597" y2="-515.752"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1059.052" y1="-519.038" x2="-1109.597" y2="-519.038"/>
+	<text transform="matrix(1 0 0 1 -1051.8101 -513.4072)" font-family="'Times-Roman'" font-size="12">msgQ_dispatcher</text>
+	<ellipse fill="none" stroke="#000000" stroke-width="0.25" cx="-928.044" cy="-454.881" rx="17.461" ry="62.084"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-928.044" y1="-502.459" x2="-928.044" y2="-407.304"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-937.09" y1="-482.131" x2="-918.998" y2="-482.131"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1189.552" y1="-454.882" x2="-945.505" y2="-454.882"/>
+	<polygon points="-1156.585,-459.382 -1156.585,-450.382 -1152.085,-454.882 	"/>
+	<text transform="matrix(1 0 0 1 -910.5825 -496.2007)" font-family="'Times-Roman'" font-size="12">pe_task_dispatcher</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1189.552,-308.935 -989.227,-308.935 -989.227,-292.935 	"/>
+	<rect x="-1001.226" y="-321.935" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+	<text transform="matrix(1 0 0 1 -1021.3911 -326.4585)" font-family="'Times-Roman'" font-size="12">pe_deviceAdd</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1043.484-322.716c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h41.977C-1047.34-331.33-1043.484-327.472-1043.484-322.716
+		L-1043.484-322.716z"/>
+	<text transform="matrix(1 0 0 1 -1075.5425 -318.5835)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1073.084" y1="-314.101" x2="-1073.084" y2="-308.935"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1261.258,-323.871 -1261.258,-337.871 -1115.925,-337.871 
+		-1115.925,-323.871 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1261.258,-297.999 -1261.258,-283.999 -1115.925,-283.999 
+		-1115.925,-297.999 	"/>
+	<text transform="matrix(1 0 0 1 -1171.9741 -342.2505)" font-family="'Times-Roman'" font-size="12">i &lt; dev_count</text>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="-1189.405,-343.538 -1181.219,-337.871 -1189.406,-332.205 
+		-1189.406,-332.205 -1197.591,-337.871 -1189.406,-343.538 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1261.391,-246.736 -1261.391,-260.736 -1116.058,-260.736 
+		-1116.058,-246.736 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-1261.391,-160.864 -1261.391,-146.864 -1116.058,-146.864 
+		-1116.058,-160.864 	"/>
+	<text transform="matrix(1 0 0 1 -1172.1069 -265.1152)" font-family="'Times-Roman'" font-size="12">i &lt; DEVICE_MAX_COUNT</text>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="-1189.538,-266.403 -1181.352,-260.736 -1189.539,-255.069 
+		-1189.539,-255.069 -1197.724,-260.736 -1189.539,-266.403 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1057.204" y1="-217.049" x2="-1189.552" y2="-217.049"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1057.204" y1="-170.551" x2="-1189.552" y2="-170.551"/>
+	<polyline points="-1118.175,-221.549 -1118.175,-212.549 -1113.675,-217.049 	"/>
+	<polyline points="-1113.675,-221.549 -1113.675,-212.549 -1109.175,-217.049 	"/>
+	<polyline points="-1118.175,-175.051 -1118.175,-166.051 -1113.675,-170.551 	"/>
+	<polyline points="-1113.675,-175.051 -1113.675,-166.051 -1109.175,-170.551 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1059.787-230.83c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h41.977
+		C-1063.643-239.443-1059.787-235.586-1059.787-230.83L-1059.787-230.83z"/>
+	<text transform="matrix(1 0 0 1 -1091.8452 -226.6973)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1089.387" y1="-222.215" x2="-1089.387" y2="-217.049"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-1060.713-184.332c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h41.977
+		C-1064.568-192.945-1060.713-189.088-1060.713-184.332L-1060.713-184.332z"/>
+	<text transform="matrix(1 0 0 1 -1092.771 -180.1992)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1090.312" y1="-175.717" x2="-1090.312" y2="-170.551"/>
+	<g>
+		<rect x="-1057.204" y="-227.063" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1057.204" y1="-217.049" x2="-1007.706" y2="-217.049"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1032.456" y1="-227.063" x2="-1032.456" y2="-207.035"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1044.514" y1="-227.063" x2="-1044.514" y2="-207.035"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1019.933" y1="-227.063" x2="-1019.933" y2="-207.035"/>
+	</g>
+	<g>
+		<rect x="-1057.204" y="-180.565" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1057.204" y1="-170.551" x2="-1007.706" y2="-170.551"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1032.456" y1="-180.565" x2="-1032.456" y2="-160.537"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1044.514" y1="-180.565" x2="-1044.514" y2="-160.537"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-1019.933" y1="-180.565" x2="-1019.933" y2="-160.537"/>
+	</g>
+</g>
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-546.377,96.813 -469.323,96.813 -469.323,543.98 	"/>
+	<text transform="matrix(1 0 0 1 -502.8442 80.6279)" font-family="'Times-Roman'" font-size="12">pe_deviceRemove</text>
+	<text transform="matrix(1 0 0 1 -507.4561 110.5645)" font-family="'Times-Roman'" font-size="12">int i</text>
+	<rect x="-481.323" y="86.615" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="466.239"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-469.323,173.854 -338.997,173.854 -338.997,189.854 	"/>
+	<rect x="-350.997" y="160.854" fill="none" stroke="#000000" stroke-width="0.25" width="24" height="42"/>
+	<text transform="matrix(1 0 0 1 -371.6499 158.3301)" font-family="'Times-Roman'" font-size="12">iosDevDelete</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-376.668,160.072c0,4.758-3.855,8.613-8.613,8.613h-61.977
+		c-4.758,0-8.615-3.855-8.615-8.613l0,0c0-4.758,3.857-8.613,8.615-8.613h61.977C-380.524,151.459-376.668,155.316-376.668,160.072
+		L-376.668,160.072z"/>
+	<text transform="matrix(1 0 0 1 -445.5747 164.458)" font-family="'Times-Roman'" font-size="12">table_capt[i]</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-416.268" y1="168.688" x2="-416.268" y2="173.854"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-384.383,118.791 -384.383,67.791 -333.838,118.791 
+		-333.838,67.791 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-384.383" y1="108.166" x2="-344.352" y2="108.181"/>
+	<text transform="matrix(1 0 0 1 -326.5952 97.79)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -330.9282 126.3848)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -330.9282 71.0518)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-469.323,131.596 -363.157,131.596 -363.157,112.946 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-363.157,108.056 -366.665,112.946 -359.647,112.946 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-384.37,315.659 -384.37,264.659 -333.825,315.659 
+		-333.825,264.659 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.463" y1="276.672" x2="-333.825" y2="276.659"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-384.37" y1="305.034" x2="-344.338" y2="305.049"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-344.338,275.159"/>
+	<text transform="matrix(1 0 0 1 -326.5815 294.6582)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -330.9146 323.2529)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -330.9146 267.9199)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-469.309,253.119 -353.143,253.119 -353.143,271.77 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-353.143,276.659 -356.651,271.77 -349.633,271.77 	"/>
+	<text transform="matrix(1 0 0 1 -278.3125 232.666)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-336.975" y1="229.354" x2="-469.323" y2="229.354"/>
+	<polyline points="-397.946,224.854 -397.946,233.854 -393.446,229.354 	"/>
+	<polyline points="-393.446,224.854 -393.446,233.854 -388.946,229.354 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-362.012,215.279c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h11.977C-365.868,206.666-362.012,210.523-362.012,215.279
+		L-362.012,215.279z"/>
+	<text transform="matrix(1 0 0 1 -377.9526 219.666)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-376.614" y1="223.895" x2="-376.614" y2="229.061"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-384.327,397.886 -384.327,346.886 -333.782,397.886 
+		-333.782,346.886 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.42" y1="358.898" x2="-333.782" y2="358.886"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-384.327" y1="387.261" x2="-344.295" y2="387.275"/>
+	<text transform="matrix(1 0 0 1 -326.5386 376.8848)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -330.8716 405.4795)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -330.8716 350.1465)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-469.266,410.69 -363.1,410.69 -363.1,392.041 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-363.1,387.15 -366.608,392.041 -359.59,392.041 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-384.313,524.113 -384.313,473.113 -333.768,524.113 
+		-333.768,473.113 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.407" y1="485.126" x2="-333.768" y2="485.113"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-384.313" y1="513.488" x2="-344.282" y2="513.503"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-344.282,483.613"/>
+	<text transform="matrix(1 0 0 1 -326.5249 503.1123)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -330.8579 531.707)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -330.8579 476.374)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-469.252,461.573 -353.086,461.573 -353.086,480.224 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-353.086,485.113 -356.594,480.224 -349.577,480.224 	"/>
+	<text transform="matrix(1 0 0 1 -278.2559 446.2803)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-336.918" y1="442.968" x2="-469.266" y2="442.968"/>
+	<polyline points="-397.889,438.468 -397.889,447.468 -393.389,442.968 	"/>
+	<polyline points="-393.389,438.468 -393.389,447.468 -388.889,442.968 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-361.956,428.894c0,4.758-3.855,8.613-8.613,8.613h-11.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h11.977C-365.811,420.28-361.956,424.138-361.956,428.894
+		L-361.956,428.894z"/>
+	<text transform="matrix(1 0 0 1 -377.896 433.2803)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-376.557" y1="437.509" x2="-376.557" y2="442.675"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-372.476" y1="79.683" x2="-333.837" y2="79.67"/>
+	<g>
+		<rect x="-336.917" y="219.339" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-336.917" y1="229.353" x2="-287.419" y2="229.353"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-312.169" y1="219.339" x2="-312.169" y2="239.367"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-324.227" y1="219.339" x2="-324.227" y2="239.367"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-299.646" y1="219.339" x2="-299.646" y2="239.367"/>
+	</g>
+	<g>
+		<rect x="-336.918" y="432.954" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-336.918" y1="442.968" x2="-287.42" y2="442.968"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-312.17" y1="432.954" x2="-312.17" y2="452.982"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-324.228" y1="432.954" x2="-324.228" y2="452.982"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-299.647" y1="432.954" x2="-299.647" y2="452.982"/>
+	</g>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-451.24,1424.712c-41.931,0-75.919-120.854-75.919-269.937
+		c0-149.089,33.988-269.938,75.919-269.938c41.928,0,75.918,120.849,75.918,269.938
+		C-375.322,1303.858-409.312,1424.712-451.24,1424.712"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-451.24" y1="915.919" x2="-451.24" y2="1399.807"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-470.623" y1="959.475" x2="-431.858" y2="959.475"/>
+	<text transform="matrix(1 0 0 1 -561.6211 887.4233)" font-family="'Times-Roman'" font-size="12">pe_task_dispatcher</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-149.876,907.573 -149.876,958.573 -200.421,958.573 
+		-200.421,907.573 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="955.287" x2="-200.421" y2="955.287"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-149.876,955.287"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="952.001" x2="-200.421" y2="952.001"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="952.001" x2="-200.421" y2="952.001"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="948.716" x2="-200.421" y2="948.716"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="945.43" x2="-200.421" y2="945.43"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="942.307" x2="-200.421" y2="942.307"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="939.021" x2="-200.421" y2="939.021"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="935.736" x2="-200.421" y2="935.736"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="935.736" x2="-200.421" y2="935.736"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="932.451" x2="-200.421" y2="932.451"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-149.876" y1="929.165" x2="-200.421" y2="929.165"/>
+	<text transform="matrix(1 0 0 1 -142.6338 934.7944)" font-family="'Times-Roman'" font-size="12">msgQ_dispatcher</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-451.24,983.015 -175.037,983.015 -175.037,964.366 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-175.037,959.475 -178.544,964.366 -171.527,964.366 	"/>
+	<text transform="matrix(1 0 0 1 -295.2407 972.0796)" font-family="'Times-Roman'" font-size="12">Message msg</text>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-214.836,969.236c0,4.758-3.855,8.613-8.615,8.613h-81.305
+		c-4.758,0-8.614-3.857-8.614-8.615l0,0c0-4.756,3.856-8.611,8.614-8.611h81.305C-218.692,960.623-214.836,964.478-214.836,969.236
+		L-214.836,969.236z"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-264.103" y1="977.849" x2="-264.103" y2="983.015"/>
+	<text transform="matrix(1 0 0 1 -165.7808 1248.3931)" font-family="'Times-Roman'" font-size="12">table_buffer</text>
+	<text transform="matrix(1 0 0 1 -165.7808 1121.895)" font-family="'Times-Roman'" font-size="12">table_capt</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-523.874,1112.208 -523.874,1098.208 -378.541,1098.208 
+		-378.541,1112.208 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-523.874,1308.08 -523.874,1322.08 -378.541,1322.08 
+		-378.541,1308.08 	"/>
+	<text transform="matrix(1 0 0 1 -434.5898 1093.8286)" font-family="'Times-Roman'" font-size="12">i &lt; DEVICE_MAX_COUNT</text>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" points="-451.24,1092.541 -443.054,1098.208 -451.24,1103.875 
+		-451.24,1103.875 -459.425,1098.208 -451.24,1092.541 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-218.86" y1="1121.895" x2="-451.208" y2="1121.895"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-218.86" y1="1248.393" x2="-451.208" y2="1248.393"/>
+	<polyline points="-275.331,1121.895 -270.831,1126.395 -270.831,1117.395 	"/>
+	<polyline points="-279.831,1121.895 -275.331,1126.395 -275.331,1117.395 	"/>
+	<polyline points="-279.831,1243.893 -279.831,1252.893 -275.331,1248.393 	"/>
+	<polyline points="-275.331,1243.893 -275.331,1252.893 -270.831,1248.393 	"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-221.443,1108.114c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h41.977C-225.298,1099.5-221.443,1103.358-221.443,1108.114
+		L-221.443,1108.114z"/>
+	<text transform="matrix(1 0 0 1 -253.501 1112.2466)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-251.042" y1="1116.729" x2="-251.042" y2="1121.895"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-222.369,1234.612c0,4.758-3.855,8.613-8.613,8.613h-41.977
+		c-4.758,0-8.614-3.855-8.614-8.613l0,0c0-4.758,3.856-8.613,8.614-8.613h41.977
+		C-226.224,1225.999-222.369,1229.856-222.369,1234.612L-222.369,1234.612z"/>
+	<text transform="matrix(1 0 0 1 -254.4268 1238.7446)" font-family="'Times-Roman'" font-size="12">i</text>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-251.968" y1="1243.227" x2="-251.968" y2="1248.393"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-366.3,1054.985 -366.3,1003.985 -315.755,1054.985 
+		-315.755,1003.985 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-366.3" y1="1044.36" x2="-326.269" y2="1044.375"/>
+	<text transform="matrix(1 0 0 1 -308.5122 1033.9839)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -312.8452 1062.5786)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -312.8452 1007.2456)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-451.24,1067.79 -345.074,1067.79 -345.074,1049.14 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-345.074,1044.25 -348.582,1049.14 -341.564,1049.14 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-354.393" y1="1015.876" x2="-315.754" y2="1015.865"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-366.455,1409.294 -366.455,1358.294 -315.91,1409.294 
+		-315.91,1358.294 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-354.548" y1="1370.307" x2="-315.91" y2="1370.294"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-366.455" y1="1398.669" x2="-326.423" y2="1398.684"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-326.423,1368.794"/>
+	<text transform="matrix(1 0 0 1 -308.6665 1388.2935)" font-family="'Times-Roman'" font-size="12">mut_table_capt</text>
+	<text transform="matrix(1 0 0 1 -312.9995 1416.8882)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -312.9995 1361.5552)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-451.394,1346.754 -335.228,1346.754 -335.228,1365.405 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-335.228,1370.294 -338.736,1365.405 -331.718,1365.405 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-306.366,1338.628 -306.366,1287.628 -255.821,1338.628 
+		-255.821,1287.628 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-294.459" y1="1299.641" x2="-255.821" y2="1299.628"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-306.366" y1="1328.003" x2="-266.334" y2="1328.018"/>
+	<path fill="none" stroke="#000000" stroke-width="0.25" d="M-266.334,1298.128"/>
+	<text transform="matrix(1 0 0 1 -248.5776 1317.6274)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -252.9106 1346.2222)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -252.9106 1290.8892)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-451.305,1276.088 -275.139,1276.088 -275.139,1294.739 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-275.139,1299.628 -278.647,1294.739 -271.629,1294.739 	"/>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-306.366,1197.906 -306.366,1146.906 -255.821,1197.906 
+		-255.821,1146.906 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-306.366" y1="1187.281" x2="-266.334" y2="1187.295"/>
+	<text transform="matrix(1 0 0 1 -248.5776 1176.9048)" font-family="'Times-Roman'" font-size="12">mut_table_buffer</text>
+	<text transform="matrix(1 0 0 1 -252.9106 1205.4995)" font-family="'Times-Roman'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 -252.9106 1150.1665)" font-family="'Times-Roman'" font-size="12">1</text>
+	<polyline fill="none" stroke="#000000" stroke-width="0.25" points="-451.305,1210.71 -285.139,1210.71 -285.139,1192.061 	"/>
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" points="-285.139,1187.17 -288.647,1192.061 -281.629,1192.061 	"/>
+	<line fill="none" stroke="#000000" stroke-width="0.25" x1="-294.458" y1="1158.797" x2="-255.82" y2="1158.786"/>
+	<g>
+		<rect x="-218.86" y="1238.378" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-218.86" y1="1248.392" x2="-169.362" y2="1248.392"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-194.112" y1="1238.378" x2="-194.112" y2="1258.407"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-206.169" y1="1238.378" x2="-206.169" y2="1258.407"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-181.588" y1="1238.378" x2="-181.588" y2="1258.407"/>
+	</g>
+	<g>
+		<rect x="-218.86" y="1111.88" fill="none" stroke="#000000" stroke-width="0.25" width="49.498" height="20.028"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-218.86" y1="1121.894" x2="-169.362" y2="1121.894"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-194.112" y1="1111.88" x2="-194.112" y2="1131.909"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-206.169" y1="1111.88" x2="-206.169" y2="1131.909"/>
+		<line fill="none" stroke="#000000" stroke-width="0.25" x1="-181.588" y1="1111.88" x2="-181.588" y2="1131.909"/>
+	</g>
+</g>
 </svg>

@@ -107,7 +107,7 @@
 \section{Documentation de l'API}
 \DescFonction{open}
 {int open(const char* filename, int flags, int perms)}
-{Ouvre le capteur désigné par \kw{filename}, et renvoie une descripteur de
+{Ouvre le capteur désigné par \kw{filename}, et renvoie un descripteur de
 fichier (\emph{file descriptor}), qui l'identifie au sein du programme. 
 \kw{flags} indique le mode d'ouverture, et doit être fixé à \kw{O\_RDONLY},
 les capteurs étants en lecture seule. D'autres valeurs, possiblement passées
@@ -197,30 +197,40 @@ pour le descripteur de fichier passé en premier argument.}
 \section{Structure des données}
 
 \subsection{table\_capteur}
-Ce tableau contient 15 pointeurs vers des structures decrivant chaque capteur.
-L'index du tableau servant d'identifiant logique au sein du driver.
-Structure décrivant un capteur :
+Ce tableau contient les descripteur de chaque capteur créé.
+
+Structures décrivant un capteur :
 \addCode{ressources/descr_capt.c}{c}
 
-\includegraphics[width=\textwidth]{ressources/table_capteur.pdf}\\~\\
+\includegraphics[width=\textwidth]{ressources/table_capteur.pdf}\\
 
 \subsection{table\_buffer}
-Ce tableau contient 15 pointeurs vers le dernier message du capteur dont l'index du tableau est l'identifiant logique.
+Ce tableau contient à l'index $i$ le dernier message du périphérique \kw{/dev/capteur}$i$ créé à la position $i$ dans \kw{tableau\_capteur}.
+
+\includegraphics[width=\textwidth]{ressources/table_buffer.pdf}\\
 
 \section{Conception graphique}
 
-\subsection{Phase d'initialisation}
-\includegraphics{ressources/init.png}\\~\\
-\subsection{Handler d'interruption}
-\includegraphics{ressources/int.png}\\~\\
-\subsection{\kw{open}}
-\includegraphics{ressources/open.png}\\~\\
-\subsection{\kw{read}}
-\includegraphics{ressources/read.png}\\~\\
-\subsection{\kw{close}}
-\includegraphics{ressources/close.png}
-\subsection{\kw{ioctl}}
-\colorbox{red}{\Huge{TODO}}
+\subsection{\kw{pe\_driverInstall}}
+\includegraphics[width=\textwidth]{ressources/pe_driverInstall.pdf}
+\subsection{\kw{pe\_driverUnInstall}}
+\includegraphics[width=\textwidth]{ressources/pe_driverUninstall.pdf}
+\subsection{\kw{pe\_deviceAdd}}
+\includegraphics[width=\textwidth]{ressources/pe_deviceAdd.pdf}
+\subsection{\kw{pe\_deviceRemove}}
+\includegraphics[width=\textwidth]{ressources/pe_deviceRemove.pdf}
+\subsection{\kw{Interrut\_handler}}
+\includegraphics[width=\textwidth]{ressources/pe_deviceRemove.pdf}
+\subsection{\kw{pe\_task\_dispatcher}}
+\includegraphics[width=\textwidth]{ressources/pe_deviceRemove.pdf}
+\subsection{\kw{pe\_open}}
+\includegraphics[width=\textwidth]{ressources/pe_open.pdf}
+\subsection{\kw{pe\_read}}
+\includegraphics[width=\textwidth]{ressources/pe_read.pdf}
+\subsection{\kw{pe\_close}}
+\includegraphics[width=\textwidth]{ressources/pe_close.pdf}
+\subsection{\kw{pe\_ioctl}}
+\includegraphics[width=\textwidth]{ressources/pe_ioctl.pdf}
 
 \newpage
 \section{Plan de test}

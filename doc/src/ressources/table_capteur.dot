@@ -5,17 +5,17 @@ digraph table_capteur {
 		dpi = 300;
 	]
 	
-	"table_capteur" [
+	"table_capt" [
 		headlabel = "truc"
-		label = "{table_capteur|{<capt0> 0| 1| 2| 3| 4| 5| 6| 7| 8| 9| 10| 11| 12| 13| 14}}"
+		label = "{table_capt|{<capt0> 0| 1| 2| 3| 4| 5| 6| 7| 8| 9| 10| 11| 12| 13| 14}}"
 		shape = "record"
 	]
 
-	"description_capteur" [
-		label = "description_capteur|{char nom[TAILLE_NOM];| int idCAN;| /*others*/}"
+	"specific_t" [
+		label = "specific_t|{char name[NAME_SIZE];| EtatCapteur state; | int address;}"
 		shape = "record"
 	]
 
-	table_capteur:capt0 -> description_capteur	
+	table_capt:capt0 -> specific_t	
 
 }

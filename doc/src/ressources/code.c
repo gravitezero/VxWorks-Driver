@@ -1,6 +1,6 @@
-struct capt_msg
+struct 
 {
-	unsigned ID;
-	timestamp date;
-	char msg[TAILLE_MAX];
-};
+	unsigned id;
+	struct timespec date;
+	char msg[MAX_DATA_SIZE];
+} Message ;

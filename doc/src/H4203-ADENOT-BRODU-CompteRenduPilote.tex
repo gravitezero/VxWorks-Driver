@@ -104,28 +104,25 @@
 
 \newpage
 
-\section{Documentation de l'API}
-\DescFonction{open}
-{int open(const char* filename, int flags, int perms)}
-{Ouvre le capteur désigné par \kw{filename}, et renvoie un descripteur de
-fichier (\emph{file descriptor}), qui l'identifie au sein du programme. 
-\kw{flags} indique le mode d'ouverture, et doit être fixé à \kw{O\_RDONLY},
-les capteurs étants en lecture seule. D'autres valeurs, possiblement passées
-par l'utilisteur, provoque une erreur, et errno est fixé à \kw{EARG}.
-L'argument \kw{perms} dénote les permission qui seront utilisée sur le fichier.
-Plusieurs capteurs peuvent être ouvert 
-au sein du même programme. Si un même capteur est ouvert plusieurs fois au
-sein du même programme, alors plusieurs descripteurs de fichiers seront
-disponibles pour lire sur un même capteur. Si le fichier précisé dans le 
-premier paramêtre (\kw{filename}) n'existe pas, l'appel échoue, et \kw{open}
-retourne immédiatement, avec la valeur -1.}
-{Si l'appel reussi, un descripteur de fichier (entier positif). Sinon, 
--1, et \kw{errno} est fixé à l'une des valeurs suivantes :
+\section{Documentation de l'API} \DescFonction{open} {int open(const char*
+filename, int flags, int perms)} {Ouvre le capteur désigné par
+\kw{filename}, et renvoie un descripteur de fichier (\emph{file
+descriptor}), qui l'identifie au sein du programme, du côté
+utilisateur.  \kw{flags} indique le mode d'ouverture, et doit être fixé
+à \kw{O\_RDONLY}, les capteurs étants en lecture seule. D'autres
+valeurs, possiblement passées par l'utilisateur, provoquent une erreur, et
+\kw{errno} est fixé à \kw{EARG}.  L'argument \kw{perms} dénote les permissions
+qui seront utilisées sur le fichier.  Plusieurs capteurs peuvent être
+ouvert au sein du même programme. Si un même capteur est ouvert
+plusieurs fois au sein du même programme, alors plusieurs descripteurs
+de fichiers seront disponibles pour lire sur un même capteur. Si le
+fichier précisé dans le premier paramètre (\kw{filename}) n'existe pas, l'appel
+échoue, et \kw{open} retourne immédiatement, avec la valeur \kw{ERROR}}
+{Si l'appel réussi, un descripteur de fichier (entier positif). Sinon, \kw{ERROR}, et
+\kw{errno} est fixé à l'une des valeurs suivantes : 
 \begin{description}
-	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments,
-			avec une valeur autre que \kw{O\_RDONLY} pour \kw{flags}.
-	\item[\kw{ENEXIST} : ] Premier argument invalide, le fichier n'existe pas.
-	\item[\kw{EALREADYOPENED} :] Le périphérique est déjà ouvert.
+    \item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments, avec une valeur autre que \kw{O\_RDONLY} pour \kw{flags}.  
+    \item[\kw{EALREADYOPENED} :] Le périphérique est déjà ouvert.  
 \end{description}
 }
 
@@ -137,11 +134,11 @@ retourne immédiatement, avec la valeur -1.}
 \DescFonction{close}
 {int close(int fd);}
 {Ferme le capteur désigné par le descripteur de fichier \kw{fd}. Celui-ci ne sera plus utilisable dans le programme.
-Si le paramêtre \kw{fd} est invalide (i.e. négatif ou ne correspondant pas à un descripteur de fichier valide), \kw{close} retourne -1, et \kw{errno} est positionné à \kw{EARG}.\\
-Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \kw{errno} est positionné à \kw{ECPTBUSY}.}
-{Si l'appel réussi, 0 est renvoyé, -1 sinon, et \kw{errno} est positionné aux valeurs suivantes :
+Si le paramêtre \kw{fd} est invalide (i.e. négatif ou ne correspondant pas à un
+descripteur de fichier valide), \kw{close} retourne \kw{ERROR}.\\
+Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant \kw{ERROR}, et \kw{errno} est positionné à \kw{ECPTBUSY}.}
+{Si l'appel réussi, \kw{OK} est renvoyé, \kw{ERROR} sinon, et \kw{errno} est positionné aux valeurs suivantes :
 \begin{description}
-	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments, le \kw{fd} spécifié est invalide.
 	\item[\kw{ECPTBUSY} : ] Le capteur est en cours d'utilisation.
 \end{description}
 }
@@ -149,25 +146,37 @@ Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \k
 \DescFonction{remove}
 {int remove(const char *pathname);}
 {Ferme le capteur désigné par \kw{pathname}. Il ne sera plus utilisable au sein du programme.
-Si \kw{pathname} est invalide (le fichier n'existe pas, ou n'est pas ouvert au sein du programme), alors l'appel échoue en renvoyant -1, et \kw{errno} est positionné ) \kw{ENEXIST}.
-Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant -1, et \kw{errno} est positionné à \kw{ECPTBUSY}.}
-{Si l'appel réussi, 0 est renvoyé, -1 sinon, \kw{errno} est positionné à l'une des valeurs suivantes :
+Si \kw{pathname} est invalide (le fichier n'existe pas, ou n'est pas ouvert au sein du programme), alors l'appel échoue en renvoyant \kw{ERROR}.
+Si le capteur est en cours d'utilisation, l'appel échoue en renvoyant \kw{ERROR}, et \kw{errno} est positionné à \kw{ECPTBUSY}.}
+{Si l'appel réussi, \kw{OK} est renvoyé, \kw{ERROR} sinon, \kw{errno} est positionné à l'une des valeurs suivantes :
 \begin{description}
-	\item[\kw{EARG} : ] Le fichier précisé n'existe pas.
 	\item[\kw{ECPTBUSY} : ] Le capteur est en cours d'utilisation.
+	\item[\kw{ENEXIST} : ] Le fichier n'existe pas.
 \end{description}
 }
 
 \DescFonction{read}
 {int read (int fd, char *buffer, size\_t maxbytes);}
-{Lit un message d'un capteur désigné par \kw{fd}, et le place dans l'adresse pointé par \kw{buffer}.
+{Lit un message d'un capteur désigné par \kw{fd}, et le place dans l'adresse
+    pointé par \kw{buffer}. Au plus \kw{maxbytes} octets sont lus, même si plus
+	d'octets sont disponibles.
 Si un message est disponible, alors il est placé dans à l'adresse \kw{buffer}, mais n'est pas \emph{consommé}, la lecture étant non destructive.
-Un message lu sur un capteur est du type \kw{capt\_msg}, qui est défini de la manière suivante :
+Un message lu sur un capteur est du type \kw{Message}, qui est défini de la manière suivante :
 \addCode{ressources/code.c}{c}
-L'entier \kw{ID} est commun à tous les capteurs, et est incrémenté à chaque message. Lors de l'initialisation du driver, il est fixé à zéro. En cas de dépassement de capacité, la valeur de \kw{ID} redeviendra 0, et continuera normalement.
-
-La date \kw{date} est un entier, qui correspond au nombre de périodes de 20ms qui se sont écoulés depuis le démarrage du système. Il sert donc à ordonner temporellement les message, et non à déterminer leur date d'arrivée.}
-{Un entier positif, correspondant à la taille lue (\kw{TAILLE\_MSG}) est renvoyée. En cas d'erreur, -1 est renvoyé, et \kw{errno} est positionné aux valeurs suivantes :
+L'entier \kw{id} est commun à tous les capteurs, et est incrémenté à chaque
+    message. Lors de l'initialisation du driver, il est fixé à zéro. En cas de
+    dépassement de capacité, la valeur de \kw{id} redeviendra 0, et continuera
+    normalement.\\
+    Le membre \kw{date} est un structure de type \kw{timespec} à deux champs :
+    un nombre de seconds, et un nombre de nanosecondes. Initialisé à zéro à
+    l'installation du driver, cette valeur est mise à jour pour refléter
+    l'écoulement du temps.\\
+    Le membre \kw{msg} est un buffer, dont la taille est paramétrable, et qui
+    permet de stocker des données envoyées par un capteur.
+}
+{Un entier positif, correspondant à la taille lue (\kw{sizeof(Message)}) est
+renvoyée. En cas d'erreur, \kw{ERROR} est renvoyé, et \kw{errno} est
+positionné aux valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments.
 	\item[\kw{ENOAVAIL} : ] Aucun message n'est disponible.
@@ -178,15 +187,17 @@ La date \kw{date} est un entier, qui correspond au nombre de périodes de 20ms q
 {int write (int fd, char *buffer, size\_t maxbytes);}
 {Appel non supporté, les capteurs sont en lecture seule. Pour faire une
 opération sur un capteur en fonctionnement, utiliser \kw{ioctl}.}
-{N.A.}
+{L'appel de cette fonction sur un descripteur de fichier correspondant à un
+périphérique géré par le pilote spécifié dans ce document doit renvoyer
+\kw{ERROR}.}
 	
 \DescFonction{ioctl}
 {int ioctl(int fd, int request, int value);}
 {Configuration du pilote. Le paramètre \kw{request} doit être égal à la
-constant \kw{CHANGEMENT\_CAPTEUR}. La valeur de \kw{value} doit alors être
+constant \kw{SET\_CPT\_ADDRESS}. La valeur de \kw{value} doit alors être
 inférieur ou égale à 255, et correspond au nouveau numéro de capteur
 pour le descripteur de fichier passé en premier argument.}
-{\kw{ioctl} renvoie 0 en cas de succès, -1 sinon, et \kw{errno} est alors positionné à l'une des valeurs suivantes :
+{\kw{ioctl} renvoie \kw{OK} en cas de succès, \kw{ERROR} sinon, et \kw{errno} est alors positionné à l'une des valeurs suivantes :
 \begin{description}
 	\item[\kw{EARG} : ] L'appel a été effectué avec de mauvais arguments.
 	\item[\kw{ECPTBUSY} : ] Le capteur est occupé, il doit être possible de
@@ -197,7 +208,8 @@ pour le descripteur de fichier passé en premier argument.}
 \section{Structure des données}
 
 \subsection{table\_capteur}
-Ce tableau contient les descripteur de chaque capteur créé.
+Ce tableau contient les descripteur de chaque capteur créé. La liste chainée
+référence les éléments de ce tableau.
 
 Structures décrivant un capteur :
 \addCode{ressources/descr_capt.c}{c}
@@ -220,9 +232,9 @@ Ce tableau contient à l'index $i$ le dernier message du périphérique \kw{/dev
 \subsection{\kw{pe\_deviceRemove}}
 \includegraphics[width=\textwidth]{ressources/pe_deviceRemove.pdf}
 \subsection{\kw{Interrut\_handler}}
-\includegraphics[width=\textwidth]{ressources/pe_deviceRemove.pdf}
+\includegraphics[width=\textwidth]{ressources/pe_interrupt_handler.pdf}
 \subsection{\kw{pe\_task\_dispatcher}}
-\includegraphics[width=\textwidth]{ressources/pe_deviceRemove.pdf}
+\includegraphics[width=\textwidth]{ressources/pe_task_dispatcher.pdf}
 \subsection{\kw{pe\_open}}
 \includegraphics[width=\textwidth]{ressources/pe_open.pdf}
 \subsection{\kw{pe\_read}}
@@ -292,6 +304,15 @@ en lecture/écriture, en passant un \kw{mode} différent de \kw{O\_RDONLY}.}.
 succès précédemment), et qui n'a pas été fermé depuis.}
 {La valeur de retour doit être égale à \kw{OK}}
 
+\Test{Lecture d’une valeur dans un capteur}
+{Utiliser \kw{read} sur un capteur ouvert avec succès immédiatement avant puis 
+après avoir reçu un message.}
+{La valeur de retour doit être :
+\begin{itemize}
+\item \kw{ERROR} avec \kw{errno} sur \kw{ENOAVAIL}.
+\item Un nombre positif, et doit être cohérente par rapport aux paramètre
+d’appel de \kw{read}.\end{itemize}}
+
 \Test{Lecture d'une valeur dans un capteur}
 {Utiliser \kw{read} sur un capteur ouvert avec succès}
 {La valeur de retour doit être un nombre positif, et doit être cohérente par
@@ -300,7 +321,7 @@ succès précédemment), et qui n'a pas été fermé depuis.}
 \Test{Utilisation de \kw{read} avec une taille de lecture invalide}
 {Utilisation de l'appel système \kw{read} avec une descripteur de fichier
     valide, mais avec une taille de lecture négative.}
-{L'appel doit échouer en renvoyant -1, et \kw{errno} doit être positionné à
+{L'appel doit échouer en renvoyant \kw{ERROR}, et \kw{errno} doit être positionné à
     \kw{EARG}.}
 
 \Test{Utilisation de \kw{ioctl} avec des paramètres corrects}

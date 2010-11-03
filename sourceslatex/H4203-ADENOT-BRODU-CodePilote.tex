@@ -1,0 +1,109 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+
+
+% $1 : fichier source
+% $2 : langage
+\newcommand{\addCode}[2]{%
+
+  % Configuration de la coloration syntaxique du code
+  \definecolor{colKeys}{rgb}{0,0,1}
+  \definecolor{colIdentifier}{rgb}{0,0,0}
+  \definecolor{colComments}{rgb}{0,0.5,1}
+  \definecolor{colString}{rgb}{0.6,0.1,0.1}
+
+  % Configuration des options 
+  \lstset{%
+    language = #2,%
+    identifierstyle=\color{colIdentifier},%
+    basicstyle=\ttfamily\scriptsize, %
+    keywordstyle=\color{colKeys},%
+    stringstyle=\color{colString},%
+    commentstyle=\color{colComments},%
+    columns = flexible,%
+    %tabsize = 8,%
+    showspaces = false,%
+    numbers = left, numberstyle=\tiny,%
+    frame = single,frameround=tttt,%
+    breaklines = true, breakautoindent = true,%
+    captionpos = b,%
+    xrightmargin=10mm, xleftmargin = 15mm, framexleftmargin = 7mm,%
+  }%
+    \begin{center}
+    \lstinputlisting{#1}
+    \end{center}
+}
+
+\newcommand{\kw}[1]{\texttt{#1}}
+
+\newcommand{\fontptitle}[1]{%
+    {\huge{\texttt{\textbf{#1}}}}
+}
+
+\newlength{\largeurtitre}
+\newlength{\largeurligne}
+\newcommand{\lignedroite}[1]{%
+    \setlength{\largeurtitre}{0pt}
+    \setlength{\largeurligne}{0pt}
+    \settowidth{\largeurtitre}{\fontptitle{#1}}
+    \addtolength{\largeurligne}{\textwidth}
+    \addtolength{\largeurligne}{-\largeurtitre}
+    \addtolength{\largeurligne}{-4pt}
+    \bigskip
+    #1 \raisebox{0.3em}{\vrule depth 0pt height 0.2ex width \largeurligne}
+}
+
+
+\newcommand{\DescFonction}[4]{%
+	\begin{minipage}{\textwidth}
+	\lignedroite{\fontptitle{#1}}
+	\nopagebreak[4]
+	\textbf{\large{Synopsis}} \\
+	\texttt{#2} \\
+	\textbf{\large{Description}} \\
+	#3 \\
+	\textbf{\large{Valeur de retour}} \\
+	#4 
+	\vspace{1cm}
+	\end{minipage}
+}
+
+
+\newcommand{\Test}[3]
+{%
+	\addtocounter{testno}{1}
+	\begin{minipage}{\linewidth}
+	\lignedroite{\textbf{\large{\kw{Test \thetestno}~-- #1}}}\\
+	\textbf{\large{Description}}\\
+	#2 \\
+	\textbf{\large{Resultat attendu}}\\
+	#3 
+	\end{minipage}
+	\vspace{1cm}
+}
+
+\title{Code d'un pilote de périphérique de type capteur}
+\author{Paul \textsc{Adenot} \and \'{E}tienne \textsc{Brodu}}
+\date{}
+
+\setlength{\parindent}{0cm}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Fichier d'entête du pilote}
+\addCode{driverl.h}{c}
+\section{Fichier d'implémentation du pilote}
+\addCode{driverl.c}{c}
+\section{Fichier d'implémentation des tests du pilote}
+\addCode{unittestl.c}{c}
+\end{document}

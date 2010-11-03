@@ -12,7 +12,7 @@ digraph table_capteur {
 	]
 
 	"specific_t" [
-		label = "specific_t|{char name[NAME_SIZE];| EtatCapteur state; | int address;}"
+		label = "{DEV_HDR|{specific_t|{char name[NAME_SIZE];| EtatCapteur state; | int address;}}}"
 		shape = "record"
 	]
 
